@@ -1,0 +1,18 @@
+# Tunnel Whitespace
+
+> Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.
+
+Built by Anthony Warren (First Vice President, Car Washes, Southeast, Matthews Real Estate Investment Services). Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated October 29, 2026. Screening estimates for research, not investment advice. Cite as: Tunnel Whitespace, tunnelwhitespace.com.
+
+## Pages
+
+- [U.S. map](https://tunnelwhitespace.com/): interactive map (requires JavaScript)
+- [Southeast map](https://tunnelwhitespace.com/southeast/): NC, SC, GA, VA, TN, FL and AL
+- [Top 100 U.S. metros](https://tunnelwhitespace.com/markets/): ranking table at one tunnel per 20,000 people
+- [Southeast metros](https://tunnelwhitespace.com/markets/southeast/): all 182 Southeast metro and micro areas ranked
+- [Method, sources and FAQ](https://tunnelwhitespace.com/about/): how the gap is calculated and what the map does not show
+
+## Optional
+
+- [Full text for language models](https://tunnelwhitespace.com/llms-full.txt): method, FAQ and both ranking tables in one Markdown file
+- [Interactive map (ArcGIS)](https://experience.arcgis.com/experience/6101a0eeeaf14029bf49495ef8baab85/): requires JavaScript

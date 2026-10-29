@@ -1,0 +1,367 @@
+# Tunnel Whitespace
+
+> Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.
+
+Source: https://tunnelwhitespace.com/ . Updated October 29, 2026. Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Screening estimates for research, not investment advice.
+
+## Method
+
+For every census tract, the map counts the people living within about a 10-minute drive and the tunnel car washes (express, full-serve and flex) operating within the same distance. At one tunnel per 20,000 people, the difference between the tunnels that population could support and the tunnels already there is the modeled gap.
+
+The 10-minute area is a circle with a radius of about 2.5 to 2.8 miles depending on density, sized from Esri Saturday-afternoon drive-time samples. It does not follow roads, rivers or highways. The 300 outlined zones on the map were rerun on actual Esri drive times.
+
+Very dense areas are weighted down, starting at 4,000 people per square mile and reaching zero at 12,000, because land cost and stacking room limit tunnel washes there. Household income moves demand up or down slightly (0.85 to 1.10). Tunnels in development are counted as if open. Because of these adjustments a tract's gap is not simply its population divided by 20,000.
+
+Nationally there are about 28,400 people per operating tunnel car wash (this build). In mature Sunbelt states the typical figure is closer to 15,000 (state medians from about 10,500 in South Carolina to 19,900 in Florida, October 2026 analysis). Rankings use 20,000; every tract on the map also shows 25,000 and 15,000.
+
+The whitespace index for a metro is the weighted population in its flagged tracts divided by 20,000. It is an estimate, not a count of buildable sites.
+
+The map does not show parcel availability, zoning, traffic counts, the quality of existing competitors or site economics. Use it to choose which markets to study, then underwrite the site.
+
+## Sources
+
+- Population: Esri 2024 estimates by 2020 census tract.
+- Tunnel car washes: 11,854 operating locations verified October 2026 and 347 reported in development, from a national tunnel car wash census.
+- Drive-time calibration: Esri routing service, Saturday afternoon, sampled by density class.
+- Metro areas: U.S. Census Bureau core-based statistical areas (CBSAs).
+- Basemap: Esri and its data partners.
+
+## FAQ
+
+### What is Tunnel Whitespace?
+
+Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.
+
+### Which U.S. metros have the most room for new tunnel car washes?
+
+At one tunnel per 20,000 people, the five metros with the highest whitespace index are New York-Newark-Jersey City, NY-NJ, Los Angeles-Long Beach-Anaheim, CA, Miami-Fort Lauderdale-West Palm Beach, FL, Washington-Arlington-Alexandria, DC-VA-MD-WV, Seattle-Tacoma-Bellevue, WA. Very dense areas are weighted down, so the index is not just population. See the full ranking at tunnelwhitespace.com/markets/.
+
+### Which Southeast metros have the most room for new tunnel car washes?
+
+In NC, SC, GA, VA, TN, FL and AL the top five are Miami-Fort Lauderdale-West Palm Beach, FL, Washington-Arlington-Alexandria, DC-VA-MD-WV, Atlanta-Sandy Springs-Roswell, GA, Tampa-St. Petersburg-Clearwater, FL, Charlotte-Concord-Gastonia, NC-SC. The full list is at tunnelwhitespace.com/markets/southeast/.
+
+### How many people does a tunnel car wash need?
+
+There is no fixed rule. Nationally there are about 28,400 people per operating tunnel car wash. Mature Sunbelt states run closer to 15,000. The map ranks markets at 20,000 people per tunnel and also shows 25,000 and 15,000.
+
+### How many tunnel car washes are in the U.S.?
+
+The map counts 11,854 operating tunnel car washes (express, full-serve and flex) in the U.S., with locations verified October 2026, plus 347 reported in development.
+
+### What counts as a tunnel car wash?
+
+The map counts conveyor tunnel washes only: express exterior, full-serve and flex-serve formats.
+
+### How is the gap calculated?
+
+For every census tract, the map counts the people living within about a 10-minute drive and the tunnel car washes (express, full-serve and flex) operating within the same distance. At one tunnel per 20,000 people, the difference between the tunnels that population could support and the tunnels already there is the modeled gap. The 10-minute area is a circle with a radius of about 2.5 to 2.8 miles depending on density, sized from Esri Saturday-afternoon drive-time samples. It does not follow roads, rivers or highways. The 300 outlined zones on the map were rerun on actual Esri drive times. Very dense areas are weighted down, starting at 4,000 people per square mile and reaching zero at 12,000, because land cost and stacking room limit tunnel washes there. Household income moves demand up or down slightly (0.85 to 1.10). Tunnels in development are counted as if open. Because of these adjustments a tract's gap is not simply its population divided by 20,000.
+
+### Is Tunnel Whitespace free?
+
+Yes. The map is free and needs no login. It is a screening tool, not investment advice.
+
+### What does the map not show?
+
+The map does not show parcel availability, zoning, traffic counts, the quality of existing competitors or site economics. Use it to choose which markets to study, then underwrite the site.
+
+### Who built Tunnel Whitespace?
+
+Anthony Warren, First Vice President, Car Washes, Southeast at Matthews Real Estate Investment Services, previously in car wash development and acquisitions.
+
+## Top 100 U.S. metros (one tunnel per 20,000 people)
+
+Whitespace index is an estimate; tunnels and population are actual counts.
+
+| Rank | Metro | Whitespace index (est.) | Population 2024 | Tunnels | In development | People per tunnel |
+|---|---|---|---|---|---|---|
+| 1 | New York-Newark-Jersey City, NY-NJ | 300.4 | 19,850,485 | 279 | 13 | 71,149 |
+| 2 | Los Angeles-Long Beach-Anaheim, CA | 282.2 | 12,940,761 | 297 | 11 | 43,572 |
+| 3 | Miami-Fort Lauderdale-West Palm Beach, FL | 168.7 | 6,248,398 | 166 | 29 | 37,641 |
+| 4 | Washington-Arlington-Alexandria, DC-VA-MD-WV | 158.8 | 6,429,395 | 148 | 10 | 43,442 |
+| 5 | Seattle-Tacoma-Bellevue, WA | 140.2 | 4,172,852 | 70 | 2 | 59,612 |
+| 6 | San Francisco-Oakland-Fremont, CA | 135.9 | 4,742,455 | 55 | 2 | 86,226 |
+| 7 | Chicago-Naperville-Elgin, IL-IN | 112.9 | 9,280,082 | 366 | 13 | 25,355 |
+| 8 | Houston-Pasadena-The Woodlands, TX | 108.1 | 7,619,359 | 348 | 11 | 21,895 |
+| 9 | Atlanta-Sandy Springs-Roswell, GA | 100.4 | 6,399,274 | 264 | 2 | 24,240 |
+| 10 | San Diego-Chula Vista-Carlsbad, CA | 98.5 | 3,297,610 | 81 | 2 | 40,711 |
+| 11 | Dallas-Fort Worth-Arlington, TX | 96.4 | 8,195,415 | 421 | 9 | 19,467 |
+| 12 | Boston-Cambridge-Newton, MA-NH | 85.4 | 4,978,502 | 130 | 1 | 38,296 |
+| 13 | Minneapolis-St. Paul-Bloomington, MN-WI | 82.1 | 3,790,663 | 86 | 3 | 44,077 |
+| 14 | Portland-Vancouver-Hillsboro, OR-WA | 81.1 | 2,593,190 | 48 | 2 | 54,025 |
+| 15 | Philadelphia-Camden-Wilmington, PA-NJ-DE-MD | 72.7 | 6,307,532 | 204 | 25 | 30,919 |
+| 16 | Riverside-San Bernardino-Ontario, CA | 71.0 | 4,719,812 | 200 | 6 | 23,599 |
+| 17 | Phoenix-Mesa-Chandler, AZ | 68.0 | 5,149,752 | 234 | 1 | 22,007 |
+| 18 | Sacramento-Roseville-Folsom, CA | 61.7 | 2,466,648 | 76 | 1 | 32,456 |
+| 19 | San Jose-Sunnyvale-Santa Clara, CA | 58.5 | 1,994,508 | 23 | 2 | 86,718 |
+| 20 | Denver-Aurora-Centennial, CO | 58.3 | 3,081,342 | 112 | 4 | 27,512 |
+| 21 | Baltimore-Columbia-Towson, MD | 56.1 | 2,867,112 | 86 | 7 | 33,339 |
+| 22 | Detroit-Warren-Dearborn, MI | 44.1 | 4,364,290 | 214 | 18 | 20,394 |
+| 23 | Urban Honolulu, HI | 39.1 | 1,014,704 | 2 | 0 | 507,352 |
+| 24 | Tampa-St. Petersburg-Clearwater, FL | 37.9 | 3,353,755 | 166 | 6 | 20,203 |
+| 25 | Cincinnati, OH-KY-IN | 37.1 | 2,284,819 | 78 | 1 | 29,293 |
+| 26 | Cleveland, OH | 37.0 | 2,165,812 | 82 | 1 | 26,412 |
+| 27 | St. Louis, MO-IL | 35.9 | 2,824,501 | 115 | 0 | 24,561 |
+| 28 | Pittsburgh, PA | 34.3 | 2,447,995 | 71 | 0 | 34,479 |
+| 29 | Austin-Round Rock-San Marcos, TX | 33.6 | 2,550,817 | 110 | 4 | 23,189 |
+| 30 | Indianapolis-Carmel-Greenwood, IN | 33.2 | 2,173,541 | 74 | 0 | 29,372 |
+| 31 | Charlotte-Concord-Gastonia, NC-SC | 31.8 | 2,851,936 | 123 | 3 | 23,186 |
+| 32 | Orlando-Kissimmee-Sanford, FL | 31.7 | 2,884,681 | 121 | 9 | 23,840 |
+| 33 | Las Vegas-Henderson-North Las Vegas, NV | 27.7 | 2,387,864 | 112 | 6 | 21,320 |
+| 34 | Milwaukee-Waukesha, WI | 26.8 | 1,571,006 | 50 | 3 | 31,420 |
+| 35 | Buffalo-Cheektowaga, NY | 26.0 | 1,166,952 | 28 | 0 | 41,677 |
+| 36 | Raleigh-Cary, NC | 25.7 | 1,552,570 | 55 | 2 | 28,229 |
+| 37 | Columbus, OH | 23.4 | 2,209,888 | 97 | 0 | 22,782 |
+| 38 | Providence-Warwick, RI-MA | 23.4 | 1,685,677 | 56 | 2 | 30,101 |
+| 39 | Fresno, CA | 22.7 | 1,191,199 | 30 | 0 | 39,707 |
+| 40 | Oxnard-Thousand Oaks-Ventura, CA | 21.6 | 835,273 | 19 | 1 | 43,962 |
+| 41 | Virginia Beach-Chesapeake-Norfolk, VA-NC | 21.0 | 1,802,655 | 83 | 2 | 21,719 |
+| 42 | Kansas City, MO-KS | 20.9 | 2,246,258 | 112 | 2 | 20,056 |
+| 43 | Jacksonville, FL | 18.1 | 1,737,832 | 81 | 2 | 21,455 |
+| 44 | Stockton-Lodi, CA | 17.1 | 808,566 | 24 | 1 | 33,690 |
+| 45 | Nashville-Davidson--Murfreesboro--Franklin, TN | 16.9 | 2,189,414 | 103 | 2 | 21,256 |
+| 46 | Allentown-Bethlehem-Easton, PA-NJ | 15.6 | 879,176 | 19 | 1 | 46,272 |
+| 47 | Bridgeport-Stamford-Danbury, CT | 15.6 | 954,750 | 39 | 0 | 24,481 |
+| 48 | Vallejo, CA | 15.5 | 457,532 | 9 | 1 | 50,837 |
+| 49 | Salt Lake City-Murray, UT | 15.0 | 1,312,144 | 65 | 1 | 20,187 |
+| 50 | San Antonio-New Braunfels, TX | 14.3 | 2,733,998 | 169 | 7 | 16,178 |
+| 51 | New Orleans-Metairie, LA | 13.6 | 988,645 | 38 | 1 | 26,017 |
+| 52 | Richmond, VA | 12.1 | 1,365,279 | 72 | 3 | 18,962 |
+| 53 | Louisville/Jefferson County, KY-IN | 12.0 | 1,385,677 | 74 | 0 | 18,725 |
+| 54 | Santa Maria-Santa Barbara, CA | 11.9 | 446,682 | 8 | 1 | 55,835 |
+| 55 | Albany-Schenectady-Troy, NY | 11.5 | 905,684 | 30 | 0 | 30,189 |
+| 56 | Salinas, CA | 11.5 | 437,154 | 5 | 0 | 87,431 |
+| 57 | Madison, WI | 11.3 | 706,315 | 13 | 4 | 54,332 |
+| 58 | Trenton-Princeton, NJ | 11.2 | 384,446 | 9 | 1 | 42,716 |
+| 59 | Omaha, NE-IA | 11.0 | 998,882 | 44 | 4 | 22,702 |
+| 60 | Memphis, TN-MS-AR | 10.9 | 1,344,037 | 61 | 1 | 22,033 |
+| 61 | New Haven, CT | 10.0 | 574,778 | 21 | 0 | 27,370 |
+| 62 | Anchorage, AK | 9.6 | 401,604 | 2 | 1 | 200,802 |
+| 63 | Santa Rosa-Petaluma, CA | 9.2 | 486,997 | 10 | 0 | 48,700 |
+| 64 | Deltona-Daytona Beach-Ormond Beach, FL | 9.2 | 718,006 | 29 | 0 | 24,759 |
+| 65 | Rochester, NY | 9.1 | 1,054,080 | 44 | 1 | 23,956 |
+| 66 | Salem, OR | 8.7 | 447,179 | 9 | 0 | 49,687 |
+| 67 | Grand Rapids-Wyoming-Kentwood, MI | 8.6 | 1,174,989 | 52 | 3 | 22,596 |
+| 68 | Eugene-Springfield, OR | 8.4 | 389,590 | 9 | 0 | 43,288 |
+| 69 | Port St. Lucie, FL | 8.3 | 532,807 | 25 | 0 | 21,312 |
+| 70 | Ann Arbor, MI | 8.2 | 369,917 | 10 | 0 | 36,992 |
+| 71 | Boise City, ID | 8.2 | 852,423 | 30 | 2 | 28,414 |
+| 72 | Boulder, CO | 8.0 | 334,690 | 7 | 0 | 47,813 |
+| 73 | Dayton-Kettering-Beavercreek, OH | 7.9 | 816,932 | 37 | 0 | 22,079 |
+| 74 | Durham-Chapel Hill, NC | 7.6 | 620,668 | 19 | 0 | 32,667 |
+| 75 | Akron, OH | 7.4 | 697,418 | 28 | 0 | 24,908 |
+| 76 | Santa Cruz-Watsonville, CA | 7.4 | 265,241 | 3 | 0 | 88,414 |
+| 77 | Lakeland-Winter Haven, FL | 7.4 | 812,640 | 25 | 0 | 32,506 |
+| 78 | Syracuse, NY | 7.2 | 652,264 | 17 | 1 | 38,368 |
+| 79 | Manchester-Nashua, NH | 7.0 | 430,661 | 15 | 0 | 28,711 |
+| 80 | Tucson, AZ | 7.0 | 1,070,655 | 58 | 1 | 18,460 |
+| 81 | Lancaster, PA | 6.9 | 562,129 | 13 | 0 | 43,241 |
+| 82 | Kiryas Joel-Poughkeepsie-Newburgh, NY | 6.7 | 707,674 | 20 | 1 | 35,384 |
+| 83 | Erie, PA | 6.6 | 266,234 | 3 | 0 | 88,745 |
+| 84 | Reno, NV | 6.5 | 581,543 | 24 | 0 | 24,231 |
+| 85 | Wichita, KS | 6.4 | 655,685 | 26 | 0 | 25,219 |
+| 86 | McAllen-Edinburg-Mission, TX | 6.1 | 910,138 | 57 | 1 | 15,967 |
+| 87 | El Paso, TX | 5.9 | 884,483 | 48 | 1 | 18,427 |
+| 88 | Worcester, MA | 5.7 | 873,923 | 37 | 0 | 23,620 |
+| 89 | North Port-Bradenton-Sarasota, FL | 5.7 | 914,199 | 47 | 1 | 19,451 |
+| 90 | Albuquerque, NM | 5.6 | 926,835 | 48 | 0 | 19,309 |
+| 91 | Olympia-Lacey-Tumwater, WA | 5.5 | 308,555 | 6 | 0 | 51,426 |
+| 92 | Tulsa, OK | 5.3 | 1,049,778 | 61 | 2 | 17,209 |
+| 93 | Fort Collins-Loveland, CO | 5.3 | 378,187 | 15 | 1 | 25,212 |
+| 94 | Cape Coral-Fort Myers, FL | 5.2 | 840,698 | 46 | 7 | 18,276 |
+| 95 | Oklahoma City, OK | 5.2 | 1,486,341 | 85 | 4 | 17,486 |
+| 96 | Reading, PA | 4.9 | 432,799 | 12 | 0 | 36,067 |
+| 97 | Palm Bay-Melbourne-Titusville, FL | 4.7 | 642,218 | 38 | 2 | 16,900 |
+| 98 | Provo-Orem-Lehi, UT | 4.5 | 749,524 | 45 | 1 | 16,656 |
+| 99 | Harrisburg-Carlisle, PA | 4.5 | 610,119 | 19 | 0 | 32,112 |
+| 100 | Hartford-West Hartford-East Hartford, CT | 4.4 | 1,156,623 | 50 | 0 | 23,132 |
+
+## Southeast metros (NC, SC, GA, VA, TN, FL, AL), ranked
+
+| Rank | Metro | Whitespace index (est.) | Population 2024 | Tunnels | In development | People per tunnel |
+|---|---|---|---|---|---|---|
+| 3 | Miami-Fort Lauderdale-West Palm Beach, FL | 168.7 | 6,248,398 | 166 | 29 | 37,641 |
+| 4 | Washington-Arlington-Alexandria, DC-VA-MD-WV | 158.8 | 6,429,395 | 148 | 10 | 43,442 |
+| 9 | Atlanta-Sandy Springs-Roswell, GA | 100.4 | 6,399,274 | 264 | 2 | 24,240 |
+| 24 | Tampa-St. Petersburg-Clearwater, FL | 37.9 | 3,353,755 | 166 | 6 | 20,203 |
+| 31 | Charlotte-Concord-Gastonia, NC-SC | 31.8 | 2,851,936 | 123 | 3 | 23,186 |
+| 32 | Orlando-Kissimmee-Sanford, FL | 31.7 | 2,884,681 | 121 | 9 | 23,840 |
+| 36 | Raleigh-Cary, NC | 25.7 | 1,552,570 | 55 | 2 | 28,229 |
+| 41 | Virginia Beach-Chesapeake-Norfolk, VA-NC | 21.0 | 1,802,655 | 83 | 2 | 21,719 |
+| 43 | Jacksonville, FL | 18.1 | 1,737,832 | 81 | 2 | 21,455 |
+| 45 | Nashville-Davidson--Murfreesboro--Franklin, TN | 16.9 | 2,189,414 | 103 | 2 | 21,256 |
+| 52 | Richmond, VA | 12.1 | 1,365,279 | 72 | 3 | 18,962 |
+| 60 | Memphis, TN-MS-AR | 10.9 | 1,344,037 | 61 | 1 | 22,033 |
+| 64 | Deltona-Daytona Beach-Ormond Beach, FL | 9.2 | 718,006 | 29 | 0 | 24,759 |
+| 69 | Port St. Lucie, FL | 8.3 | 532,807 | 25 | 0 | 21,312 |
+| 74 | Durham-Chapel Hill, NC | 7.6 | 620,668 | 19 | 0 | 32,667 |
+| 77 | Lakeland-Winter Haven, FL | 7.4 | 812,640 | 25 | 0 | 32,506 |
+| 89 | North Port-Bradenton-Sarasota, FL | 5.7 | 914,199 | 47 | 1 | 19,451 |
+| 94 | Cape Coral-Fort Myers, FL | 5.2 | 840,698 | 46 | 7 | 18,276 |
+| 97 | Palm Bay-Melbourne-Titusville, FL | 4.7 | 642,218 | 38 | 2 | 16,900 |
+| 101 | Knoxville, TN | 4.2 | 942,204 | 48 | 0 | 19,629 |
+| 105 | Columbia, SC | 4.0 | 861,576 | 42 | 1 | 20,514 |
+| 107 | Charleston-North Charleston, SC | 3.9 | 859,047 | 49 | 0 | 17,532 |
+| 109 | Greenville-Anderson-Greer, SC | 3.6 | 980,584 | 44 | 0 | 22,286 |
+| 111 | Winston-Salem, NC | 3.5 | 696,248 | 30 | 0 | 23,208 |
+| 117 | Gainesville, FL | 3.3 | 354,987 | 9 | 0 | 39,443 |
+| 137 | Greensboro-High Point, NC | 2.4 | 792,457 | 36 | 0 | 22,013 |
+| 138 | Sebastian-Vero Beach-West Vero Corridor, FL | 2.4 | 170,714 | 5 | 1 | 34,143 |
+| 139 | Ocala, FL | 2.4 | 404,347 | 23 | 0 | 17,580 |
+| 140 | Birmingham, AL | 2.3 | 1,195,462 | 59 | 0 | 20,262 |
+| 144 | Chattanooga, TN-GA | 2.2 | 579,747 | 28 | 0 | 20,705 |
+| 146 | Augusta-Richmond County, GA-SC | 2.1 | 635,177 | 29 | 0 | 21,903 |
+| 157 | Savannah, GA | 1.6 | 429,418 | 26 | 1 | 16,516 |
+| 161 | Charlottesville, VA | 1.5 | 227,974 | 8 | 0 | 28,497 |
+| 164 | Fayetteville, NC | 1.4 | 394,339 | 15 | 0 | 26,289 |
+| 167 | Columbus, GA-AL | 1.4 | 327,634 | 16 | 0 | 20,477 |
+| 169 | Warner Robins, GA | 1.3 | 203,872 | 13 | 0 | 15,682 |
+| 170 | Athens-Clarke County, GA | 1.3 | 224,497 | 8 | 1 | 28,062 |
+| 175 | Naples-Marco Island, FL | 1.2 | 404,645 | 17 | 0 | 23,803 |
+| 176 | Roanoke, VA | 1.2 | 315,978 | 15 | 0 | 21,065 |
+| 183 | Tuscaloosa, AL | 1.2 | 284,002 | 12 | 0 | 23,667 |
+| 198 | Huntsville, AL | 1.0 | 531,872 | 35 | 0 | 15,196 |
+| 199 | Montgomery, AL | 1.0 | 389,121 | 21 | 0 | 18,530 |
+| 200 | Burlington, NC | 1.0 | 182,183 | 8 | 0 | 22,773 |
+| 204 | Wilmington, NC | 0.9 | 464,839 | 27 | 0 | 17,216 |
+| 205 | Auburn-Opelika, AL | 0.9 | 206,325 | 6 | 0 | 34,388 |
+| 215 | Johnson City, TN | 0.8 | 211,257 | 12 | 0 | 17,605 |
+| 216 | Wildwood-The Villages, FL | 0.8 | 151,246 | 4 | 0 | 37,812 |
+| 220 | Tallahassee, FL | 0.8 | 394,816 | 17 | 0 | 23,224 |
+| 223 | Hilton Head Island-Bluffton-Port Royal, SC | 0.7 | 232,637 | 15 | 0 | 15,509 |
+| 225 | Jackson, TN | 0.7 | 181,471 | 8 | 1 | 22,684 |
+| 230 | Clarksville, TN-KY | 0.6 | 346,482 | 19 | 0 | 18,236 |
+| 232 | Gainesville, GA | 0.6 | 218,157 | 15 | 0 | 14,544 |
+| 237 | Spartanburg, SC | 0.6 | 379,903 | 18 | 1 | 21,106 |
+| 241 | Macon-Bibb County, GA | 0.6 | 234,066 | 13 | 0 | 18,005 |
+| 263 | Pensacola-Ferry Pass-Brent, FL | 0.4 | 534,840 | 34 | 2 | 15,731 |
+| 264 | Asheville, NC | 0.4 | 423,370 | 18 | 1 | 23,521 |
+| 266 | Myrtle Beach-Conway-North Myrtle Beach, SC | 0.4 | 400,542 | 31 | 0 | 12,921 |
+| 270 | Crestview-Fort Walton Beach-Destin, FL | 0.3 | 311,268 | 22 | 0 | 14,149 |
+| 281 | Blacksburg-Christiansburg-Radford, VA | 0.3 | 181,837 | 8 | 0 | 22,730 |
+| 301 | Mobile, AL | 0.1 | 409,988 | 25 | 0 | 16,400 |
+| 302 | Cookeville, TN (micro) | 0.1 | 147,320 | 6 | 0 | 24,553 |
+| 316 | Albany, GA | 0.0 | 146,146 | 12 | 0 | 12,179 |
+| 316 | Albemarle, NC (micro) | 0.0 | 64,578 | 1 | 0 | 64,578 |
+| 316 | Albertville, AL (micro) | 0.0 | 99,770 | 7 | 0 | 14,253 |
+| 316 | Alexander City, AL (micro) | 0.0 | 41,205 | 2 | 0 | 20,602 |
+| 316 | Americus, GA (micro) | 0.0 | 32,964 | 3 | 0 | 10,988 |
+| 316 | Anderson Creek, NC (micro) | 0.0 | 141,366 | 3 | 0 | 47,122 |
+| 316 | Anniston-Oxford, AL | 0.0 | 115,169 | 8 | 0 | 14,396 |
+| 316 | Arcadia, FL (micro) | 0.0 | 34,998 | 1 | 0 | 34,998 |
+| 316 | Athens, TN (micro) | 0.0 | 68,022 | 3 | 0 | 22,674 |
+| 316 | Bainbridge, GA (micro) | 0.0 | 29,528 | 2 | 0 | 14,764 |
+| 316 | Bluefield, WV-VA (micro) | 0.0 | 97,524 | 2 | 0 | 48,762 |
+| 316 | Boone, NC (micro) | 0.0 | 55,899 | 4 | 0 | 13,975 |
+| 316 | Brevard, NC (micro) | 0.0 | 33,311 | 1 | 0 | 33,311 |
+| 316 | Brunswick-St. Simons, GA | 0.0 | 114,994 | 6 | 0 | 19,166 |
+| 316 | Calhoun, GA (micro) | 0.0 | 59,516 | 2 | 0 | 29,758 |
+| 316 | Cedartown, GA (micro) | 0.0 | 43,957 | 4 | 0 | 10,989 |
+| 316 | Cleveland, TN | 0.0 | 130,608 | 5 | 0 | 26,122 |
+| 316 | Clewiston, FL (micro) | 0.0 | 53,648 | 1 | 0 | 53,648 |
+| 316 | Cordele, GA (micro) | 0.0 | 19,366 | 1 | 0 | 19,366 |
+| 316 | Cornelia, GA (micro) | 0.0 | 48,089 | 2 | 0 | 24,044 |
+| 316 | Crossville, TN (micro) | 0.0 | 64,480 | 2 | 0 | 32,240 |
+| 316 | Cullman, AL (micro) | 0.0 | 91,886 | 4 | 0 | 22,972 |
+| 316 | Dalton, GA | 0.0 | 143,196 | 6 | 0 | 23,866 |
+| 316 | Danville, VA (micro) | 0.0 | 101,251 | 3 | 0 | 33,750 |
+| 316 | Daphne-Fairhope-Foley, AL | 0.0 | 256,041 | 11 | 0 | 23,276 |
+| 316 | Decatur, AL | 0.0 | 158,155 | 9 | 0 | 17,573 |
+| 316 | Dothan, AL | 0.0 | 153,928 | 8 | 0 | 19,241 |
+| 316 | Douglas, GA (micro) | 0.0 | 51,591 | 2 | 0 | 25,796 |
+| 316 | Dublin, GA (micro) | 0.0 | 59,226 | 4 | 0 | 14,806 |
+| 316 | Dyersburg, TN (micro) | 0.0 | 36,200 | 1 | 0 | 36,200 |
+| 316 | Elizabeth City, NC (micro) | 0.0 | 41,092 | 3 | 0 | 13,697 |
+| 316 | Enterprise, AL (micro) | 0.0 | 55,392 | 1 | 0 | 55,392 |
+| 316 | Eufaula, AL-GA (micro) | 0.0 | 26,726 | 2 | 0 | 13,363 |
+| 316 | Fayetteville, TN (micro) | 0.0 | 36,266 | 2 | 0 | 18,133 |
+| 316 | Fitzgerald, GA (micro) | 0.0 | 17,031 | 2 | 0 | 8,516 |
+| 316 | Florence, SC | 0.0 | 199,109 | 10 | 0 | 19,911 |
+| 316 | Florence-Muscle Shoals, AL | 0.0 | 154,475 | 11 | 0 | 14,043 |
+| 316 | Forest City, NC (micro) | 0.0 | 64,327 | 3 | 0 | 21,442 |
+| 316 | Fort Payne, AL (micro) | 0.0 | 71,799 | 1 | 0 | 71,799 |
+| 316 | Gadsden, AL | 0.0 | 103,117 | 6 | 0 | 17,186 |
+| 316 | Gaffney, SC (micro) | 0.0 | 56,453 | 1 | 0 | 56,453 |
+| 316 | Goldsboro, NC | 0.0 | 116,089 | 5 | 0 | 23,218 |
+| 316 | Greeneville, TN (micro) | 0.0 | 71,527 | 4 | 0 | 17,882 |
+| 316 | Greenville, NC | 0.0 | 174,066 | 9 | 0 | 19,341 |
+| 316 | Greenwood, SC (micro) | 0.0 | 93,560 | 3 | 0 | 31,187 |
+| 316 | Harrisonburg, VA | 0.0 | 138,163 | 8 | 0 | 17,270 |
+| 316 | Henderson, NC (micro) | 0.0 | 41,671 | 2 | 0 | 20,836 |
+| 316 | Hickory-Lenoir-Morganton, NC | 0.0 | 368,733 | 14 | 1 | 26,338 |
+| 316 | Hinesville, GA | 0.0 | 86,480 | 6 | 0 | 14,413 |
+| 316 | Homosassa Springs, FL | 0.0 | 164,302 | 7 | 0 | 23,472 |
+| 316 | Jacksonville, NC | 0.0 | 210,815 | 15 | 0 | 14,054 |
+| 316 | Jefferson, GA (micro) | 0.0 | 89,301 | 3 | 0 | 29,767 |
+| 316 | Jesup, GA (micro) | 0.0 | 31,351 | 2 | 0 | 15,676 |
+| 316 | Key West-Key Largo, FL (micro) | 0.0 | 83,702 | 3 | 0 | 27,901 |
+| 316 | Kill Devil Hills, NC (micro) | 0.0 | 38,579 | 3 | 0 | 12,860 |
+| 316 | Kingsland, GA (micro) | 0.0 | 57,758 | 2 | 0 | 28,879 |
+| 316 | Kingsport-Bristol, TN-VA | 0.0 | 310,262 | 16 | 0 | 19,391 |
+| 316 | Kinston, NC (micro) | 0.0 | 53,889 | 3 | 0 | 17,963 |
+| 316 | LaGrange, GA-AL (micro) | 0.0 | 105,309 | 4 | 0 | 26,327 |
+| 316 | Lake City, FL (micro) | 0.0 | 72,288 | 4 | 0 | 18,072 |
+| 316 | Lake of the Woods, VA (micro) | 0.0 | 38,249 | 1 | 0 | 38,249 |
+| 316 | Laurinburg, NC (micro) | 0.0 | 33,604 | 1 | 0 | 33,604 |
+| 316 | Lawrenceburg, TN (micro) | 0.0 | 45,608 | 1 | 0 | 45,608 |
+| 316 | Lewisburg, TN (micro) | 0.0 | 36,539 | 1 | 0 | 36,539 |
+| 316 | Lumberton, NC (micro) | 0.0 | 113,748 | 2 | 0 | 56,874 |
+| 316 | Lynchburg, VA | 0.0 | 265,181 | 9 | 1 | 29,465 |
+| 316 | Marion, NC (micro) | 0.0 | 44,731 | 2 | 0 | 22,366 |
+| 316 | Martin, TN (micro) | 0.0 | 32,681 | 1 | 0 | 32,681 |
+| 316 | Martinsville, VA (micro) | 0.0 | 62,967 | 1 | 0 | 62,967 |
+| 316 | McMinnville, TN (micro) | 0.0 | 42,333 | 2 | 0 | 21,166 |
+| 316 | Milledgeville, GA (micro) | 0.0 | 43,224 | 2 | 0 | 21,612 |
+| 316 | Morehead City, NC (micro) | 0.0 | 68,242 | 4 | 0 | 17,060 |
+| 316 | Morristown, TN | 0.0 | 122,762 | 9 | 0 | 13,640 |
+| 316 | Moultrie, GA (micro) | 0.0 | 46,132 | 2 | 0 | 23,066 |
+| 316 | Mount Airy, NC (micro) | 0.0 | 71,049 | 3 | 0 | 23,683 |
+| 316 | Murrells Inlet, SC (micro) | 0.0 | 65,503 | 5 | 0 | 13,101 |
+| 316 | New Bern, NC (micro) | 0.0 | 122,049 | 3 | 0 | 40,683 |
+| 316 | Newberry, SC (micro) | 0.0 | 38,175 | 1 | 0 | 38,175 |
+| 316 | Newport, TN (micro) | 0.0 | 36,884 | 2 | 0 | 18,442 |
+| 316 | North Wilkesboro, NC (micro) | 0.0 | 65,148 | 3 | 0 | 21,716 |
+| 316 | Okeechobee, FL (micro) | 0.0 | 39,699 | 2 | 0 | 19,850 |
+| 316 | Orangeburg, SC (micro) | 0.0 | 81,924 | 6 | 0 | 13,654 |
+| 316 | Ozark, AL (micro) | 0.0 | 49,424 | 1 | 0 | 49,424 |
+| 316 | Palatka, FL (micro) | 0.0 | 75,062 | 2 | 0 | 37,531 |
+| 316 | Panama City-Panama City Beach, FL | 0.0 | 211,899 | 15 | 1 | 14,127 |
+| 316 | Paris, TN (micro) | 0.0 | 32,282 | 3 | 0 | 10,761 |
+| 316 | Pinehurst-Southern Pines, NC | 0.0 | 107,568 | 2 | 0 | 53,784 |
+| 316 | Punta Gorda, FL | 0.0 | 207,605 | 13 | 0 | 15,970 |
+| 316 | Roanoke Rapids, NC (micro) | 0.0 | 63,616 | 2 | 0 | 31,808 |
+| 316 | Rockingham, NC (micro) | 0.0 | 42,295 | 2 | 0 | 21,148 |
+| 316 | Rocky Mount, NC | 0.0 | 143,430 | 6 | 0 | 23,905 |
+| 316 | Rome, GA | 0.0 | 99,332 | 5 | 0 | 19,866 |
+| 316 | Russellville, AL (micro) | 0.0 | 32,039 | 1 | 0 | 32,039 |
+| 316 | Sanford, NC (micro) | 0.0 | 66,330 | 4 | 0 | 16,582 |
+| 316 | Scottsboro, AL (micro) | 0.0 | 52,730 | 2 | 0 | 26,365 |
+| 316 | Sebring, FL | 0.0 | 105,165 | 3 | 0 | 35,055 |
+| 316 | Selma, AL (micro) | 0.0 | 36,523 | 1 | 0 | 36,523 |
+| 316 | Seneca, SC (micro) | 0.0 | 81,448 | 3 | 0 | 27,149 |
+| 316 | Sevierville, TN (micro) | 0.0 | 101,831 | 8 | 0 | 12,729 |
+| 316 | Shelby-Kings Mountain, NC (micro) | 0.0 | 101,097 | 6 | 0 | 16,850 |
+| 316 | Shelbyville, TN (micro) | 0.0 | 52,970 | 3 | 0 | 17,657 |
+| 316 | Statesboro, GA (micro) | 0.0 | 95,191 | 4 | 0 | 23,798 |
+| 316 | Staunton-Stuarts Draft, VA | 0.0 | 127,914 | 5 | 0 | 25,583 |
+| 316 | Summerville, GA (micro) | 0.0 | 24,919 | 2 | 0 | 12,460 |
+| 316 | Sumter, SC | 0.0 | 104,589 | 4 | 0 | 26,147 |
+| 316 | Talladega-Sylacauga, AL (micro) | 0.0 | 90,988 | 3 | 0 | 30,329 |
+| 316 | Thomaston, GA (micro) | 0.0 | 28,191 | 2 | 0 | 14,096 |
+| 316 | Thomasville, GA (micro) | 0.0 | 72,288 | 4 | 0 | 18,072 |
+| 316 | Tifton, GA (micro) | 0.0 | 50,866 | 3 | 0 | 16,955 |
+| 316 | Toccoa, GA (micro) | 0.0 | 26,638 | 2 | 0 | 13,319 |
+| 316 | Troy, AL (micro) | 0.0 | 33,132 | 3 | 0 | 11,044 |
+| 316 | Tullahoma-Manchester, TN (micro) | 0.0 | 67,485 | 5 | 0 | 13,497 |
+| 316 | Union City, TN (micro) | 0.0 | 30,313 | 2 | 0 | 15,156 |
+| 316 | Valdosta, GA | 0.0 | 152,271 | 8 | 0 | 19,034 |
+| 316 | Vidalia, GA (micro) | 0.0 | 35,508 | 2 | 0 | 17,754 |
+| 316 | Washington, NC (micro) | 0.0 | 43,743 | 3 | 0 | 14,581 |
+| 316 | Waycross, GA (micro) | 0.0 | 56,070 | 3 | 0 | 18,690 |
+| 316 | Waynesville, NC (micro) | 0.0 | 63,235 | 2 | 0 | 31,618 |
+| 316 | Wilson, NC (micro) | 0.0 | 78,477 | 4 | 0 | 19,619 |
+| 316 | Winchester, TN (micro) | 0.0 | 44,417 | 1 | 0 | 44,417 |
+| 316 | Winchester, VA-WV | 0.0 | 149,639 | 8 | 0 | 18,705 |
+
+## Contact
+
+Anthony Warren, First Vice President, Car Washes, Southeast, Matthews. (828) 551-8415, anthony.warren@matthews.com. License No. 149011 (SC).
