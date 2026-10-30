@@ -9,10 +9,15 @@ Built by Anthony Warren (First Vice President, Car Washes, Southeast, Matthews R
 - [U.S. map](https://tunnelwhitespace.com/): interactive map (requires JavaScript)
 - [Southeast map](https://tunnelwhitespace.com/southeast/): NC, SC, GA, VA, TN, FL and AL
 - [Top 100 U.S. metros](https://tunnelwhitespace.com/markets/): ranking table at one tunnel per 20,000 people
-- [Southeast metros](https://tunnelwhitespace.com/markets/southeast/): all 182 Southeast metro and micro areas ranked
+- [Southeast metros](https://tunnelwhitespace.com/markets/southeast/): all 182 metro and micro areas touching NC, SC, GA, VA, TN, FL, AL, ranked, with tunnel counts by state
+- [Northeast and Mid-Atlantic metros](https://tunnelwhitespace.com/markets/northeast/): all 119 metro and micro areas based in ME, NH, VT, MA, RI, CT, NY, NJ, PA, DE, MD, DC, WV, ranked, with tunnel counts by state
+- [Midwest metros](https://tunnelwhitespace.com/markets/midwest/): all 284 metro and micro areas based in OH, MI, IN, IL, WI, MN, IA, MO, KS, NE, SD, ND, ranked, with tunnel counts by state
+- [South Central metros](https://tunnelwhitespace.com/markets/south-central/): all 166 metro and micro areas based in TX, OK, AR, LA, MS, KY, ranked, with tunnel counts by state
+- [Mountain West metros](https://tunnelwhitespace.com/markets/mountain-west/): all 93 metro and micro areas based in AZ, NM, CO, UT, NV, ID, MT, WY, ranked, with tunnel counts by state
+- [Pacific metros](https://tunnelwhitespace.com/markets/pacific/): all 83 metro and micro areas based in CA, OR, WA, AK, HI, ranked, with tunnel counts by state
 - [Method, sources and FAQ](https://tunnelwhitespace.com/about/): how the gap is calculated and what the map does not show
 
 ## Optional
 
-- [Full text for language models](https://tunnelwhitespace.com/llms-full.txt): method, FAQ and both ranking tables in one Markdown file
+- [Full text for language models](https://tunnelwhitespace.com/llms-full.txt): method, FAQ, tunnel counts by state and the ranking tables in one Markdown file
 - [Interactive map (ArcGIS)](https://experience.arcgis.com/experience/6101a0eeeaf14029bf49495ef8baab85/): requires JavaScript
