@@ -20,4 +20,3 @@ Built by Anthony Warren (First Vice President, Car Washes, Southeast, Matthews R
 ## Optional
 
 - [Full text for language models](https://tunnelwhitespace.com/llms-full.txt): method, FAQ, tunnel counts by state and the ranking tables in one Markdown file
-- [Interactive map (ArcGIS)](https://experience.arcgis.com/experience/6101a0eeeaf14029bf49495ef8baab85/): requires JavaScript

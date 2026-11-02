@@ -48,9 +48,10 @@ document.addEventListener("click", function (e) {
   .bar .tag { flex: 0 1 auto; overflow: hidden; text-overflow: ellipsis; }
   .bar nav { display: flex; gap: 16px; margin-left: auto; }
   @media (max-width: 720px) { .bar .tag { display: none; } .bar nav { margin-left: 0; } }
-  @media (max-width: 460px) { .bar { gap: 12px; padding: 0 10px; font-size: 12px; } .bar h1 { font-size: 12px; } .bar nav { gap: 12px; } .bar nav a:nth-child(3) { display: none; } }
+  @media (max-width: 460px) { .bar { gap: 12px; padding: 0 10px; font-size: 12px; } .bar h1 { font-size: 12px; } .bar nav { gap: 12px; } }
+  .sr { position: absolute; top: 0; left: 0; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">{
  "@context": "https://schema.org",
  "@graph": [
@@ -144,6 +145,7 @@ document.addEventListener("click", function (e) {
 <!-- The map is an ArcGIS Experience Builder app; this page keeps tunnelwhitespace.com in the address bar. Text for readers, search engines and AI assistants lives on /markets/ and /about/ (linked in the bar). -->
 <iframe class="map" src="https://experience.arcgis.com/experience/6101a0eeeaf14029bf49495ef8baab85/" title="Tunnel Whitespace map" allow="fullscreen; geolocation; clipboard-write" allowfullscreen></iframe>
 <div class="bar"><h1>Tunnel Whitespace</h1><span class="tag">Where the U.S. can support more tunnel car washes, by census tract</span><nav aria-label="Site"><a href="/markets/">U.S. rankings</a><a href="/about/">Method and FAQ</a><a href="/southeast/">Southeast map</a></nav></div>
+<div class="sr"><p>Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.</p><nav aria-label="All pages"><a href="/southeast/">Southeast map</a> <a href="/markets/">U.S. top 100</a> <a href="/markets/southeast/">Southeast rankings</a> <a href="/markets/northeast/">Northeast and Mid-Atlantic rankings</a> <a href="/markets/midwest/">Midwest rankings</a> <a href="/markets/south-central/">South Central rankings</a> <a href="/markets/mountain-west/">Mountain West rankings</a> <a href="/markets/pacific/">Pacific rankings</a> <a href="/about/">Method, sources and FAQ</a></nav></div>
 <script>
 (function () {
   var frame = document.querySelector("iframe.map"), inMap = false, timer = null, fired = false;
