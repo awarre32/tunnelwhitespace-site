@@ -2,7 +2,7 @@
 
 > Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.
 
-Source: https://tunnelwhitespace.com/ . Updated October 29, 2026. Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Screening estimates for research, not investment advice.
+Source: https://tunnelwhitespace.com/ . Updated November 2, 2026. Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Screening estimates for research, not investment advice.
 
 ## Method
 

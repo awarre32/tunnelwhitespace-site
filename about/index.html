@@ -28,8 +28,14 @@
 <meta name="twitter:image" content="https://tunnelwhitespace.com/preview.png">
 <!-- Google Analytics 4: property "Tunnel Whitespace" -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTYQCEJNRS"></script>
-<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());
-gtag("config", "G-BTYQCEJNRS", {page_title: "Method, sources and FAQ | Tunnel Whitespace"});</script>
+<script>if (location.hostname !== "tunnelwhitespace.com") window["ga-disable-G-BTYQCEJNRS"] = true;   // local previews send nothing
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());
+gtag("config", "G-BTYQCEJNRS", {page_title: "Method, sources and FAQ | Tunnel Whitespace"});
+// Enhanced measurement skips mailto: and tel: links, so count them here (key event contact_click in GA4 Admin).
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest('a[href^="mailto:"], a[href^="tel:"]');
+  if (a) gtag("event", "contact_click", {method: a.protocol.replace(":", "")});
+});</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -74,7 +80,7 @@ gtag("config", "G-BTYQCEJNRS", {page_title: "Method, sources and FAQ | Tunnel Wh
    "isPartOf": {
     "@id": "https://tunnelwhitespace.com/#site"
    },
-   "dateModified": "2026-10-29"
+   "dateModified": "2026-11-02"
   },
   {
    "@type": "FAQPage",
@@ -168,44 +174,6 @@ gtag("config", "G-BTYQCEJNRS", {page_title: "Method, sources and FAQ | Tunnel Wh
      }
     }
    ]
-  },
-  {
-   "@type": "Dataset",
-   "name": "Tunnel Whitespace: tunnel car wash supply and population by census tract",
-   "description": "Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels. Rankings cover 925 metro and micro areas.",
-   "url": "https://tunnelwhitespace.com/about/",
-   "creator": {
-    "@type": "Person",
-    "name": "Anthony Warren",
-    "jobTitle": "First Vice President, Car Washes, Southeast",
-    "worksFor": {
-     "@type": "Organization",
-     "name": "Matthews Real Estate Investment Services",
-     "url": "https://www.matthews.com/"
-    }
-   },
-   "dateModified": "2026-10-29",
-   "spatialCoverage": "United States",
-   "temporalCoverage": "2024/2026",
-   "isAccessibleForFree": true,
-   "keywords": [
-    "car wash",
-    "tunnel car wash",
-    "express car wash",
-    "car wash market",
-    "car wash saturation",
-    "whitespace",
-    "site selection",
-    "census tract",
-    "market ranking"
-   ],
-   "variableMeasured": [
-    "population within a 10-minute drive",
-    "operating tunnel car washes",
-    "tunnels in development",
-    "people per tunnel",
-    "whitespace index"
-   ]
   }
  ]
 }</script></head>
@@ -223,6 +191,6 @@ gtag("config", "G-BTYQCEJNRS", {page_title: "Method, sources and FAQ | Tunnel Wh
 <h2>Contact</h2>
 <p>To discuss or pursue a site or market on this map: Anthony Warren, First Vice President, Car Washes, Southeast, Matthews&trade;. (828) 551-8415, <a href="mailto:anthony.warren@matthews.com">anthony.warren@matthews.com</a>. License No. 149011 (SC).</p>
 </main>
-<footer><p>Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated October 29, 2026. Screening estimates for research only; not investment advice.</p><p>Anthony Warren, First Vice President, Car Washes, Southeast, Matthews&trade; &middot; (828) 551-8415 &middot; <a href="mailto:anthony.warren@matthews.com">anthony.warren@matthews.com</a> &middot; License No. 149011 (SC)</p></footer>
+<footer><p>Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated November 2, 2026. Screening estimates for research only; not investment advice.</p><p>Anthony Warren, First Vice President, Car Washes, Southeast, Matthews&trade; &middot; (828) 551-8415 &middot; <a href="mailto:anthony.warren@matthews.com">anthony.warren@matthews.com</a> &middot; License No. 149011 (SC)</p></footer>
 </body>
 </html>

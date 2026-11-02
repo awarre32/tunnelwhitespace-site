@@ -28,8 +28,14 @@
 <meta name="twitter:image" content="https://tunnelwhitespace.com/preview.png">
 <!-- Google Analytics 4: property "Tunnel Whitespace" -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTYQCEJNRS"></script>
-<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());
-gtag("config", "G-BTYQCEJNRS", {page_title: "Tunnel Whitespace Southeast: tunnel car wash market gaps in NC, SC, GA, VA, TN, FL and AL"});</script>
+<script>if (location.hostname !== "tunnelwhitespace.com") window["ga-disable-G-BTYQCEJNRS"] = true;   // local previews send nothing
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());
+gtag("config", "G-BTYQCEJNRS", {page_title: "Tunnel Whitespace Southeast: tunnel car wash market gaps in NC, SC, GA, VA, TN, FL and AL"});
+// Enhanced measurement skips mailto: and tel: links, so count them here (key event contact_click in GA4 Admin).
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest('a[href^="mailto:"], a[href^="tel:"]');
+  if (a) gtag("event", "contact_click", {method: a.protocol.replace(":", "")});
+});</script>
 <style>
   html, body { margin: 0; height: 100%; background: #0B1F3A; overflow: hidden; }
   .bar h1 { font-size: 13px; margin: 0; color: #F3F6FA; font-weight: 600; }
@@ -94,49 +100,30 @@ gtag("config", "G-BTYQCEJNRS", {page_title: "Tunnel Whitespace Southeast: tunnel
    "screenshot": "https://tunnelwhitespace.com/preview.png"
   },
   {
-   "@type": "Dataset",
-   "name": "Tunnel Whitespace: tunnel car wash supply and population by census tract",
-   "description": "Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels. Rankings cover 925 metro and micro areas.",
-   "url": "https://tunnelwhitespace.com/",
-   "creator": {
-    "@type": "Person",
-    "name": "Anthony Warren",
-    "jobTitle": "First Vice President, Car Washes, Southeast",
-    "worksFor": {
-     "@type": "Organization",
-     "name": "Matthews Real Estate Investment Services",
-     "url": "https://www.matthews.com/"
-    }
-   },
-   "dateModified": "2026-10-29",
-   "spatialCoverage": "United States",
-   "temporalCoverage": "2024/2026",
-   "isAccessibleForFree": true,
-   "keywords": [
-    "car wash",
-    "tunnel car wash",
-    "express car wash",
-    "car wash market",
-    "car wash saturation",
-    "whitespace",
-    "site selection",
-    "census tract",
-    "market ranking"
-   ],
-   "variableMeasured": [
-    "population within a 10-minute drive",
-    "operating tunnel car washes",
-    "tunnels in development",
-    "people per tunnel",
-    "whitespace index"
-   ],
    "@id": "https://tunnelwhitespace.com/#dataset"
   }
  ]
 }</script></head>
 <body>
-<!-- The map is an ArcGIS Experience Builder app; this page keeps tunnelwhitespace.com in the address bar. The text below the map is for readers who scroll, search engines and AI assistants. -->
+<!-- The map is an ArcGIS Experience Builder app; this page keeps tunnelwhitespace.com in the address bar. Text for readers, search engines and AI assistants lives on /markets/ and /about/ (linked in the bar). -->
 <iframe class="map" src="https://experience.arcgis.com/experience/6101a0eeeaf14029bf49495ef8baab85/page/Southeast/" title="Tunnel Whitespace map" allow="fullscreen; geolocation; clipboard-write" allowfullscreen></iframe>
-<div class="bar"><h1>Tunnel Whitespace</h1><span class="tag">Where the Southeast can support more tunnel car washes, by census tract</span><nav aria-label="Site"><a href="/markets/southeast/">Southeast rankings</a><a href="/about/">Method and FAQ</a><a href="/">National map</a></nav></div>
+<div class="bar"><h1>Tunnel Whitespace Southeast</h1><span class="tag">Where the Southeast can support more tunnel car washes, by census tract</span><nav aria-label="Site"><a href="/markets/southeast/">Southeast rankings</a><a href="/about/">Method and FAQ</a><a href="/">National map</a></nav></div>
+<script>
+(function () {
+  var frame = document.querySelector("iframe.map"), inMap = false, timer = null, fired = false;
+  function tick() { if (document.hasFocus() && !document.hidden) gtag("event", "map_engaged", {engagement_time_msec: 15000}); }
+  function start() { if (!timer) timer = setInterval(tick, 15000); }
+  function stop() { clearInterval(timer); timer = null; }
+  window.addEventListener("blur", function () {
+    setTimeout(function () {
+      if (document.activeElement !== frame) return;
+      inMap = true; start();
+      if (!fired) { fired = true; gtag("event", "map_interaction", {map_page: location.pathname}); }
+    }, 0);
+  });
+  window.addEventListener("focus", function () { inMap = false; stop(); });
+  document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); else if (inMap) start(); });
+})();
+</script>
 </body>
 </html>
