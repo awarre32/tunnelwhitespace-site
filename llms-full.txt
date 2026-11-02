@@ -60,6 +60,10 @@ The map counts conveyor tunnel washes only: express exterior, full-serve and fle
 
 For every census tract, the map counts the people living within about a 10-minute drive and the tunnel car washes (express, full-serve and flex) operating within the same distance. At one tunnel per 20,000 people, the difference between the tunnels that population could support and the tunnels already there is the modeled gap. The 10-minute area is a circle with a radius of about 2.5 to 2.8 miles depending on density, sized from Esri Saturday-afternoon drive-time samples. It does not follow roads, rivers or highways. The 300 outlined zones on the map were rerun on actual Esri drive times. Very dense areas are weighted down, starting at 4,000 people per square mile and reaching zero at 12,000, because land cost and stacking room limit tunnel washes there. Household income moves demand up or down slightly (0.85 to 1.10). Tunnels in development are counted as if open. Because of these adjustments a tract's gap is not simply its population divided by 20,000.
 
+### Can I look at one region?
+
+Yes. On the map, Jump to a region moves the view to the Southeast, Northeast and Mid-Atlantic, Midwest, South Central, Mountain West or Pacific, and the Market rankings table can then be limited to the metros in view. The ranking pages on this site list every metro by region.
+
 ### Is Tunnel Whitespace free?
 
 Yes. The map is free and needs no login. It is a screening tool, not investment advice.
