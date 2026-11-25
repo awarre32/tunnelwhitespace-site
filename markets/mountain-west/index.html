@@ -69,6 +69,11 @@ document.addEventListener("click", function (e) {
   .narrow { max-width: 520px; }
   footer { border-top: 1px solid var(--line); padding: 18px 16px 30px; max-width: 980px; margin: 0 auto; font-size: 13px; color: var(--slate); }
   footer p { margin: 0 0 6px; }
+  td.l a { color: var(--navy2); }
+  .crumbs { font-size: 14px; color: var(--slate); margin: 0 0 8px; }
+  .facts td { text-align: right; } .facts th { text-align: left; font-weight: 400; background: #fff; position: static; }
+  ul.links { columns: 2 240px; padding-left: 18px; font-size: 15px; } ul.links li { break-inside: avoid; margin: 0 0 4px; }
+  .ask { font-weight: 600; }
 </style>
 <script type="application/ld+json">{
  "@context": "https://schema.org",
@@ -81,7 +86,7 @@ document.addEventListener("click", function (e) {
    "isPartOf": {
     "@id": "https://tunnelwhitespace.com/#site"
    },
-   "dateModified": "2026-11-02"
+   "dateModified": "2026-11-25"
   },
   {
    "@type": "ItemList",
@@ -92,467 +97,560 @@ document.addEventListener("click", function (e) {
     {
      "@type": "ListItem",
      "position": 1,
-     "name": "Phoenix-Mesa-Chandler, AZ"
+     "name": "Phoenix-Mesa-Chandler, AZ",
+     "url": "https://tunnelwhitespace.com/metros/phoenix-mesa-chandler-az/"
     },
     {
      "@type": "ListItem",
      "position": 2,
-     "name": "Denver-Aurora-Centennial, CO"
+     "name": "Denver-Aurora-Centennial, CO",
+     "url": "https://tunnelwhitespace.com/metros/denver-aurora-centennial-co/"
     },
     {
      "@type": "ListItem",
      "position": 3,
-     "name": "Las Vegas-Henderson-North Las Vegas, NV"
+     "name": "Las Vegas-Henderson-North Las Vegas, NV",
+     "url": "https://tunnelwhitespace.com/metros/las-vegas-henderson-north-las-vegas-nv/"
     },
     {
      "@type": "ListItem",
      "position": 4,
-     "name": "Salt Lake City-Murray, UT"
+     "name": "Salt Lake City-Murray, UT",
+     "url": "https://tunnelwhitespace.com/metros/salt-lake-city-murray-ut/"
     },
     {
      "@type": "ListItem",
      "position": 5,
-     "name": "Boise City, ID"
+     "name": "Boise City, ID",
+     "url": "https://tunnelwhitespace.com/metros/boise-city-id/"
     },
     {
      "@type": "ListItem",
      "position": 6,
-     "name": "Boulder, CO"
+     "name": "Boulder, CO",
+     "url": "https://tunnelwhitespace.com/metros/boulder-co/"
     },
     {
      "@type": "ListItem",
      "position": 7,
-     "name": "Tucson, AZ"
+     "name": "Tucson, AZ",
+     "url": "https://tunnelwhitespace.com/metros/tucson-az/"
     },
     {
      "@type": "ListItem",
      "position": 8,
-     "name": "Reno, NV"
+     "name": "Reno, NV",
+     "url": "https://tunnelwhitespace.com/metros/reno-nv/"
     },
     {
      "@type": "ListItem",
      "position": 9,
-     "name": "Albuquerque, NM"
+     "name": "Albuquerque, NM",
+     "url": "https://tunnelwhitespace.com/metros/albuquerque-nm/"
     },
     {
      "@type": "ListItem",
      "position": 10,
-     "name": "Fort Collins-Loveland, CO"
+     "name": "Fort Collins-Loveland, CO",
+     "url": "https://tunnelwhitespace.com/metros/fort-collins-loveland-co/"
     },
     {
      "@type": "ListItem",
      "position": 11,
-     "name": "Provo-Orem-Lehi, UT"
+     "name": "Provo-Orem-Lehi, UT",
+     "url": "https://tunnelwhitespace.com/metros/provo-orem-lehi-ut/"
     },
     {
      "@type": "ListItem",
      "position": 12,
-     "name": "Coeur d'Alene, ID"
+     "name": "Coeur d'Alene, ID",
+     "url": "https://tunnelwhitespace.com/metros/coeur-d-alene-id/"
     },
     {
      "@type": "ListItem",
      "position": 13,
-     "name": "Colorado Springs, CO"
+     "name": "Colorado Springs, CO",
+     "url": "https://tunnelwhitespace.com/metros/colorado-springs-co/"
     },
     {
      "@type": "ListItem",
      "position": 14,
-     "name": "Santa Fe, NM"
+     "name": "Santa Fe, NM",
+     "url": "https://tunnelwhitespace.com/metros/santa-fe-nm/"
     },
     {
      "@type": "ListItem",
      "position": 15,
-     "name": "Bozeman, MT"
+     "name": "Bozeman, MT",
+     "url": "https://tunnelwhitespace.com/metros/bozeman-mt/"
     },
     {
      "@type": "ListItem",
      "position": 16,
-     "name": "Lake Havasu City-Kingman, AZ"
+     "name": "Lake Havasu City-Kingman, AZ",
+     "url": "https://tunnelwhitespace.com/metros/lake-havasu-city-kingman-az/"
     },
     {
      "@type": "ListItem",
      "position": 17,
-     "name": "St. George, UT"
+     "name": "St. George, UT",
+     "url": "https://tunnelwhitespace.com/metros/st-george-ut/"
     },
     {
      "@type": "ListItem",
      "position": 18,
-     "name": "Las Cruces, NM"
+     "name": "Las Cruces, NM",
+     "url": "https://tunnelwhitespace.com/metros/las-cruces-nm/"
     },
     {
      "@type": "ListItem",
      "position": 19,
-     "name": "Yuma, AZ"
+     "name": "Yuma, AZ",
+     "url": "https://tunnelwhitespace.com/metros/yuma-az/"
     },
     {
      "@type": "ListItem",
      "position": 20,
-     "name": "Greeley, CO"
+     "name": "Greeley, CO",
+     "url": "https://tunnelwhitespace.com/metros/greeley-co/"
     },
     {
      "@type": "ListItem",
      "position": 21,
-     "name": "Billings, MT"
+     "name": "Billings, MT",
+     "url": "https://tunnelwhitespace.com/metros/billings-mt/"
     },
     {
      "@type": "ListItem",
      "position": 22,
-     "name": "Grand Junction, CO"
+     "name": "Grand Junction, CO",
+     "url": "https://tunnelwhitespace.com/metros/grand-junction-co/"
     },
     {
      "@type": "ListItem",
      "position": 23,
-     "name": "Pueblo, CO"
+     "name": "Pueblo, CO",
+     "url": "https://tunnelwhitespace.com/metros/pueblo-co/"
     },
     {
      "@type": "ListItem",
      "position": 24,
-     "name": "Flagstaff, AZ"
+     "name": "Flagstaff, AZ",
+     "url": "https://tunnelwhitespace.com/metros/flagstaff-az/"
     },
     {
      "@type": "ListItem",
      "position": 25,
-     "name": "Twin Falls, ID"
+     "name": "Twin Falls, ID",
+     "url": "https://tunnelwhitespace.com/metros/twin-falls-id/"
     },
     {
      "@type": "ListItem",
      "position": 26,
-     "name": "Ogden, UT"
+     "name": "Ogden, UT",
+     "url": "https://tunnelwhitespace.com/metros/ogden-ut/"
     },
     {
      "@type": "ListItem",
      "position": 27,
-     "name": "Prescott Valley-Prescott, AZ"
+     "name": "Prescott Valley-Prescott, AZ",
+     "url": "https://tunnelwhitespace.com/metros/prescott-valley-prescott-az/"
     },
     {
      "@type": "ListItem",
      "position": 28,
-     "name": "Alamogordo, NM (micro)"
+     "name": "Alamogordo, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/alamogordo-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 29,
-     "name": "Alamosa, CO (micro)"
+     "name": "Alamosa, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/alamosa-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 30,
-     "name": "Blackfoot, ID (micro)"
+     "name": "Blackfoot, ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/blackfoot-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 31,
-     "name": "Breckenridge, CO (micro)"
+     "name": "Breckenridge, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/breckenridge-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 32,
-     "name": "Brigham City, UT-ID (micro)"
+     "name": "Brigham City, UT-ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/brigham-city-ut-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 33,
-     "name": "Burley, ID (micro)"
+     "name": "Burley, ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/burley-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 34,
-     "name": "Butte-Silver Bow, MT (micro)"
+     "name": "Butte-Silver Bow, MT (micro)",
+     "url": "https://tunnelwhitespace.com/metros/butte-silver-bow-mt-micro/"
     },
     {
      "@type": "ListItem",
      "position": 35,
-     "name": "Carlsbad-Artesia, NM (micro)"
+     "name": "Carlsbad-Artesia, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/carlsbad-artesia-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 36,
-     "name": "Carson City, NV"
+     "name": "Carson City, NV",
+     "url": "https://tunnelwhitespace.com/metros/carson-city-nv/"
     },
     {
      "@type": "ListItem",
      "position": 37,
-     "name": "Casper, WY"
+     "name": "Casper, WY",
+     "url": "https://tunnelwhitespace.com/metros/casper-wy/"
     },
     {
      "@type": "ListItem",
      "position": 38,
-     "name": "Ca\u00f1on City, CO (micro)"
+     "name": "Ca\u00f1on City, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/canon-city-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 39,
-     "name": "Cedar City, UT (micro)"
+     "name": "Cedar City, UT (micro)",
+     "url": "https://tunnelwhitespace.com/metros/cedar-city-ut-micro/"
     },
     {
      "@type": "ListItem",
      "position": 40,
-     "name": "Cheyenne, WY"
+     "name": "Cheyenne, WY",
+     "url": "https://tunnelwhitespace.com/metros/cheyenne-wy/"
     },
     {
      "@type": "ListItem",
      "position": 41,
-     "name": "Clovis, NM (micro)"
+     "name": "Clovis, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/clovis-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 42,
-     "name": "Cody, WY (micro)"
+     "name": "Cody, WY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/cody-wy-micro/"
     },
     {
      "@type": "ListItem",
      "position": 43,
-     "name": "Deming, NM (micro)"
+     "name": "Deming, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/deming-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 44,
-     "name": "Durango, CO (micro)"
+     "name": "Durango, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/durango-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 45,
-     "name": "Edwards, CO (micro)"
+     "name": "Edwards, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/edwards-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 46,
-     "name": "Elko, NV (micro)"
+     "name": "Elko, NV (micro)",
+     "url": "https://tunnelwhitespace.com/metros/elko-nv-micro/"
     },
     {
      "@type": "ListItem",
      "position": 47,
-     "name": "Espa\u00f1ola, NM (micro)"
+     "name": "Espa\u00f1ola, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/espanola-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 48,
-     "name": "Evanston, WY-UT (micro)"
+     "name": "Evanston, WY-UT (micro)",
+     "url": "https://tunnelwhitespace.com/metros/evanston-wy-ut-micro/"
     },
     {
      "@type": "ListItem",
      "position": 49,
-     "name": "Fallon, NV (micro)"
+     "name": "Fallon, NV (micro)",
+     "url": "https://tunnelwhitespace.com/metros/fallon-nv-micro/"
     },
     {
      "@type": "ListItem",
      "position": 50,
-     "name": "Farmington, NM"
+     "name": "Farmington, NM",
+     "url": "https://tunnelwhitespace.com/metros/farmington-nm/"
     },
     {
      "@type": "ListItem",
      "position": 51,
-     "name": "Fort Morgan, CO (micro)"
+     "name": "Fort Morgan, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/fort-morgan-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 52,
-     "name": "Gallup, NM (micro)"
+     "name": "Gallup, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/gallup-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 53,
-     "name": "Gardnerville Ranchos, NV-CA (micro)"
+     "name": "Gardnerville Ranchos, NV-CA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/gardnerville-ranchos-nv-ca-micro/"
     },
     {
      "@type": "ListItem",
      "position": 54,
-     "name": "Gillette, WY (micro)"
+     "name": "Gillette, WY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/gillette-wy-micro/"
     },
     {
      "@type": "ListItem",
      "position": 55,
-     "name": "Great Falls, MT"
+     "name": "Great Falls, MT",
+     "url": "https://tunnelwhitespace.com/metros/great-falls-mt/"
     },
     {
      "@type": "ListItem",
      "position": 56,
-     "name": "Hailey, ID (micro)"
+     "name": "Hailey, ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/hailey-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 57,
-     "name": "Heber, UT (micro)"
+     "name": "Heber, UT (micro)",
+     "url": "https://tunnelwhitespace.com/metros/heber-ut-micro/"
     },
     {
      "@type": "ListItem",
      "position": 58,
-     "name": "Helena, MT"
+     "name": "Helena, MT",
+     "url": "https://tunnelwhitespace.com/metros/helena-mt/"
     },
     {
      "@type": "ListItem",
      "position": 59,
-     "name": "Hobbs, NM (micro)"
+     "name": "Hobbs, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/hobbs-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 60,
-     "name": "Idaho Falls, ID"
+     "name": "Idaho Falls, ID",
+     "url": "https://tunnelwhitespace.com/metros/idaho-falls-id/"
     },
     {
      "@type": "ListItem",
      "position": 61,
-     "name": "Jackson, WY-ID (micro)"
+     "name": "Jackson, WY-ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/jackson-wy-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 62,
-     "name": "Kalispell, MT (micro)"
+     "name": "Kalispell, MT (micro)",
+     "url": "https://tunnelwhitespace.com/metros/kalispell-mt-micro/"
     },
     {
      "@type": "ListItem",
      "position": 63,
-     "name": "Laramie, WY (micro)"
+     "name": "Laramie, WY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/laramie-wy-micro/"
     },
     {
      "@type": "ListItem",
      "position": 64,
-     "name": "Las Vegas, NM (micro)"
+     "name": "Las Vegas, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/las-vegas-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 65,
-     "name": "Lewiston, ID-WA"
+     "name": "Lewiston, ID-WA",
+     "url": "https://tunnelwhitespace.com/metros/lewiston-id-wa/"
     },
     {
      "@type": "ListItem",
      "position": 66,
-     "name": "Logan, UT-ID"
+     "name": "Logan, UT-ID",
+     "url": "https://tunnelwhitespace.com/metros/logan-ut-id/"
     },
     {
      "@type": "ListItem",
      "position": 67,
-     "name": "Los Alamos, NM (micro)"
+     "name": "Los Alamos, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/los-alamos-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 68,
-     "name": "Missoula, MT"
+     "name": "Missoula, MT",
+     "url": "https://tunnelwhitespace.com/metros/missoula-mt/"
     },
     {
      "@type": "ListItem",
      "position": 69,
-     "name": "Montrose, CO (micro)"
+     "name": "Montrose, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/montrose-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 70,
-     "name": "Moscow, ID (micro)"
+     "name": "Moscow, ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/moscow-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 71,
-     "name": "Mountain Home, ID (micro)"
+     "name": "Mountain Home, ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mountain-home-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 72,
-     "name": "Nogales, AZ (micro)"
+     "name": "Nogales, AZ (micro)",
+     "url": "https://tunnelwhitespace.com/metros/nogales-az-micro/"
     },
     {
      "@type": "ListItem",
      "position": 73,
-     "name": "Pahrump, NV (micro)"
+     "name": "Pahrump, NV (micro)",
+     "url": "https://tunnelwhitespace.com/metros/pahrump-nv-micro/"
     },
     {
      "@type": "ListItem",
      "position": 74,
-     "name": "Payson, AZ (micro)"
+     "name": "Payson, AZ (micro)",
+     "url": "https://tunnelwhitespace.com/metros/payson-az-micro/"
     },
     {
      "@type": "ListItem",
      "position": 75,
-     "name": "Pocatello, ID"
+     "name": "Pocatello, ID",
+     "url": "https://tunnelwhitespace.com/metros/pocatello-id/"
     },
     {
      "@type": "ListItem",
      "position": 76,
-     "name": "Price, UT (micro)"
+     "name": "Price, UT (micro)",
+     "url": "https://tunnelwhitespace.com/metros/price-ut-micro/"
     },
     {
      "@type": "ListItem",
      "position": 77,
-     "name": "Rexburg, ID (micro)"
+     "name": "Rexburg, ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/rexburg-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 78,
-     "name": "Rifle, CO (micro)"
+     "name": "Rifle, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/rifle-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 79,
-     "name": "Riverton, WY (micro)"
+     "name": "Riverton, WY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/riverton-wy-micro/"
     },
     {
      "@type": "ListItem",
      "position": 80,
-     "name": "Rock Springs, WY (micro)"
+     "name": "Rock Springs, WY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/rock-springs-wy-micro/"
     },
     {
      "@type": "ListItem",
      "position": 81,
-     "name": "Roswell, NM (micro)"
+     "name": "Roswell, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/roswell-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 82,
-     "name": "Ruidoso, NM (micro)"
+     "name": "Ruidoso, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/ruidoso-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 83,
-     "name": "Safford, AZ (micro)"
+     "name": "Safford, AZ (micro)",
+     "url": "https://tunnelwhitespace.com/metros/safford-az-micro/"
     },
     {
      "@type": "ListItem",
      "position": 84,
-     "name": "Sandpoint, ID (micro)"
+     "name": "Sandpoint, ID (micro)",
+     "url": "https://tunnelwhitespace.com/metros/sandpoint-id-micro/"
     },
     {
      "@type": "ListItem",
      "position": 85,
-     "name": "Sheridan, WY (micro)"
+     "name": "Sheridan, WY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/sheridan-wy-micro/"
     },
     {
      "@type": "ListItem",
      "position": 86,
-     "name": "Show Low, AZ (micro)"
+     "name": "Show Low, AZ (micro)",
+     "url": "https://tunnelwhitespace.com/metros/show-low-az-micro/"
     },
     {
      "@type": "ListItem",
      "position": 87,
-     "name": "Sierra Vista-Douglas, AZ"
+     "name": "Sierra Vista-Douglas, AZ",
+     "url": "https://tunnelwhitespace.com/metros/sierra-vista-douglas-az/"
     },
     {
      "@type": "ListItem",
      "position": 88,
-     "name": "Silver City, NM (micro)"
+     "name": "Silver City, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/silver-city-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 89,
-     "name": "Steamboat Springs, CO (micro)"
+     "name": "Steamboat Springs, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/steamboat-springs-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 90,
-     "name": "Sterling, CO (micro)"
+     "name": "Sterling, CO (micro)",
+     "url": "https://tunnelwhitespace.com/metros/sterling-co-micro/"
     },
     {
      "@type": "ListItem",
      "position": 91,
-     "name": "Taos, NM (micro)"
+     "name": "Taos, NM (micro)",
+     "url": "https://tunnelwhitespace.com/metros/taos-nm-micro/"
     },
     {
      "@type": "ListItem",
      "position": 92,
-     "name": "Vernal, UT (micro)"
+     "name": "Vernal, UT (micro)",
+     "url": "https://tunnelwhitespace.com/metros/vernal-ut-micro/"
     },
     {
      "@type": "ListItem",
      "position": 93,
-     "name": "Winnemucca, NV (micro)"
+     "name": "Winnemucca, NV (micro)",
+     "url": "https://tunnelwhitespace.com/metros/winnemucca-nv-micro/"
     }
    ]
   },
@@ -582,19 +680,19 @@ document.addEventListener("click", function (e) {
  ]
 }</script></head>
 <body>
-<header><div class="wrap"><a class="brand" href="/"><img src="/apple-touch-icon.png" alt="">Tunnel Whitespace</a><nav aria-label="Site"><a href="/">National map</a><a href="/southeast/">Southeast map</a><a href="/markets/">Market rankings</a><a href="/markets/southeast/">Southeast rankings</a><a href="/about/">Method and FAQ</a></nav></div></header>
+<header><div class="wrap"><a class="brand" href="/"><img src="/apple-touch-icon.png" alt="">Tunnel Whitespace</a><nav aria-label="Site"><a href="/">National map</a><a href="/southeast/">Southeast map</a><a href="/markets/">Market rankings</a><a href="/markets/southeast/">Southeast rankings</a><a href="/states/">States</a><a href="/metros/">All metros</a><a href="/about/">Method and FAQ</a></nav></div></header>
 <main class="wrap">
 <h1>Mountain West metros ranked for new tunnel car washes</h1>
-<p class="lede">All 93 metro and micro areas based in Arizona, New Mexico, Colorado, Utah, Nevada, Idaho, Montana and Wyoming, ranked by whitespace index at one tunnel per 20,000 people. Updated November 2, 2026.</p>
+<p class="lede">All 93 metro and micro areas based in Arizona, New Mexico, Colorado, Utah, Nevada, Idaho, Montana and Wyoming, ranked by whitespace index at one tunnel per 20,000 people. Updated November 25, 2026.</p>
 <p><a class="cta" href="/">Open the map</a> <span class="note">On the map, Jump to a region moves the view to the Mountain West.</span></p>
 <p class="regions">Rankings by region: <a href="/markets/">U.S. top 100</a> &middot; <a href="/markets/southeast/">Southeast</a> &middot; <a href="/markets/northeast/">Northeast and Mid-Atlantic</a> &middot; <a href="/markets/midwest/">Midwest</a> &middot; <a href="/markets/south-central/">South Central</a> &middot; <a href="/markets/mountain-west/" aria-current="page">Mountain West</a> &middot; <a href="/markets/pacific/">Pacific</a></p>
 <p>The top five Mountain West metros by whitespace index are Phoenix-Mesa-Chandler, AZ; Denver-Aurora-Centennial, CO; Las Vegas-Henderson-North Las Vegas, NV; Salt Lake City-Murray, UT; Boise City, ID. A metro that spans regions is listed under its principal state, the first state in its name.</p>
 <h2>Tunnel car washes by state</h2>
-<div class="table-scroll narrow"><table><thead><tr><th scope="col" class="l">State</th><th scope="col">Operating tunnels</th><th scope="col">In development</th></tr></thead><tbody><tr><td class="l">Arizona</td><td>319</td><td>2</td></tr><tr><td class="l">Colorado</td><td>225</td><td>8</td></tr><tr><td class="l">Utah</td><td>189</td><td>3</td></tr><tr><td class="l">Nevada</td><td>144</td><td>6</td></tr><tr><td class="l">New Mexico</td><td>86</td><td>1</td></tr><tr><td class="l">Idaho</td><td>71</td><td>2</td></tr><tr><td class="l">Montana</td><td>30</td><td>1</td></tr><tr><td class="l">Wyoming</td><td>20</td><td>0</td></tr><tr><td class="l"><strong>Total</strong></td><td><strong>1,084</strong></td><td><strong>23</strong></td></tr></tbody></table></div>
+<div class="table-scroll narrow"><table><thead><tr><th scope="col" class="l">State</th><th scope="col">Operating tunnels</th><th scope="col">In development</th></tr></thead><tbody><tr><td class="l"><a href="/states/arizona/">Arizona</a></td><td>319</td><td>2</td></tr><tr><td class="l"><a href="/states/colorado/">Colorado</a></td><td>225</td><td>8</td></tr><tr><td class="l"><a href="/states/utah/">Utah</a></td><td>189</td><td>3</td></tr><tr><td class="l"><a href="/states/nevada/">Nevada</a></td><td>144</td><td>6</td></tr><tr><td class="l"><a href="/states/new-mexico/">New Mexico</a></td><td>86</td><td>1</td></tr><tr><td class="l"><a href="/states/idaho/">Idaho</a></td><td>71</td><td>2</td></tr><tr><td class="l"><a href="/states/montana/">Montana</a></td><td>30</td><td>1</td></tr><tr><td class="l"><a href="/states/wyoming/">Wyoming</a></td><td>20</td><td>0</td></tr><tr><td class="l"><strong>Total</strong></td><td><strong>1,084</strong></td><td><strong>23</strong></td></tr></tbody></table></div>
 <p class="note">Actual counts of tunnel car wash locations on the map, by the state of each location (verified October 2026). Tunnels in development are reported projects, not all confirmed.</p>
 <h2>Mountain West metro ranking</h2>
-<p class="note">Whitespace index (estimate): the weighted population in a metro's tracts that are short of tunnel car washes, divided by 20,000. Dense urban tracts are weighted down and income nudges demand. It ranks markets to study; it is not a count of buildable sites. Tunnels (operating only; tunnels in development are their own column and count as open in the index) and population are actual counts (tunnels verified October 2026, population Esri 2024 estimates). Rankings at 25,000 and 15,000 people per tunnel are in the map's market table.</p><div class="table-scroll"><table><thead><tr><th scope="col">Region rank</th><th scope="col">U.S. rank</th><th scope="col" class="l">Metro</th><th scope="col">Whitespace index (est.)</th><th scope="col">Population 2024</th><th scope="col">Tunnels</th><th scope="col">In development</th><th scope="col">People per tunnel</th></tr></thead><tbody><tr><td>1</td><td>17</td><td class="l">Phoenix-Mesa-Chandler, AZ</td><td>68.0</td><td>5,149,752</td><td>234</td><td>1</td><td>22,007</td></tr><tr><td>2</td><td>20</td><td class="l">Denver-Aurora-Centennial, CO</td><td>58.3</td><td>3,081,342</td><td>112</td><td>4</td><td>27,512</td></tr><tr><td>3</td><td>33</td><td class="l">Las Vegas-Henderson-North Las Vegas, NV</td><td>27.7</td><td>2,387,864</td><td>112</td><td>6</td><td>21,320</td></tr><tr><td>4</td><td>49</td><td class="l">Salt Lake City-Murray, UT</td><td>15.0</td><td>1,312,144</td><td>65</td><td>1</td><td>20,187</td></tr><tr><td>5</td><td>71</td><td class="l">Boise City, ID</td><td>8.2</td><td>852,423</td><td>30</td><td>2</td><td>28,414</td></tr><tr><td>6</td><td>72</td><td class="l">Boulder, CO</td><td>8.0</td><td>334,690</td><td>7</td><td>0</td><td>47,813</td></tr><tr><td>7</td><td>80</td><td class="l">Tucson, AZ</td><td>7.0</td><td>1,070,655</td><td>58</td><td>1</td><td>18,460</td></tr><tr><td>8</td><td>84</td><td class="l">Reno, NV</td><td>6.5</td><td>581,543</td><td>24</td><td>0</td><td>24,231</td></tr><tr><td>9</td><td>90</td><td class="l">Albuquerque, NM</td><td>5.6</td><td>926,835</td><td>48</td><td>0</td><td>19,309</td></tr><tr><td>10</td><td>93</td><td class="l">Fort Collins-Loveland, CO</td><td>5.3</td><td>378,187</td><td>15</td><td>1</td><td>25,212</td></tr><tr><td>11</td><td>98</td><td class="l">Provo-Orem-Lehi, UT</td><td>4.5</td><td>749,524</td><td>45</td><td>1</td><td>16,656</td></tr><tr><td>12</td><td>126</td><td class="l">Coeur d&#x27;Alene, ID</td><td>3.0</td><td>192,249</td><td>3</td><td>0</td><td>64,083</td></tr><tr><td>13</td><td>128</td><td class="l">Colorado Springs, CO</td><td>3.0</td><td>792,301</td><td>43</td><td>1</td><td>18,426</td></tr><tr><td>14</td><td>165</td><td class="l">Santa Fe, NM</td><td>1.4</td><td>157,871</td><td>3</td><td>0</td><td>52,624</td></tr><tr><td>15</td><td>166</td><td class="l">Bozeman, MT</td><td>1.4</td><td>132,441</td><td>5</td><td>0</td><td>26,488</td></tr><tr><td>16</td><td>177</td><td class="l">Lake Havasu City-Kingman, AZ</td><td>1.2</td><td>223,650</td><td>8</td><td>0</td><td>27,956</td></tr><tr><td>17</td><td>179</td><td class="l">St. George, UT</td><td>1.2</td><td>208,415</td><td>14</td><td>0</td><td>14,887</td></tr><tr><td>18</td><td>186</td><td class="l">Las Cruces, NM</td><td>1.1</td><td>225,575</td><td>5</td><td>1</td><td>45,115</td></tr><tr><td>19</td><td>194</td><td class="l">Yuma, AZ</td><td>1.0</td><td>209,729</td><td>6</td><td>0</td><td>34,955</td></tr><tr><td>20</td><td>196</td><td class="l">Greeley, CO</td><td>1.0</td><td>368,063</td><td>18</td><td>0</td><td>20,448</td></tr><tr><td>21</td><td>214</td><td class="l">Billings, MT</td><td>0.8</td><td>192,305</td><td>6</td><td>0</td><td>32,051</td></tr><tr><td>22</td><td>228</td><td class="l">Grand Junction, CO</td><td>0.7</td><td>161,169</td><td>8</td><td>0</td><td>20,146</td></tr><tr><td>23</td><td>234</td><td class="l">Pueblo, CO</td><td>0.6</td><td>171,453</td><td>6</td><td>1</td><td>28,576</td></tr><tr><td>24</td><td>242</td><td class="l">Flagstaff, AZ</td><td>0.6</td><td>147,403</td><td>2</td><td>0</td><td>73,702</td></tr><tr><td>25</td><td>253</td><td class="l">Twin Falls, ID</td><td>0.5</td><td>121,729</td><td>4</td><td>0</td><td>30,432</td></tr><tr><td>26</td><td>291</td><td class="l">Ogden, UT</td><td>0.2</td><td>672,858</td><td>41</td><td>1</td><td>16,411</td></tr><tr><td>27</td><td>294</td><td class="l">Prescott Valley-Prescott, AZ</td><td>0.2</td><td>250,263</td><td>4</td><td>0</td><td>62,566</td></tr><tr><td>28</td><td>316</td><td class="l">Alamogordo, NM (micro)</td><td>0.0</td><td>69,626</td><td>4</td><td>0</td><td>17,406</td></tr><tr><td>29</td><td>316</td><td class="l">Alamosa, CO (micro)</td><td>0.0</td><td>27,651</td><td>1</td><td>0</td><td>27,651</td></tr><tr><td>30</td><td>316</td><td class="l">Blackfoot, ID (micro)</td><td>0.0</td><td>50,382</td><td>2</td><td>0</td><td>25,191</td></tr><tr><td>31</td><td>316</td><td class="l">Breckenridge, CO (micro)</td><td>0.0</td><td>38,639</td><td>1</td><td>0</td><td>38,639</td></tr><tr><td>32</td><td>316</td><td class="l">Brigham City, UT-ID (micro)</td><td>0.0</td><td>67,600</td><td>2</td><td>0</td><td>33,800</td></tr><tr><td>33</td><td>316</td><td class="l">Burley, ID (micro)</td><td>0.0</td><td>48,617</td><td>3</td><td>0</td><td>16,206</td></tr><tr><td>34</td><td>316</td><td class="l">Butte-Silver Bow, MT (micro)</td><td>0.0</td><td>36,096</td><td>2</td><td>0</td><td>18,048</td></tr><tr><td>35</td><td>316</td><td class="l">Carlsbad-Artesia, NM (micro)</td><td>0.0</td><td>62,941</td><td>3</td><td>0</td><td>20,980</td></tr><tr><td>36</td><td>316</td><td class="l">Carson City, NV</td><td>0.0</td><td>59,063</td><td>4</td><td>0</td><td>14,766</td></tr><tr><td>37</td><td>316</td><td class="l">Casper, WY</td><td>0.0</td><td>80,053</td><td>4</td><td>0</td><td>20,013</td></tr><tr><td>38</td><td>316</td><td class="l">Cañon City, CO (micro)</td><td>0.0</td><td>50,291</td><td>2</td><td>0</td><td>25,146</td></tr><tr><td>39</td><td>316</td><td class="l">Cedar City, UT (micro)</td><td>0.0</td><td>65,144</td><td>5</td><td>0</td><td>13,029</td></tr><tr><td>40</td><td>316</td><td class="l">Cheyenne, WY</td><td>0.0</td><td>102,463</td><td>5</td><td>0</td><td>20,493</td></tr><tr><td>41</td><td>316</td><td class="l">Clovis, NM (micro)</td><td>0.0</td><td>66,451</td><td>2</td><td>0</td><td>33,226</td></tr><tr><td>42</td><td>316</td><td class="l">Cody, WY (micro)</td><td>0.0</td><td>30,702</td><td>2</td><td>0</td><td>15,351</td></tr><tr><td>43</td><td>316</td><td class="l">Deming, NM (micro)</td><td>0.0</td><td>25,672</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>44</td><td>316</td><td class="l">Durango, CO (micro)</td><td>0.0</td><td>57,426</td><td>3</td><td>0</td><td>19,142</td></tr><tr><td>45</td><td>316</td><td class="l">Edwards, CO (micro)</td><td>0.0</td><td>56,236</td><td>1</td><td>0</td><td>56,236</td></tr><tr><td>46</td><td>316</td><td class="l">Elko, NV (micro)</td><td>0.0</td><td>56,653</td><td>2</td><td>0</td><td>28,326</td></tr><tr><td>47</td><td>316</td><td class="l">Española, NM (micro)</td><td>0.0</td><td>40,176</td><td>1</td><td>0</td><td>40,176</td></tr><tr><td>48</td><td>316</td><td class="l">Evanston, WY-UT (micro)</td><td>0.0</td><td>23,265</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>49</td><td>316</td><td class="l">Fallon, NV (micro)</td><td>0.0</td><td>26,007</td><td>1</td><td>0</td><td>26,007</td></tr><tr><td>50</td><td>316</td><td class="l">Farmington, NM</td><td>0.0</td><td>118,881</td><td>8</td><td>0</td><td>14,860</td></tr><tr><td>51</td><td>316</td><td class="l">Fort Morgan, CO (micro)</td><td>0.0</td><td>29,345</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>52</td><td>316</td><td class="l">Gallup, NM (micro)</td><td>0.0</td><td>70,227</td><td>2</td><td>0</td><td>35,114</td></tr><tr><td>53</td><td>316</td><td class="l">Gardnerville Ranchos, NV-CA (micro)</td><td>0.0</td><td>51,781</td><td>1</td><td>0</td><td>51,781</td></tr><tr><td>54</td><td>316</td><td class="l">Gillette, WY (micro)</td><td>0.0</td><td>46,692</td><td>1</td><td>0</td><td>46,692</td></tr><tr><td>55</td><td>316</td><td class="l">Great Falls, MT</td><td>0.0</td><td>85,362</td><td>6</td><td>0</td><td>14,227</td></tr><tr><td>56</td><td>316</td><td class="l">Hailey, ID (micro)</td><td>0.0</td><td>32,184</td><td>1</td><td>0</td><td>32,184</td></tr><tr><td>57</td><td>316</td><td class="l">Heber, UT (micro)</td><td>0.0</td><td>85,106</td><td>2</td><td>0</td><td>42,553</td></tr><tr><td>58</td><td>316</td><td class="l">Helena, MT</td><td>0.0</td><td>95,566</td><td>1</td><td>0</td><td>95,566</td></tr><tr><td>59</td><td>316</td><td class="l">Hobbs, NM (micro)</td><td>0.0</td><td>74,376</td><td>3</td><td>0</td><td>24,792</td></tr><tr><td>60</td><td>316</td><td class="l">Idaho Falls, ID</td><td>0.0</td><td>171,285</td><td>11</td><td>0</td><td>15,571</td></tr><tr><td>61</td><td>316</td><td class="l">Jackson, WY-ID (micro)</td><td>0.0</td><td>36,854</td><td>1</td><td>0</td><td>36,854</td></tr><tr><td>62</td><td>316</td><td class="l">Kalispell, MT (micro)</td><td>0.0</td><td>114,143</td><td>1</td><td>0</td><td>114,143</td></tr><tr><td>63</td><td>316</td><td class="l">Laramie, WY (micro)</td><td>0.0</td><td>37,777</td><td>2</td><td>0</td><td>18,888</td></tr><tr><td>64</td><td>316</td><td class="l">Las Vegas, NM (micro)</td><td>0.0</td><td>30,691</td><td>1</td><td>0</td><td>30,691</td></tr><tr><td>65</td><td>316</td><td class="l">Lewiston, ID-WA</td><td>0.0</td><td>65,922</td><td>3</td><td>0</td><td>21,974</td></tr><tr><td>66</td><td>316</td><td class="l">Logan, UT-ID</td><td>0.0</td><td>160,194</td><td>8</td><td>0</td><td>20,024</td></tr><tr><td>67</td><td>316</td><td class="l">Los Alamos, NM (micro)</td><td>0.0</td><td>19,637</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>68</td><td>316</td><td class="l">Missoula, MT</td><td>0.0</td><td>128,190</td><td>6</td><td>0</td><td>21,365</td></tr><tr><td>69</td><td>316</td><td class="l">Montrose, CO (micro)</td><td>0.0</td><td>44,204</td><td>4</td><td>0</td><td>11,051</td></tr><tr><td>70</td><td>316</td><td class="l">Moscow, ID (micro)</td><td>0.0</td><td>41,271</td><td>1</td><td>0</td><td>41,271</td></tr><tr><td>71</td><td>316</td><td class="l">Mountain Home, ID (micro)</td><td>0.0</td><td>29,531</td><td>2</td><td>0</td><td>14,766</td></tr><tr><td>72</td><td>316</td><td class="l">Nogales, AZ (micro)</td><td>0.0</td><td>48,928</td><td>1</td><td>0</td><td>48,928</td></tr><tr><td>73</td><td>316</td><td class="l">Pahrump, NV (micro)</td><td>0.0</td><td>56,056</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>74</td><td>316</td><td class="l">Payson, AZ (micro)</td><td>0.0</td><td>53,885</td><td>1</td><td>0</td><td>53,885</td></tr><tr><td>75</td><td>316</td><td class="l">Pocatello, ID</td><td>0.0</td><td>90,332</td><td>7</td><td>0</td><td>12,905</td></tr><tr><td>76</td><td>316</td><td class="l">Price, UT (micro)</td><td>0.0</td><td>20,456</td><td>1</td><td>0</td><td>20,456</td></tr><tr><td>77</td><td>316</td><td class="l">Rexburg, ID (micro)</td><td>0.0</td><td>69,708</td><td>4</td><td>0</td><td>17,427</td></tr><tr><td>78</td><td>316</td><td class="l">Rifle, CO (micro)</td><td>0.0</td><td>80,651</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>79</td><td>316</td><td class="l">Riverton, WY (micro)</td><td>0.0</td><td>39,083</td><td>2</td><td>0</td><td>19,542</td></tr><tr><td>80</td><td>316</td><td class="l">Rock Springs, WY (micro)</td><td>0.0</td><td>41,224</td><td>1</td><td>0</td><td>41,224</td></tr><tr><td>81</td><td>316</td><td class="l">Roswell, NM (micro)</td><td>0.0</td><td>64,030</td><td>4</td><td>0</td><td>16,008</td></tr><tr><td>82</td><td>316</td><td class="l">Ruidoso, NM (micro)</td><td>0.0</td><td>20,577</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>83</td><td>316</td><td class="l">Safford, AZ (micro)</td><td>0.0</td><td>39,271</td><td>1</td><td>0</td><td>39,271</td></tr><tr><td>84</td><td>316</td><td class="l">Sandpoint, ID (micro)</td><td>0.0</td><td>53,294</td><td>1</td><td>0</td><td>53,294</td></tr><tr><td>85</td><td>316</td><td class="l">Sheridan, WY (micro)</td><td>0.0</td><td>32,383</td><td>1</td><td>0</td><td>32,383</td></tr><tr><td>86</td><td>316</td><td class="l">Show Low, AZ (micro)</td><td>0.0</td><td>108,662</td><td>2</td><td>0</td><td>54,331</td></tr><tr><td>87</td><td>316</td><td class="l">Sierra Vista-Douglas, AZ</td><td>0.0</td><td>125,171</td><td>1</td><td>0</td><td>125,171</td></tr><tr><td>88</td><td>316</td><td class="l">Silver City, NM (micro)</td><td>0.0</td><td>27,540</td><td>1</td><td>0</td><td>27,540</td></tr><tr><td>89</td><td>316</td><td class="l">Steamboat Springs, CO (micro)</td><td>0.0</td><td>38,326</td><td>1</td><td>0</td><td>38,326</td></tr><tr><td>90</td><td>316</td><td class="l">Sterling, CO (micro)</td><td>0.0</td><td>20,875</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>91</td><td>316</td><td class="l">Taos, NM (micro)</td><td>0.0</td><td>35,107</td><td>1</td><td>0</td><td>35,107</td></tr><tr><td>92</td><td>316</td><td class="l">Vernal, UT (micro)</td><td>0.0</td><td>37,124</td><td>1</td><td>0</td><td>37,124</td></tr><tr><td>93</td><td>316</td><td class="l">Winnemucca, NV (micro)</td><td>0.0</td><td>17,564</td><td>0</td><td>0</td><td>none open</td></tr></tbody></table></div>
+<p class="note">Whitespace index (estimate): the weighted population in a metro's tracts that are short of tunnel car washes, divided by 20,000. Dense urban tracts are weighted down and income nudges demand. It ranks markets to study; it is not a count of buildable sites. Tunnels (operating only; tunnels in development are their own column and count as open in the index) and population are actual counts (tunnels verified October 2026, population Esri 2024 estimates). Rankings at 25,000 and 15,000 people per tunnel are in the map's market table.</p><div class="table-scroll"><table><thead><tr><th scope="col">Region rank</th><th scope="col">U.S. rank</th><th scope="col" class="l">Metro</th><th scope="col">Whitespace index (est.)</th><th scope="col">Population 2024</th><th scope="col">Tunnels</th><th scope="col">In development</th><th scope="col">People per tunnel</th></tr></thead><tbody><tr><td>1</td><td>17</td><td class="l"><a href="/metros/phoenix-mesa-chandler-az/">Phoenix-Mesa-Chandler, AZ</a></td><td>68.0</td><td>5,149,752</td><td>234</td><td>1</td><td>22,007</td></tr><tr><td>2</td><td>20</td><td class="l"><a href="/metros/denver-aurora-centennial-co/">Denver-Aurora-Centennial, CO</a></td><td>58.3</td><td>3,081,342</td><td>112</td><td>4</td><td>27,512</td></tr><tr><td>3</td><td>33</td><td class="l"><a href="/metros/las-vegas-henderson-north-las-vegas-nv/">Las Vegas-Henderson-North Las Vegas, NV</a></td><td>27.7</td><td>2,387,864</td><td>112</td><td>6</td><td>21,320</td></tr><tr><td>4</td><td>49</td><td class="l"><a href="/metros/salt-lake-city-murray-ut/">Salt Lake City-Murray, UT</a></td><td>15.0</td><td>1,312,144</td><td>65</td><td>1</td><td>20,187</td></tr><tr><td>5</td><td>71</td><td class="l"><a href="/metros/boise-city-id/">Boise City, ID</a></td><td>8.2</td><td>852,423</td><td>30</td><td>2</td><td>28,414</td></tr><tr><td>6</td><td>72</td><td class="l"><a href="/metros/boulder-co/">Boulder, CO</a></td><td>8.0</td><td>334,690</td><td>7</td><td>0</td><td>47,813</td></tr><tr><td>7</td><td>80</td><td class="l"><a href="/metros/tucson-az/">Tucson, AZ</a></td><td>7.0</td><td>1,070,655</td><td>58</td><td>1</td><td>18,460</td></tr><tr><td>8</td><td>84</td><td class="l"><a href="/metros/reno-nv/">Reno, NV</a></td><td>6.5</td><td>581,543</td><td>24</td><td>0</td><td>24,231</td></tr><tr><td>9</td><td>90</td><td class="l"><a href="/metros/albuquerque-nm/">Albuquerque, NM</a></td><td>5.6</td><td>926,835</td><td>48</td><td>0</td><td>19,309</td></tr><tr><td>10</td><td>93</td><td class="l"><a href="/metros/fort-collins-loveland-co/">Fort Collins-Loveland, CO</a></td><td>5.3</td><td>378,187</td><td>15</td><td>1</td><td>25,212</td></tr><tr><td>11</td><td>98</td><td class="l"><a href="/metros/provo-orem-lehi-ut/">Provo-Orem-Lehi, UT</a></td><td>4.5</td><td>749,524</td><td>45</td><td>1</td><td>16,656</td></tr><tr><td>12</td><td>126</td><td class="l"><a href="/metros/coeur-d-alene-id/">Coeur d&#x27;Alene, ID</a></td><td>3.0</td><td>192,249</td><td>3</td><td>0</td><td>64,083</td></tr><tr><td>13</td><td>128</td><td class="l"><a href="/metros/colorado-springs-co/">Colorado Springs, CO</a></td><td>3.0</td><td>792,301</td><td>43</td><td>1</td><td>18,426</td></tr><tr><td>14</td><td>165</td><td class="l"><a href="/metros/santa-fe-nm/">Santa Fe, NM</a></td><td>1.4</td><td>157,871</td><td>3</td><td>0</td><td>52,624</td></tr><tr><td>15</td><td>166</td><td class="l"><a href="/metros/bozeman-mt/">Bozeman, MT</a></td><td>1.4</td><td>132,441</td><td>5</td><td>0</td><td>26,488</td></tr><tr><td>16</td><td>177</td><td class="l"><a href="/metros/lake-havasu-city-kingman-az/">Lake Havasu City-Kingman, AZ</a></td><td>1.2</td><td>223,650</td><td>8</td><td>0</td><td>27,956</td></tr><tr><td>17</td><td>179</td><td class="l"><a href="/metros/st-george-ut/">St. George, UT</a></td><td>1.2</td><td>208,415</td><td>14</td><td>0</td><td>14,887</td></tr><tr><td>18</td><td>186</td><td class="l"><a href="/metros/las-cruces-nm/">Las Cruces, NM</a></td><td>1.1</td><td>225,575</td><td>5</td><td>1</td><td>45,115</td></tr><tr><td>19</td><td>194</td><td class="l"><a href="/metros/yuma-az/">Yuma, AZ</a></td><td>1.0</td><td>209,729</td><td>6</td><td>0</td><td>34,955</td></tr><tr><td>20</td><td>196</td><td class="l"><a href="/metros/greeley-co/">Greeley, CO</a></td><td>1.0</td><td>368,063</td><td>18</td><td>0</td><td>20,448</td></tr><tr><td>21</td><td>214</td><td class="l"><a href="/metros/billings-mt/">Billings, MT</a></td><td>0.8</td><td>192,305</td><td>6</td><td>0</td><td>32,051</td></tr><tr><td>22</td><td>228</td><td class="l"><a href="/metros/grand-junction-co/">Grand Junction, CO</a></td><td>0.7</td><td>161,169</td><td>8</td><td>0</td><td>20,146</td></tr><tr><td>23</td><td>234</td><td class="l"><a href="/metros/pueblo-co/">Pueblo, CO</a></td><td>0.6</td><td>171,453</td><td>6</td><td>1</td><td>28,576</td></tr><tr><td>24</td><td>242</td><td class="l"><a href="/metros/flagstaff-az/">Flagstaff, AZ</a></td><td>0.6</td><td>147,403</td><td>2</td><td>0</td><td>73,702</td></tr><tr><td>25</td><td>253</td><td class="l"><a href="/metros/twin-falls-id/">Twin Falls, ID</a></td><td>0.5</td><td>121,729</td><td>4</td><td>0</td><td>30,432</td></tr><tr><td>26</td><td>291</td><td class="l"><a href="/metros/ogden-ut/">Ogden, UT</a></td><td>0.2</td><td>672,858</td><td>41</td><td>1</td><td>16,411</td></tr><tr><td>27</td><td>294</td><td class="l"><a href="/metros/prescott-valley-prescott-az/">Prescott Valley-Prescott, AZ</a></td><td>0.2</td><td>250,263</td><td>4</td><td>0</td><td>62,566</td></tr><tr><td>28</td><td>316</td><td class="l"><a href="/metros/alamogordo-nm-micro/">Alamogordo, NM (micro)</a></td><td>0.0</td><td>69,626</td><td>4</td><td>0</td><td>17,406</td></tr><tr><td>29</td><td>316</td><td class="l"><a href="/metros/alamosa-co-micro/">Alamosa, CO (micro)</a></td><td>0.0</td><td>27,651</td><td>1</td><td>0</td><td>27,651</td></tr><tr><td>30</td><td>316</td><td class="l"><a href="/metros/blackfoot-id-micro/">Blackfoot, ID (micro)</a></td><td>0.0</td><td>50,382</td><td>2</td><td>0</td><td>25,191</td></tr><tr><td>31</td><td>316</td><td class="l"><a href="/metros/breckenridge-co-micro/">Breckenridge, CO (micro)</a></td><td>0.0</td><td>38,639</td><td>1</td><td>0</td><td>38,639</td></tr><tr><td>32</td><td>316</td><td class="l"><a href="/metros/brigham-city-ut-id-micro/">Brigham City, UT-ID (micro)</a></td><td>0.0</td><td>67,600</td><td>2</td><td>0</td><td>33,800</td></tr><tr><td>33</td><td>316</td><td class="l"><a href="/metros/burley-id-micro/">Burley, ID (micro)</a></td><td>0.0</td><td>48,617</td><td>3</td><td>0</td><td>16,206</td></tr><tr><td>34</td><td>316</td><td class="l"><a href="/metros/butte-silver-bow-mt-micro/">Butte-Silver Bow, MT (micro)</a></td><td>0.0</td><td>36,096</td><td>2</td><td>0</td><td>18,048</td></tr><tr><td>35</td><td>316</td><td class="l"><a href="/metros/carlsbad-artesia-nm-micro/">Carlsbad-Artesia, NM (micro)</a></td><td>0.0</td><td>62,941</td><td>3</td><td>0</td><td>20,980</td></tr><tr><td>36</td><td>316</td><td class="l"><a href="/metros/carson-city-nv/">Carson City, NV</a></td><td>0.0</td><td>59,063</td><td>4</td><td>0</td><td>14,766</td></tr><tr><td>37</td><td>316</td><td class="l"><a href="/metros/casper-wy/">Casper, WY</a></td><td>0.0</td><td>80,053</td><td>4</td><td>0</td><td>20,013</td></tr><tr><td>38</td><td>316</td><td class="l"><a href="/metros/canon-city-co-micro/">Cañon City, CO (micro)</a></td><td>0.0</td><td>50,291</td><td>2</td><td>0</td><td>25,146</td></tr><tr><td>39</td><td>316</td><td class="l"><a href="/metros/cedar-city-ut-micro/">Cedar City, UT (micro)</a></td><td>0.0</td><td>65,144</td><td>5</td><td>0</td><td>13,029</td></tr><tr><td>40</td><td>316</td><td class="l"><a href="/metros/cheyenne-wy/">Cheyenne, WY</a></td><td>0.0</td><td>102,463</td><td>5</td><td>0</td><td>20,493</td></tr><tr><td>41</td><td>316</td><td class="l"><a href="/metros/clovis-nm-micro/">Clovis, NM (micro)</a></td><td>0.0</td><td>66,451</td><td>2</td><td>0</td><td>33,226</td></tr><tr><td>42</td><td>316</td><td class="l"><a href="/metros/cody-wy-micro/">Cody, WY (micro)</a></td><td>0.0</td><td>30,702</td><td>2</td><td>0</td><td>15,351</td></tr><tr><td>43</td><td>316</td><td class="l"><a href="/metros/deming-nm-micro/">Deming, NM (micro)</a></td><td>0.0</td><td>25,672</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>44</td><td>316</td><td class="l"><a href="/metros/durango-co-micro/">Durango, CO (micro)</a></td><td>0.0</td><td>57,426</td><td>3</td><td>0</td><td>19,142</td></tr><tr><td>45</td><td>316</td><td class="l"><a href="/metros/edwards-co-micro/">Edwards, CO (micro)</a></td><td>0.0</td><td>56,236</td><td>1</td><td>0</td><td>56,236</td></tr><tr><td>46</td><td>316</td><td class="l"><a href="/metros/elko-nv-micro/">Elko, NV (micro)</a></td><td>0.0</td><td>56,653</td><td>2</td><td>0</td><td>28,326</td></tr><tr><td>47</td><td>316</td><td class="l"><a href="/metros/espanola-nm-micro/">Española, NM (micro)</a></td><td>0.0</td><td>40,176</td><td>1</td><td>0</td><td>40,176</td></tr><tr><td>48</td><td>316</td><td class="l"><a href="/metros/evanston-wy-ut-micro/">Evanston, WY-UT (micro)</a></td><td>0.0</td><td>23,265</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>49</td><td>316</td><td class="l"><a href="/metros/fallon-nv-micro/">Fallon, NV (micro)</a></td><td>0.0</td><td>26,007</td><td>1</td><td>0</td><td>26,007</td></tr><tr><td>50</td><td>316</td><td class="l"><a href="/metros/farmington-nm/">Farmington, NM</a></td><td>0.0</td><td>118,881</td><td>8</td><td>0</td><td>14,860</td></tr><tr><td>51</td><td>316</td><td class="l"><a href="/metros/fort-morgan-co-micro/">Fort Morgan, CO (micro)</a></td><td>0.0</td><td>29,345</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>52</td><td>316</td><td class="l"><a href="/metros/gallup-nm-micro/">Gallup, NM (micro)</a></td><td>0.0</td><td>70,227</td><td>2</td><td>0</td><td>35,114</td></tr><tr><td>53</td><td>316</td><td class="l"><a href="/metros/gardnerville-ranchos-nv-ca-micro/">Gardnerville Ranchos, NV-CA (micro)</a></td><td>0.0</td><td>51,781</td><td>1</td><td>0</td><td>51,781</td></tr><tr><td>54</td><td>316</td><td class="l"><a href="/metros/gillette-wy-micro/">Gillette, WY (micro)</a></td><td>0.0</td><td>46,692</td><td>1</td><td>0</td><td>46,692</td></tr><tr><td>55</td><td>316</td><td class="l"><a href="/metros/great-falls-mt/">Great Falls, MT</a></td><td>0.0</td><td>85,362</td><td>6</td><td>0</td><td>14,227</td></tr><tr><td>56</td><td>316</td><td class="l"><a href="/metros/hailey-id-micro/">Hailey, ID (micro)</a></td><td>0.0</td><td>32,184</td><td>1</td><td>0</td><td>32,184</td></tr><tr><td>57</td><td>316</td><td class="l"><a href="/metros/heber-ut-micro/">Heber, UT (micro)</a></td><td>0.0</td><td>85,106</td><td>2</td><td>0</td><td>42,553</td></tr><tr><td>58</td><td>316</td><td class="l"><a href="/metros/helena-mt/">Helena, MT</a></td><td>0.0</td><td>95,566</td><td>1</td><td>0</td><td>95,566</td></tr><tr><td>59</td><td>316</td><td class="l"><a href="/metros/hobbs-nm-micro/">Hobbs, NM (micro)</a></td><td>0.0</td><td>74,376</td><td>3</td><td>0</td><td>24,792</td></tr><tr><td>60</td><td>316</td><td class="l"><a href="/metros/idaho-falls-id/">Idaho Falls, ID</a></td><td>0.0</td><td>171,285</td><td>11</td><td>0</td><td>15,571</td></tr><tr><td>61</td><td>316</td><td class="l"><a href="/metros/jackson-wy-id-micro/">Jackson, WY-ID (micro)</a></td><td>0.0</td><td>36,854</td><td>1</td><td>0</td><td>36,854</td></tr><tr><td>62</td><td>316</td><td class="l"><a href="/metros/kalispell-mt-micro/">Kalispell, MT (micro)</a></td><td>0.0</td><td>114,143</td><td>1</td><td>0</td><td>114,143</td></tr><tr><td>63</td><td>316</td><td class="l"><a href="/metros/laramie-wy-micro/">Laramie, WY (micro)</a></td><td>0.0</td><td>37,777</td><td>2</td><td>0</td><td>18,888</td></tr><tr><td>64</td><td>316</td><td class="l"><a href="/metros/las-vegas-nm-micro/">Las Vegas, NM (micro)</a></td><td>0.0</td><td>30,691</td><td>1</td><td>0</td><td>30,691</td></tr><tr><td>65</td><td>316</td><td class="l"><a href="/metros/lewiston-id-wa/">Lewiston, ID-WA</a></td><td>0.0</td><td>65,922</td><td>3</td><td>0</td><td>21,974</td></tr><tr><td>66</td><td>316</td><td class="l"><a href="/metros/logan-ut-id/">Logan, UT-ID</a></td><td>0.0</td><td>160,194</td><td>8</td><td>0</td><td>20,024</td></tr><tr><td>67</td><td>316</td><td class="l"><a href="/metros/los-alamos-nm-micro/">Los Alamos, NM (micro)</a></td><td>0.0</td><td>19,637</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>68</td><td>316</td><td class="l"><a href="/metros/missoula-mt/">Missoula, MT</a></td><td>0.0</td><td>128,190</td><td>6</td><td>0</td><td>21,365</td></tr><tr><td>69</td><td>316</td><td class="l"><a href="/metros/montrose-co-micro/">Montrose, CO (micro)</a></td><td>0.0</td><td>44,204</td><td>4</td><td>0</td><td>11,051</td></tr><tr><td>70</td><td>316</td><td class="l"><a href="/metros/moscow-id-micro/">Moscow, ID (micro)</a></td><td>0.0</td><td>41,271</td><td>1</td><td>0</td><td>41,271</td></tr><tr><td>71</td><td>316</td><td class="l"><a href="/metros/mountain-home-id-micro/">Mountain Home, ID (micro)</a></td><td>0.0</td><td>29,531</td><td>2</td><td>0</td><td>14,766</td></tr><tr><td>72</td><td>316</td><td class="l"><a href="/metros/nogales-az-micro/">Nogales, AZ (micro)</a></td><td>0.0</td><td>48,928</td><td>1</td><td>0</td><td>48,928</td></tr><tr><td>73</td><td>316</td><td class="l"><a href="/metros/pahrump-nv-micro/">Pahrump, NV (micro)</a></td><td>0.0</td><td>56,056</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>74</td><td>316</td><td class="l"><a href="/metros/payson-az-micro/">Payson, AZ (micro)</a></td><td>0.0</td><td>53,885</td><td>1</td><td>0</td><td>53,885</td></tr><tr><td>75</td><td>316</td><td class="l"><a href="/metros/pocatello-id/">Pocatello, ID</a></td><td>0.0</td><td>90,332</td><td>7</td><td>0</td><td>12,905</td></tr><tr><td>76</td><td>316</td><td class="l"><a href="/metros/price-ut-micro/">Price, UT (micro)</a></td><td>0.0</td><td>20,456</td><td>1</td><td>0</td><td>20,456</td></tr><tr><td>77</td><td>316</td><td class="l"><a href="/metros/rexburg-id-micro/">Rexburg, ID (micro)</a></td><td>0.0</td><td>69,708</td><td>4</td><td>0</td><td>17,427</td></tr><tr><td>78</td><td>316</td><td class="l"><a href="/metros/rifle-co-micro/">Rifle, CO (micro)</a></td><td>0.0</td><td>80,651</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>79</td><td>316</td><td class="l"><a href="/metros/riverton-wy-micro/">Riverton, WY (micro)</a></td><td>0.0</td><td>39,083</td><td>2</td><td>0</td><td>19,542</td></tr><tr><td>80</td><td>316</td><td class="l"><a href="/metros/rock-springs-wy-micro/">Rock Springs, WY (micro)</a></td><td>0.0</td><td>41,224</td><td>1</td><td>0</td><td>41,224</td></tr><tr><td>81</td><td>316</td><td class="l"><a href="/metros/roswell-nm-micro/">Roswell, NM (micro)</a></td><td>0.0</td><td>64,030</td><td>4</td><td>0</td><td>16,008</td></tr><tr><td>82</td><td>316</td><td class="l"><a href="/metros/ruidoso-nm-micro/">Ruidoso, NM (micro)</a></td><td>0.0</td><td>20,577</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>83</td><td>316</td><td class="l"><a href="/metros/safford-az-micro/">Safford, AZ (micro)</a></td><td>0.0</td><td>39,271</td><td>1</td><td>0</td><td>39,271</td></tr><tr><td>84</td><td>316</td><td class="l"><a href="/metros/sandpoint-id-micro/">Sandpoint, ID (micro)</a></td><td>0.0</td><td>53,294</td><td>1</td><td>0</td><td>53,294</td></tr><tr><td>85</td><td>316</td><td class="l"><a href="/metros/sheridan-wy-micro/">Sheridan, WY (micro)</a></td><td>0.0</td><td>32,383</td><td>1</td><td>0</td><td>32,383</td></tr><tr><td>86</td><td>316</td><td class="l"><a href="/metros/show-low-az-micro/">Show Low, AZ (micro)</a></td><td>0.0</td><td>108,662</td><td>2</td><td>0</td><td>54,331</td></tr><tr><td>87</td><td>316</td><td class="l"><a href="/metros/sierra-vista-douglas-az/">Sierra Vista-Douglas, AZ</a></td><td>0.0</td><td>125,171</td><td>1</td><td>0</td><td>125,171</td></tr><tr><td>88</td><td>316</td><td class="l"><a href="/metros/silver-city-nm-micro/">Silver City, NM (micro)</a></td><td>0.0</td><td>27,540</td><td>1</td><td>0</td><td>27,540</td></tr><tr><td>89</td><td>316</td><td class="l"><a href="/metros/steamboat-springs-co-micro/">Steamboat Springs, CO (micro)</a></td><td>0.0</td><td>38,326</td><td>1</td><td>0</td><td>38,326</td></tr><tr><td>90</td><td>316</td><td class="l"><a href="/metros/sterling-co-micro/">Sterling, CO (micro)</a></td><td>0.0</td><td>20,875</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>91</td><td>316</td><td class="l"><a href="/metros/taos-nm-micro/">Taos, NM (micro)</a></td><td>0.0</td><td>35,107</td><td>1</td><td>0</td><td>35,107</td></tr><tr><td>92</td><td>316</td><td class="l"><a href="/metros/vernal-ut-micro/">Vernal, UT (micro)</a></td><td>0.0</td><td>37,124</td><td>1</td><td>0</td><td>37,124</td></tr><tr><td>93</td><td>316</td><td class="l"><a href="/metros/winnemucca-nv-micro/">Winnemucca, NV (micro)</a></td><td>0.0</td><td>17,564</td><td>0</td><td>0</td><td>none open</td></tr></tbody></table></div>
 </main>
-<footer><p>Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated November 2, 2026. Screening estimates for research only; not investment advice. Rankings and counts may be quoted with credit to Tunnel Whitespace (<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>); for commercial use, get in touch.</p><p>Anthony Warren, First Vice President, Car Washes, Southeast, Matthews&trade; &middot; <a href="tel:+18285518415">(828) 551-8415</a> &middot; <a href="mailto:anthony.warren@matthews.com">anthony.warren@matthews.com</a> &middot; License No. 149011 (SC)</p></footer>
+<footer><p>Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated November 25, 2026. Screening estimates for research only; not investment advice. Rankings and counts may be quoted with credit to Tunnel Whitespace (<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>); for commercial use, get in touch.</p><p>Anthony Warren, First Vice President, Car Washes, Southeast, Matthews&trade; &middot; <a href="tel:+18285518415">(828) 551-8415</a> &middot; <a href="mailto:anthony.warren@matthews.com">anthony.warren@matthews.com</a> &middot; License No. 149011 (SC)</p></footer>
 </body>
 </html>

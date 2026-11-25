@@ -2,7 +2,7 @@
 
 > Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.
 
-Built by Anthony Warren (First Vice President, Car Washes, Southeast, Matthews Real Estate Investment Services). Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated November 2, 2026. Screening estimates for research, not investment advice. Cite as: Tunnel Whitespace, tunnelwhitespace.com. License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/); commercial use by permission.
+Built by Anthony Warren (First Vice President, Car Washes, Southeast, Matthews Real Estate Investment Services). Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated November 25, 2026. Screening estimates for research, not investment advice. Cite as: Tunnel Whitespace, tunnelwhitespace.com. License: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/); commercial use by permission.
 
 ## Pages
 
@@ -15,6 +15,8 @@ Built by Anthony Warren (First Vice President, Car Washes, Southeast, Matthews R
 - [South Central metros](https://tunnelwhitespace.com/markets/south-central/): all 166 metro and micro areas based in TX, OK, AR, LA, MS, KY, ranked, with tunnel counts by state
 - [Mountain West metros](https://tunnelwhitespace.com/markets/mountain-west/): all 93 metro and micro areas based in AZ, NM, CO, UT, NV, ID, MT, WY, ranked, with tunnel counts by state
 - [Pacific metros](https://tunnelwhitespace.com/markets/pacific/): all 83 metro and micro areas based in CA, OR, WA, AK, HI, ranked, with tunnel counts by state
+- [Tunnel car washes by state](https://tunnelwhitespace.com/states/): operating and planned tunnel counts for all 50 states and DC, each with a page ranking its metros
+- [All 925 metro and micro areas](https://tunnelwhitespace.com/metros/): one page per metro with its tunnel count, people per tunnel, whitespace rank and the counties holding its modeled gap
 - [Method, sources and FAQ](https://tunnelwhitespace.com/about/): how the gap is calculated and what the map does not show
 
 ## Optional

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tunnel Whitespace: U.S. tunnel car wash market gaps by census tract</title>
-<meta name="description" content="Free map of where U.S. population can support more tunnel car washes. 11,854 operating tunnels against Esri 2024 population for every census tract, with metro rankings.">
+<title>Tunnel Whitespace: car wash saturation map of U.S. tunnel markets</title>
+<meta name="description" content="Free car wash saturation map: 11,854 operating tunnel car washes against Esri 2024 population for every U.S. census tract, with metro and state rankings.">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <meta name="author" content="Anthony Warren">
 <meta name="theme-color" content="#0B1F3A">
@@ -16,22 +16,22 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Tunnel Whitespace">
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="Tunnel Whitespace: U.S. tunnel car wash market gaps by census tract">
-<meta property="og:description" content="Free map of where U.S. population can support more tunnel car washes. 11,854 operating tunnels against Esri 2024 population for every census tract, with metro rankings.">
+<meta property="og:title" content="Tunnel Whitespace: car wash saturation map of U.S. tunnel markets">
+<meta property="og:description" content="Free car wash saturation map: 11,854 operating tunnel car washes against Esri 2024 population for every U.S. census tract, with metro and state rankings.">
 <meta property="og:url" content="https://tunnelwhitespace.com/">
 <meta property="og:image" content="https://tunnelwhitespace.com/preview.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Tunnel Whitespace: heat map of tunnel car wash gaps across the eastern U.S.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Tunnel Whitespace: U.S. tunnel car wash market gaps by census tract">
-<meta name="twitter:description" content="Free map of where U.S. population can support more tunnel car washes. 11,854 operating tunnels against Esri 2024 population for every census tract, with metro rankings.">
+<meta name="twitter:title" content="Tunnel Whitespace: car wash saturation map of U.S. tunnel markets">
+<meta name="twitter:description" content="Free car wash saturation map: 11,854 operating tunnel car washes against Esri 2024 population for every U.S. census tract, with metro and state rankings.">
 <meta name="twitter:image" content="https://tunnelwhitespace.com/preview.png">
 <!-- Google Analytics 4: property "Tunnel Whitespace" -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTYQCEJNRS"></script>
 <script>if (location.hostname !== "tunnelwhitespace.com") window["ga-disable-G-BTYQCEJNRS"] = true;   // local previews send nothing
 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());
-gtag("config", "G-BTYQCEJNRS", {page_title: "Tunnel Whitespace: U.S. tunnel car wash market gaps by census tract"});
+gtag("config", "G-BTYQCEJNRS", {page_title: "Tunnel Whitespace: car wash saturation map of U.S. tunnel markets"});
 // Enhanced measurement skips mailto: and tel: links, so count them here (key event contact_click in GA4 Admin).
 document.addEventListener("click", function (e) {
   var a = e.target.closest && e.target.closest('a[href^="mailto:"], a[href^="tel:"]');
@@ -39,20 +39,21 @@ document.addEventListener("click", function (e) {
 });</script>
 <style>
   html, body { margin: 0; height: 100%; background: #0B1F3A; overflow: hidden; }
-  .bar h1 { font-size: 13px; margin: 0; color: #F3F6FA; font-weight: 600; }
+  .bar .brand { font-size: 13px; margin: 0; color: #F3F6FA; font-weight: 600; }
   .map { display: block; border: 0; width: 100%; height: calc(100vh - 34px); height: calc(100dvh - 34px); }
   .bar { height: 34px; display: flex; align-items: center; gap: 16px; padding: 0 14px; background: #0B1F3A; border-top: 1px solid #173A66;
          font: 13px/1 "Libre Franklin", Arial, sans-serif; color: #A9B8CC; overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
   .bar strong { color: #F3F6FA; font-weight: 600; }
-  .bar a { color: #A9B8CC; text-decoration: none; }
+  .bar a { color: #A9B8CC; text-decoration: none; padding: 10px 0; }
   .bar a:hover { color: #F3F6FA; text-decoration: underline; }
+  .bar a.ask { color: #F3F6FA; font-weight: 600; }
   .bar .tag { flex: 0 1 auto; overflow: hidden; text-overflow: ellipsis; }
   .bar nav { display: flex; gap: 16px; margin-left: auto; }
-  @media (max-width: 720px) { .bar .tag { display: none; } .bar nav { margin-left: 0; } }
-  @media (max-width: 460px) { .bar { gap: 12px; padding: 0 10px; font-size: 12px; } .bar h1 { font-size: 12px; } .bar nav { gap: 12px; } }
+  @media (max-width: 720px) { .bar .tag { display: none; } .bar nav { margin-left: 0; } .bar a.ask { order: -1; } }
+  @media (max-width: 460px) { .bar { gap: 12px; padding: 0 10px; font-size: 12px; } .bar .brand { font-size: 12px; } .bar nav { gap: 12px; } }
   .sr { position: absolute; top: 0; left: 0; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://experience.arcgis.com"><link rel="preconnect" href="https://js.arcgis.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">{
  "@context": "https://schema.org",
  "@graph": [
@@ -77,7 +78,7 @@ document.addEventListener("click", function (e) {
   {
    "@type": "WebApplication",
    "@id": "https://tunnelwhitespace.com/#app",
-   "name": "Tunnel Whitespace: U.S. tunnel car wash market gaps by census tract",
+   "name": "Tunnel Whitespace: car wash saturation map of U.S. tunnel markets",
    "url": "https://tunnelwhitespace.com/",
    "applicationCategory": "BusinessApplication",
    "operatingSystem": "Any (web browser)",
@@ -88,7 +89,7 @@ document.addEventListener("click", function (e) {
     "price": "0",
     "priceCurrency": "USD"
    },
-   "description": "Free map of where U.S. population can support more tunnel car washes. 11,854 operating tunnels against Esri 2024 population for every census tract, with metro rankings.",
+   "description": "Free car wash saturation map: 11,854 operating tunnel car washes against Esri 2024 population for every U.S. census tract, with metro and state rankings.",
    "creator": {
     "@type": "Person",
     "name": "Anthony Warren",
@@ -116,7 +117,7 @@ document.addEventListener("click", function (e) {
      "url": "https://www.matthews.com/"
     }
    },
-   "dateModified": "2026-11-02",
+   "dateModified": "2026-11-25",
    "spatialCoverage": "United States",
    "temporalCoverage": "2024/2026",
    "isAccessibleForFree": true,
@@ -144,10 +145,10 @@ document.addEventListener("click", function (e) {
  ]
 }</script></head>
 <body>
-<!-- The map is an ArcGIS Experience Builder app; this page keeps tunnelwhitespace.com in the address bar. Text for readers, search engines and AI assistants lives on /markets/ and /about/ (linked in the bar). -->
+<!-- The map is an ArcGIS Experience Builder app; this page keeps tunnelwhitespace.com in the address bar. Text for readers, search engines and AI assistants lives on /markets/, /states/, /metros/ and /about/ (linked in the bar). -->
 <iframe class="map" src="https://experience.arcgis.com/experience/6101a0eeeaf14029bf49495ef8baab85/" title="Tunnel Whitespace map" allow="fullscreen; geolocation; clipboard-write" allowfullscreen></iframe>
-<div class="bar"><h1>Tunnel Whitespace</h1><span class="tag">Where the U.S. can support more tunnel car washes, by census tract</span><nav aria-label="Site"><a href="/markets/">U.S. rankings</a><a href="/about/">Method and FAQ</a><a href="/southeast/">Southeast map</a></nav></div>
-<div class="sr"><p>Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.</p><nav aria-label="All pages"><a href="/southeast/">Southeast map</a> <a href="/markets/">U.S. top 100</a> <a href="/markets/southeast/">Southeast rankings</a> <a href="/markets/northeast/">Northeast and Mid-Atlantic rankings</a> <a href="/markets/midwest/">Midwest rankings</a> <a href="/markets/south-central/">South Central rankings</a> <a href="/markets/mountain-west/">Mountain West rankings</a> <a href="/markets/pacific/">Pacific rankings</a> <a href="/about/">Method, sources and FAQ</a></nav></div>
+<div class="bar"><p class="brand">Tunnel Whitespace</p><span class="tag">Where the U.S. can support more tunnel car washes, by census tract</span><nav aria-label="Site"><a href="/markets/">U.S. rankings</a><a href="/about/">Method and FAQ</a><a href="/southeast/">Southeast map</a><a class="ask" href="mailto:anthony.warren@matthews.com?subject=Tunnel%20Whitespace%3A%20market%20question">Ask about a market</a></nav></div>
+<div class="sr"><h1>Tunnel car wash saturation map: where the U.S. can support more tunnel car washes</h1><p>Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels. Read it as a car wash saturation map: each tract shows the people and tunnels within its 10-minute drive and whether that population looks short of tunnels, at par or over-served at one tunnel per 20,000 people, with 25,000 and 15,000 for comparison. The rankings cover all 925 metro and micro areas, and every state has a page with its operating and planned tunnel counts. Start with the top 100 metros, a region, your state or a single metro, then underwrite the site: the map screens markets for where to build a car wash, it does not value sites.</p><nav aria-label="All pages"><a href="/southeast/">Southeast map</a> <a href="/markets/">U.S. top 100</a> <a href="/markets/southeast/">Southeast rankings</a> <a href="/markets/northeast/">Northeast and Mid-Atlantic rankings</a> <a href="/markets/midwest/">Midwest rankings</a> <a href="/markets/south-central/">South Central rankings</a> <a href="/markets/mountain-west/">Mountain West rankings</a> <a href="/markets/pacific/">Pacific rankings</a> <a href="/states/">Tunnel car washes by state</a> <a href="/metros/">All 925 metro and micro areas</a> <a href="/about/">Method, sources and FAQ</a></nav></div>
 <script>
 (function () {
   var frame = document.querySelector("iframe.map"), inMap = false, timer = null, fired = false;

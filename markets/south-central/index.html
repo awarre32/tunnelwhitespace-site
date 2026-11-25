@@ -69,6 +69,11 @@ document.addEventListener("click", function (e) {
   .narrow { max-width: 520px; }
   footer { border-top: 1px solid var(--line); padding: 18px 16px 30px; max-width: 980px; margin: 0 auto; font-size: 13px; color: var(--slate); }
   footer p { margin: 0 0 6px; }
+  td.l a { color: var(--navy2); }
+  .crumbs { font-size: 14px; color: var(--slate); margin: 0 0 8px; }
+  .facts td { text-align: right; } .facts th { text-align: left; font-weight: 400; background: #fff; position: static; }
+  ul.links { columns: 2 240px; padding-left: 18px; font-size: 15px; } ul.links li { break-inside: avoid; margin: 0 0 4px; }
+  .ask { font-weight: 600; }
 </style>
 <script type="application/ld+json">{
  "@context": "https://schema.org",
@@ -81,7 +86,7 @@ document.addEventListener("click", function (e) {
    "isPartOf": {
     "@id": "https://tunnelwhitespace.com/#site"
    },
-   "dateModified": "2026-11-02"
+   "dateModified": "2026-11-25"
   },
   {
    "@type": "ItemList",
@@ -92,832 +97,998 @@ document.addEventListener("click", function (e) {
     {
      "@type": "ListItem",
      "position": 1,
-     "name": "Houston-Pasadena-The Woodlands, TX"
+     "name": "Houston-Pasadena-The Woodlands, TX",
+     "url": "https://tunnelwhitespace.com/metros/houston-pasadena-the-woodlands-tx/"
     },
     {
      "@type": "ListItem",
      "position": 2,
-     "name": "Dallas-Fort Worth-Arlington, TX"
+     "name": "Dallas-Fort Worth-Arlington, TX",
+     "url": "https://tunnelwhitespace.com/metros/dallas-fort-worth-arlington-tx/"
     },
     {
      "@type": "ListItem",
      "position": 3,
-     "name": "Austin-Round Rock-San Marcos, TX"
+     "name": "Austin-Round Rock-San Marcos, TX",
+     "url": "https://tunnelwhitespace.com/metros/austin-round-rock-san-marcos-tx/"
     },
     {
      "@type": "ListItem",
      "position": 4,
-     "name": "San Antonio-New Braunfels, TX"
+     "name": "San Antonio-New Braunfels, TX",
+     "url": "https://tunnelwhitespace.com/metros/san-antonio-new-braunfels-tx/"
     },
     {
      "@type": "ListItem",
      "position": 5,
-     "name": "New Orleans-Metairie, LA"
+     "name": "New Orleans-Metairie, LA",
+     "url": "https://tunnelwhitespace.com/metros/new-orleans-metairie-la/"
     },
     {
      "@type": "ListItem",
      "position": 6,
-     "name": "Louisville/Jefferson County, KY-IN"
+     "name": "Louisville/Jefferson County, KY-IN",
+     "url": "https://tunnelwhitespace.com/metros/louisville-jefferson-county-ky-in/"
     },
     {
      "@type": "ListItem",
      "position": 7,
-     "name": "McAllen-Edinburg-Mission, TX"
+     "name": "McAllen-Edinburg-Mission, TX",
+     "url": "https://tunnelwhitespace.com/metros/mcallen-edinburg-mission-tx/"
     },
     {
      "@type": "ListItem",
      "position": 8,
-     "name": "El Paso, TX"
+     "name": "El Paso, TX",
+     "url": "https://tunnelwhitespace.com/metros/el-paso-tx/"
     },
     {
      "@type": "ListItem",
      "position": 9,
-     "name": "Tulsa, OK"
+     "name": "Tulsa, OK",
+     "url": "https://tunnelwhitespace.com/metros/tulsa-ok/"
     },
     {
      "@type": "ListItem",
      "position": 10,
-     "name": "Oklahoma City, OK"
+     "name": "Oklahoma City, OK",
+     "url": "https://tunnelwhitespace.com/metros/oklahoma-city-ok/"
     },
     {
      "@type": "ListItem",
      "position": 11,
-     "name": "Baton Rouge, LA"
+     "name": "Baton Rouge, LA",
+     "url": "https://tunnelwhitespace.com/metros/baton-rouge-la/"
     },
     {
      "@type": "ListItem",
      "position": 12,
-     "name": "Jackson, MS"
+     "name": "Jackson, MS",
+     "url": "https://tunnelwhitespace.com/metros/jackson-ms/"
     },
     {
      "@type": "ListItem",
      "position": 13,
-     "name": "Lexington-Fayette, KY"
+     "name": "Lexington-Fayette, KY",
+     "url": "https://tunnelwhitespace.com/metros/lexington-fayette-ky/"
     },
     {
      "@type": "ListItem",
      "position": 14,
-     "name": "Laredo, TX"
+     "name": "Laredo, TX",
+     "url": "https://tunnelwhitespace.com/metros/laredo-tx/"
     },
     {
      "@type": "ListItem",
      "position": 15,
-     "name": "Little Rock-North Little Rock-Conway, AR"
+     "name": "Little Rock-North Little Rock-Conway, AR",
+     "url": "https://tunnelwhitespace.com/metros/little-rock-north-little-rock-conway-ar/"
     },
     {
      "@type": "ListItem",
      "position": 16,
-     "name": "Lubbock, TX"
+     "name": "Lubbock, TX",
+     "url": "https://tunnelwhitespace.com/metros/lubbock-tx/"
     },
     {
      "@type": "ListItem",
      "position": 17,
-     "name": "Brownsville-Harlingen, TX"
+     "name": "Brownsville-Harlingen, TX",
+     "url": "https://tunnelwhitespace.com/metros/brownsville-harlingen-tx/"
     },
     {
      "@type": "ListItem",
      "position": 18,
-     "name": "Lake Charles, LA"
+     "name": "Lake Charles, LA",
+     "url": "https://tunnelwhitespace.com/metros/lake-charles-la/"
     },
     {
      "@type": "ListItem",
      "position": 19,
-     "name": "Shreveport-Bossier City, LA"
+     "name": "Shreveport-Bossier City, LA",
+     "url": "https://tunnelwhitespace.com/metros/shreveport-bossier-city-la/"
     },
     {
      "@type": "ListItem",
      "position": 20,
-     "name": "Fayetteville-Springdale-Rogers, AR"
+     "name": "Fayetteville-Springdale-Rogers, AR",
+     "url": "https://tunnelwhitespace.com/metros/fayetteville-springdale-rogers-ar/"
     },
     {
      "@type": "ListItem",
      "position": 21,
-     "name": "Waco, TX"
+     "name": "Waco, TX",
+     "url": "https://tunnelwhitespace.com/metros/waco-tx/"
     },
     {
      "@type": "ListItem",
      "position": 22,
-     "name": "Fort Smith, AR-OK"
+     "name": "Fort Smith, AR-OK",
+     "url": "https://tunnelwhitespace.com/metros/fort-smith-ar-ok/"
     },
     {
      "@type": "ListItem",
      "position": 23,
-     "name": "Corpus Christi, TX"
+     "name": "Corpus Christi, TX",
+     "url": "https://tunnelwhitespace.com/metros/corpus-christi-tx/"
     },
     {
      "@type": "ListItem",
      "position": 24,
-     "name": "Tyler, TX"
+     "name": "Tyler, TX",
+     "url": "https://tunnelwhitespace.com/metros/tyler-tx/"
     },
     {
      "@type": "ListItem",
      "position": 25,
-     "name": "Lafayette, LA"
+     "name": "Lafayette, LA",
+     "url": "https://tunnelwhitespace.com/metros/lafayette-la/"
     },
     {
      "@type": "ListItem",
      "position": 26,
-     "name": "San Angelo, TX"
+     "name": "San Angelo, TX",
+     "url": "https://tunnelwhitespace.com/metros/san-angelo-tx/"
     },
     {
      "@type": "ListItem",
      "position": 27,
-     "name": "Beaumont-Port Arthur, TX"
+     "name": "Beaumont-Port Arthur, TX",
+     "url": "https://tunnelwhitespace.com/metros/beaumont-port-arthur-tx/"
     },
     {
      "@type": "ListItem",
      "position": 28,
-     "name": "Sherman-Denison, TX"
+     "name": "Sherman-Denison, TX",
+     "url": "https://tunnelwhitespace.com/metros/sherman-denison-tx/"
     },
     {
      "@type": "ListItem",
      "position": 29,
-     "name": "Wichita Falls, TX"
+     "name": "Wichita Falls, TX",
+     "url": "https://tunnelwhitespace.com/metros/wichita-falls-tx/"
     },
     {
      "@type": "ListItem",
      "position": 30,
-     "name": "Killeen-Temple, TX"
+     "name": "Killeen-Temple, TX",
+     "url": "https://tunnelwhitespace.com/metros/killeen-temple-tx/"
     },
     {
      "@type": "ListItem",
      "position": 31,
-     "name": "Slidell-Mandeville-Covington, LA"
+     "name": "Slidell-Mandeville-Covington, LA",
+     "url": "https://tunnelwhitespace.com/metros/slidell-mandeville-covington-la/"
     },
     {
      "@type": "ListItem",
      "position": 32,
-     "name": "Alexandria, LA"
+     "name": "Alexandria, LA",
+     "url": "https://tunnelwhitespace.com/metros/alexandria-la/"
     },
     {
      "@type": "ListItem",
      "position": 33,
-     "name": "Texarkana, TX-AR"
+     "name": "Texarkana, TX-AR",
+     "url": "https://tunnelwhitespace.com/metros/texarkana-tx-ar/"
     },
     {
      "@type": "ListItem",
      "position": 34,
-     "name": "Shawnee, OK (micro)"
+     "name": "Shawnee, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/shawnee-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 35,
-     "name": "Amarillo, TX"
+     "name": "Amarillo, TX",
+     "url": "https://tunnelwhitespace.com/metros/amarillo-tx/"
     },
     {
      "@type": "ListItem",
      "position": 36,
-     "name": "Richmond-Berea, KY (micro)"
+     "name": "Richmond-Berea, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/richmond-berea-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 37,
-     "name": "Abilene, TX"
+     "name": "Abilene, TX",
+     "url": "https://tunnelwhitespace.com/metros/abilene-tx/"
     },
     {
      "@type": "ListItem",
      "position": 38,
-     "name": "Ada, OK (micro)"
+     "name": "Ada, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/ada-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 39,
-     "name": "Alice, TX (micro)"
+     "name": "Alice, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/alice-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 40,
-     "name": "Altus, OK (micro)"
+     "name": "Altus, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/altus-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 41,
-     "name": "Andrews, TX (micro)"
+     "name": "Andrews, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/andrews-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 42,
-     "name": "Ardmore, OK (micro)"
+     "name": "Ardmore, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/ardmore-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 43,
-     "name": "Arkadelphia, AR (micro)"
+     "name": "Arkadelphia, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/arkadelphia-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 44,
-     "name": "Athens, TX (micro)"
+     "name": "Athens, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/athens-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 45,
-     "name": "Bartlesville, OK (micro)"
+     "name": "Bartlesville, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/bartlesville-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 46,
-     "name": "Batesville, AR (micro)"
+     "name": "Batesville, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/batesville-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 47,
-     "name": "Bay City, TX (micro)"
+     "name": "Bay City, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/bay-city-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 48,
-     "name": "Beeville, TX (micro)"
+     "name": "Beeville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/beeville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 49,
-     "name": "Big Spring, TX (micro)"
+     "name": "Big Spring, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/big-spring-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 50,
-     "name": "Blytheville, AR (micro)"
+     "name": "Blytheville, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/blytheville-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 51,
-     "name": "Bogalusa, LA (micro)"
+     "name": "Bogalusa, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/bogalusa-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 52,
-     "name": "Bonham, TX (micro)"
+     "name": "Bonham, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/bonham-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 53,
-     "name": "Borger, TX (micro)"
+     "name": "Borger, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/borger-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 54,
-     "name": "Bowling Green, KY"
+     "name": "Bowling Green, KY",
+     "url": "https://tunnelwhitespace.com/metros/bowling-green-ky/"
     },
     {
      "@type": "ListItem",
      "position": 55,
-     "name": "Brenham, TX (micro)"
+     "name": "Brenham, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/brenham-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 56,
-     "name": "Brookhaven, MS (micro)"
+     "name": "Brookhaven, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/brookhaven-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 57,
-     "name": "Brownwood, TX (micro)"
+     "name": "Brownwood, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/brownwood-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 58,
-     "name": "Camden, AR (micro)"
+     "name": "Camden, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/camden-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 59,
-     "name": "Campbellsville, KY (micro)"
+     "name": "Campbellsville, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/campbellsville-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 60,
-     "name": "Clarksdale, MS (micro)"
+     "name": "Clarksdale, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/clarksdale-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 61,
-     "name": "Cleveland, MS (micro)"
+     "name": "Cleveland, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/cleveland-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 62,
-     "name": "College Station-Bryan, TX"
+     "name": "College Station-Bryan, TX",
+     "url": "https://tunnelwhitespace.com/metros/college-station-bryan-tx/"
     },
     {
      "@type": "ListItem",
      "position": 63,
-     "name": "Columbus, MS (micro)"
+     "name": "Columbus, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/columbus-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 64,
-     "name": "Corbin, KY (micro)"
+     "name": "Corbin, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/corbin-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 65,
-     "name": "Corinth, MS (micro)"
+     "name": "Corinth, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/corinth-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 66,
-     "name": "Corsicana, TX (micro)"
+     "name": "Corsicana, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/corsicana-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 67,
-     "name": "Danville, KY (micro)"
+     "name": "Danville, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/danville-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 68,
-     "name": "DeRidder, LA (micro)"
+     "name": "DeRidder, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/deridder-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 69,
-     "name": "Del Rio, TX (micro)"
+     "name": "Del Rio, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/del-rio-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 70,
-     "name": "Dumas, TX (micro)"
+     "name": "Dumas, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/dumas-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 71,
-     "name": "Duncan, OK (micro)"
+     "name": "Duncan, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/duncan-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 72,
-     "name": "Durant, OK (micro)"
+     "name": "Durant, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/durant-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 73,
-     "name": "Eagle Pass, TX"
+     "name": "Eagle Pass, TX",
+     "url": "https://tunnelwhitespace.com/metros/eagle-pass-tx/"
     },
     {
      "@type": "ListItem",
      "position": 74,
-     "name": "El Campo, TX (micro)"
+     "name": "El Campo, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/el-campo-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 75,
-     "name": "El Dorado, AR (micro)"
+     "name": "El Dorado, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/el-dorado-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 76,
-     "name": "Elizabethtown, KY"
+     "name": "Elizabethtown, KY",
+     "url": "https://tunnelwhitespace.com/metros/elizabethtown-ky/"
     },
     {
      "@type": "ListItem",
      "position": 77,
-     "name": "Elk City, OK (micro)"
+     "name": "Elk City, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/elk-city-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 78,
-     "name": "Enid, OK"
+     "name": "Enid, OK",
+     "url": "https://tunnelwhitespace.com/metros/enid-ok/"
     },
     {
      "@type": "ListItem",
      "position": 79,
-     "name": "Forrest City, AR (micro)"
+     "name": "Forrest City, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/forrest-city-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 80,
-     "name": "Frankfort, KY (micro)"
+     "name": "Frankfort, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/frankfort-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 81,
-     "name": "Franklin, KY (micro)"
+     "name": "Franklin, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/franklin-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 82,
-     "name": "Fredericksburg, TX (micro)"
+     "name": "Fredericksburg, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/fredericksburg-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 83,
-     "name": "Gainesville, TX (micro)"
+     "name": "Gainesville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/gainesville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 84,
-     "name": "Glasgow, KY (micro)"
+     "name": "Glasgow, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/glasgow-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 85,
-     "name": "Granbury, TX (micro)"
+     "name": "Granbury, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/granbury-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 86,
-     "name": "Greenville, MS (micro)"
+     "name": "Greenville, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/greenville-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 87,
-     "name": "Greenwood, MS (micro)"
+     "name": "Greenwood, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/greenwood-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 88,
-     "name": "Grenada, MS (micro)"
+     "name": "Grenada, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/grenada-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 89,
-     "name": "Gulfport-Biloxi, MS"
+     "name": "Gulfport-Biloxi, MS",
+     "url": "https://tunnelwhitespace.com/metros/gulfport-biloxi-ms/"
     },
     {
      "@type": "ListItem",
      "position": 90,
-     "name": "Guymon, OK (micro)"
+     "name": "Guymon, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/guymon-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 91,
-     "name": "Hammond, LA"
+     "name": "Hammond, LA",
+     "url": "https://tunnelwhitespace.com/metros/hammond-la/"
     },
     {
      "@type": "ListItem",
      "position": 92,
-     "name": "Harrison, AR (micro)"
+     "name": "Harrison, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/harrison-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 93,
-     "name": "Hattiesburg, MS"
+     "name": "Hattiesburg, MS",
+     "url": "https://tunnelwhitespace.com/metros/hattiesburg-ms/"
     },
     {
      "@type": "ListItem",
      "position": 94,
-     "name": "Henderson, KY (micro)"
+     "name": "Henderson, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/henderson-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 95,
-     "name": "Hereford, TX (micro)"
+     "name": "Hereford, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/hereford-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 96,
-     "name": "Hot Springs, AR"
+     "name": "Hot Springs, AR",
+     "url": "https://tunnelwhitespace.com/metros/hot-springs-ar/"
     },
     {
      "@type": "ListItem",
      "position": 97,
-     "name": "Houma-Bayou Cane-Thibodaux, LA"
+     "name": "Houma-Bayou Cane-Thibodaux, LA",
+     "url": "https://tunnelwhitespace.com/metros/houma-bayou-cane-thibodaux-la/"
     },
     {
      "@type": "ListItem",
      "position": 98,
-     "name": "Huntsville, TX (micro)"
+     "name": "Huntsville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/huntsville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 99,
-     "name": "Jacksonville, TX (micro)"
+     "name": "Jacksonville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/jacksonville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 100,
-     "name": "Jonesboro, AR"
+     "name": "Jonesboro, AR",
+     "url": "https://tunnelwhitespace.com/metros/jonesboro-ar/"
     },
     {
      "@type": "ListItem",
      "position": 101,
-     "name": "Kerrville, TX (micro)"
+     "name": "Kerrville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/kerrville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 102,
-     "name": "Kingsville, TX (micro)"
+     "name": "Kingsville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/kingsville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 103,
-     "name": "Laurel, MS (micro)"
+     "name": "Laurel, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/laurel-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 104,
-     "name": "Lawton, OK"
+     "name": "Lawton, OK",
+     "url": "https://tunnelwhitespace.com/metros/lawton-ok/"
     },
     {
      "@type": "ListItem",
      "position": 105,
-     "name": "Longview, TX"
+     "name": "Longview, TX",
+     "url": "https://tunnelwhitespace.com/metros/longview-tx/"
     },
     {
      "@type": "ListItem",
      "position": 106,
-     "name": "Lufkin, TX (micro)"
+     "name": "Lufkin, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/lufkin-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 107,
-     "name": "Madisonville, KY (micro)"
+     "name": "Madisonville, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/madisonville-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 108,
-     "name": "Magnolia, AR (micro)"
+     "name": "Magnolia, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/magnolia-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 109,
-     "name": "Malvern, AR (micro)"
+     "name": "Malvern, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/malvern-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 110,
-     "name": "Mayfield, KY (micro)"
+     "name": "Mayfield, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mayfield-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 111,
-     "name": "McAlester, OK (micro)"
+     "name": "McAlester, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mcalester-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 112,
-     "name": "McComb, MS (micro)"
+     "name": "McComb, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mccomb-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 113,
-     "name": "Meridian, MS (micro)"
+     "name": "Meridian, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/meridian-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 114,
-     "name": "Miami, OK (micro)"
+     "name": "Miami, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/miami-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 115,
-     "name": "Middlesborough, KY (micro)"
+     "name": "Middlesborough, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/middlesborough-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 116,
-     "name": "Midland, TX"
+     "name": "Midland, TX",
+     "url": "https://tunnelwhitespace.com/metros/midland-tx/"
     },
     {
      "@type": "ListItem",
      "position": 117,
-     "name": "Minden, LA (micro)"
+     "name": "Minden, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/minden-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 118,
-     "name": "Mineral Wells, TX (micro)"
+     "name": "Mineral Wells, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mineral-wells-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 119,
-     "name": "Monroe, LA"
+     "name": "Monroe, LA",
+     "url": "https://tunnelwhitespace.com/metros/monroe-la/"
     },
     {
      "@type": "ListItem",
      "position": 120,
-     "name": "Morgan City, LA (micro)"
+     "name": "Morgan City, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/morgan-city-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 121,
-     "name": "Mount Pleasant, TX (micro)"
+     "name": "Mount Pleasant, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mount-pleasant-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 122,
-     "name": "Mount Sterling, KY (micro)"
+     "name": "Mount Sterling, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mount-sterling-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 123,
-     "name": "Mountain Home, AR (micro)"
+     "name": "Mountain Home, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/mountain-home-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 124,
-     "name": "Murray, KY (micro)"
+     "name": "Murray, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/murray-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 125,
-     "name": "Muskogee, OK (micro)"
+     "name": "Muskogee, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/muskogee-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 126,
-     "name": "Nacogdoches, TX (micro)"
+     "name": "Nacogdoches, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/nacogdoches-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 127,
-     "name": "Natchez, MS-LA (micro)"
+     "name": "Natchez, MS-LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/natchez-ms-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 128,
-     "name": "Natchitoches, LA (micro)"
+     "name": "Natchitoches, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/natchitoches-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 129,
-     "name": "New Iberia, LA (micro)"
+     "name": "New Iberia, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/new-iberia-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 130,
-     "name": "Odessa, TX"
+     "name": "Odessa, TX",
+     "url": "https://tunnelwhitespace.com/metros/odessa-tx/"
     },
     {
      "@type": "ListItem",
      "position": 131,
-     "name": "Opelousas, LA (micro)"
+     "name": "Opelousas, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/opelousas-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 132,
-     "name": "Owensboro, KY"
+     "name": "Owensboro, KY",
+     "url": "https://tunnelwhitespace.com/metros/owensboro-ky/"
     },
     {
      "@type": "ListItem",
      "position": 133,
-     "name": "Oxford, MS (micro)"
+     "name": "Oxford, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/oxford-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 134,
-     "name": "Paducah, KY-IL"
+     "name": "Paducah, KY-IL",
+     "url": "https://tunnelwhitespace.com/metros/paducah-ky-il/"
     },
     {
      "@type": "ListItem",
      "position": 135,
-     "name": "Palestine, TX (micro)"
+     "name": "Palestine, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/palestine-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 136,
-     "name": "Pampa, TX (micro)"
+     "name": "Pampa, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/pampa-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 137,
-     "name": "Paragould, AR (micro)"
+     "name": "Paragould, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/paragould-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 138,
-     "name": "Paris, TX (micro)"
+     "name": "Paris, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/paris-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 139,
-     "name": "Picayune, MS (micro)"
+     "name": "Picayune, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/picayune-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 140,
-     "name": "Pikeville, KY (micro)"
+     "name": "Pikeville, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/pikeville-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 141,
-     "name": "Pine Bluff, AR (micro)"
+     "name": "Pine Bluff, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/pine-bluff-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 142,
-     "name": "Plainview, TX (micro)"
+     "name": "Plainview, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/plainview-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 143,
-     "name": "Ponca City, OK (micro)"
+     "name": "Ponca City, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/ponca-city-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 144,
-     "name": "Port Lavaca, TX (micro)"
+     "name": "Port Lavaca, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/port-lavaca-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 145,
-     "name": "Raymondville, TX (micro)"
+     "name": "Raymondville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/raymondville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 146,
-     "name": "Rio Grande City-Roma, TX (micro)"
+     "name": "Rio Grande City-Roma, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/rio-grande-city-roma-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 147,
-     "name": "Russellville, AR (micro)"
+     "name": "Russellville, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/russellville-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 148,
-     "name": "Ruston, LA (micro)"
+     "name": "Ruston, LA (micro)",
+     "url": "https://tunnelwhitespace.com/metros/ruston-la-micro/"
     },
     {
      "@type": "ListItem",
      "position": 149,
-     "name": "Searcy, AR (micro)"
+     "name": "Searcy, AR (micro)",
+     "url": "https://tunnelwhitespace.com/metros/searcy-ar-micro/"
     },
     {
      "@type": "ListItem",
      "position": 150,
-     "name": "Snyder, TX (micro)"
+     "name": "Snyder, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/snyder-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 151,
-     "name": "Somerset, KY (micro)"
+     "name": "Somerset, KY (micro)",
+     "url": "https://tunnelwhitespace.com/metros/somerset-ky-micro/"
     },
     {
      "@type": "ListItem",
      "position": 152,
-     "name": "Starkville, MS (micro)"
+     "name": "Starkville, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/starkville-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 153,
-     "name": "Stephenville, TX (micro)"
+     "name": "Stephenville, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/stephenville-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 154,
-     "name": "Stillwater, OK (micro)"
+     "name": "Stillwater, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/stillwater-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 155,
-     "name": "Sulphur Springs, TX (micro)"
+     "name": "Sulphur Springs, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/sulphur-springs-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 156,
-     "name": "Sweetwater, TX (micro)"
+     "name": "Sweetwater, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/sweetwater-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 157,
-     "name": "Tahlequah, OK (micro)"
+     "name": "Tahlequah, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/tahlequah-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 158,
-     "name": "Town of Pecos, TX (micro)"
+     "name": "Town of Pecos, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/town-of-pecos-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 159,
-     "name": "Tupelo, MS (micro)"
+     "name": "Tupelo, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/tupelo-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 160,
-     "name": "Uvalde, TX (micro)"
+     "name": "Uvalde, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/uvalde-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 161,
-     "name": "Vernon, TX (micro)"
+     "name": "Vernon, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/vernon-tx-micro/"
     },
     {
      "@type": "ListItem",
      "position": 162,
-     "name": "Vicksburg, MS (micro)"
+     "name": "Vicksburg, MS (micro)",
+     "url": "https://tunnelwhitespace.com/metros/vicksburg-ms-micro/"
     },
     {
      "@type": "ListItem",
      "position": 163,
-     "name": "Victoria, TX"
+     "name": "Victoria, TX",
+     "url": "https://tunnelwhitespace.com/metros/victoria-tx/"
     },
     {
      "@type": "ListItem",
      "position": 164,
-     "name": "Weatherford, OK (micro)"
+     "name": "Weatherford, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/weatherford-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 165,
-     "name": "Woodward, OK (micro)"
+     "name": "Woodward, OK (micro)",
+     "url": "https://tunnelwhitespace.com/metros/woodward-ok-micro/"
     },
     {
      "@type": "ListItem",
      "position": 166,
-     "name": "Zapata, TX (micro)"
+     "name": "Zapata, TX (micro)",
+     "url": "https://tunnelwhitespace.com/metros/zapata-tx-micro/"
     }
    ]
   },
@@ -947,19 +1118,19 @@ document.addEventListener("click", function (e) {
  ]
 }</script></head>
 <body>
-<header><div class="wrap"><a class="brand" href="/"><img src="/apple-touch-icon.png" alt="">Tunnel Whitespace</a><nav aria-label="Site"><a href="/">National map</a><a href="/southeast/">Southeast map</a><a href="/markets/">Market rankings</a><a href="/markets/southeast/">Southeast rankings</a><a href="/about/">Method and FAQ</a></nav></div></header>
+<header><div class="wrap"><a class="brand" href="/"><img src="/apple-touch-icon.png" alt="">Tunnel Whitespace</a><nav aria-label="Site"><a href="/">National map</a><a href="/southeast/">Southeast map</a><a href="/markets/">Market rankings</a><a href="/markets/southeast/">Southeast rankings</a><a href="/states/">States</a><a href="/metros/">All metros</a><a href="/about/">Method and FAQ</a></nav></div></header>
 <main class="wrap">
 <h1>South Central metros ranked for new tunnel car washes</h1>
-<p class="lede">All 166 metro and micro areas based in Texas, Oklahoma, Arkansas, Louisiana, Mississippi and Kentucky, ranked by whitespace index at one tunnel per 20,000 people. Updated November 2, 2026.</p>
+<p class="lede">All 166 metro and micro areas based in Texas, Oklahoma, Arkansas, Louisiana, Mississippi and Kentucky, ranked by whitespace index at one tunnel per 20,000 people. Updated November 25, 2026.</p>
 <p><a class="cta" href="/">Open the map</a> <span class="note">On the map, Jump to a region moves the view to the South Central.</span></p>
 <p class="regions">Rankings by region: <a href="/markets/">U.S. top 100</a> &middot; <a href="/markets/southeast/">Southeast</a> &middot; <a href="/markets/northeast/">Northeast and Mid-Atlantic</a> &middot; <a href="/markets/midwest/">Midwest</a> &middot; <a href="/markets/south-central/" aria-current="page">South Central</a> &middot; <a href="/markets/mountain-west/">Mountain West</a> &middot; <a href="/markets/pacific/">Pacific</a></p>
 <p>The top five South Central metros by whitespace index are Houston-Pasadena-The Woodlands, TX; Dallas-Fort Worth-Arlington, TX; Austin-Round Rock-San Marcos, TX; San Antonio-New Braunfels, TX; New Orleans-Metairie, LA. A metro that spans regions is listed under its principal state, the first state in its name.</p>
 <h2>Tunnel car washes by state</h2>
-<div class="table-scroll narrow"><table><thead><tr><th scope="col" class="l">State</th><th scope="col">Operating tunnels</th><th scope="col">In development</th></tr></thead><tbody><tr><td class="l">Texas</td><td>1,534</td><td>37</td></tr><tr><td class="l">Oklahoma</td><td>200</td><td>6</td></tr><tr><td class="l">Kentucky</td><td>200</td><td>3</td></tr><tr><td class="l">Louisiana</td><td>192</td><td>1</td></tr><tr><td class="l">Arkansas</td><td>135</td><td>7</td></tr><tr><td class="l">Mississippi</td><td>105</td><td>0</td></tr><tr><td class="l"><strong>Total</strong></td><td><strong>2,366</strong></td><td><strong>54</strong></td></tr></tbody></table></div>
+<div class="table-scroll narrow"><table><thead><tr><th scope="col" class="l">State</th><th scope="col">Operating tunnels</th><th scope="col">In development</th></tr></thead><tbody><tr><td class="l"><a href="/states/texas/">Texas</a></td><td>1,534</td><td>37</td></tr><tr><td class="l"><a href="/states/oklahoma/">Oklahoma</a></td><td>200</td><td>6</td></tr><tr><td class="l"><a href="/states/kentucky/">Kentucky</a></td><td>200</td><td>3</td></tr><tr><td class="l"><a href="/states/louisiana/">Louisiana</a></td><td>192</td><td>1</td></tr><tr><td class="l"><a href="/states/arkansas/">Arkansas</a></td><td>135</td><td>7</td></tr><tr><td class="l"><a href="/states/mississippi/">Mississippi</a></td><td>105</td><td>0</td></tr><tr><td class="l"><strong>Total</strong></td><td><strong>2,366</strong></td><td><strong>54</strong></td></tr></tbody></table></div>
 <p class="note">Actual counts of tunnel car wash locations on the map, by the state of each location (verified October 2026). Tunnels in development are reported projects, not all confirmed.</p>
 <h2>South Central metro ranking</h2>
-<p class="note">Whitespace index (estimate): the weighted population in a metro's tracts that are short of tunnel car washes, divided by 20,000. Dense urban tracts are weighted down and income nudges demand. It ranks markets to study; it is not a count of buildable sites. Tunnels (operating only; tunnels in development are their own column and count as open in the index) and population are actual counts (tunnels verified October 2026, population Esri 2024 estimates). Rankings at 25,000 and 15,000 people per tunnel are in the map's market table.</p><div class="table-scroll"><table><thead><tr><th scope="col">Region rank</th><th scope="col">U.S. rank</th><th scope="col" class="l">Metro</th><th scope="col">Whitespace index (est.)</th><th scope="col">Population 2024</th><th scope="col">Tunnels</th><th scope="col">In development</th><th scope="col">People per tunnel</th></tr></thead><tbody><tr><td>1</td><td>8</td><td class="l">Houston-Pasadena-The Woodlands, TX</td><td>108.1</td><td>7,619,359</td><td>348</td><td>11</td><td>21,895</td></tr><tr><td>2</td><td>11</td><td class="l">Dallas-Fort Worth-Arlington, TX</td><td>96.4</td><td>8,195,415</td><td>421</td><td>9</td><td>19,467</td></tr><tr><td>3</td><td>29</td><td class="l">Austin-Round Rock-San Marcos, TX</td><td>33.6</td><td>2,550,817</td><td>110</td><td>4</td><td>23,189</td></tr><tr><td>4</td><td>50</td><td class="l">San Antonio-New Braunfels, TX</td><td>14.3</td><td>2,733,998</td><td>169</td><td>7</td><td>16,178</td></tr><tr><td>5</td><td>51</td><td class="l">New Orleans-Metairie, LA</td><td>13.6</td><td>988,645</td><td>38</td><td>1</td><td>26,017</td></tr><tr><td>6</td><td>53</td><td class="l">Louisville/Jefferson County, KY-IN</td><td>12.0</td><td>1,385,677</td><td>74</td><td>0</td><td>18,725</td></tr><tr><td>7</td><td>86</td><td class="l">McAllen-Edinburg-Mission, TX</td><td>6.1</td><td>910,138</td><td>57</td><td>1</td><td>15,967</td></tr><tr><td>8</td><td>87</td><td class="l">El Paso, TX</td><td>5.9</td><td>884,483</td><td>48</td><td>1</td><td>18,427</td></tr><tr><td>9</td><td>92</td><td class="l">Tulsa, OK</td><td>5.3</td><td>1,049,778</td><td>61</td><td>2</td><td>17,209</td></tr><tr><td>10</td><td>95</td><td class="l">Oklahoma City, OK</td><td>5.2</td><td>1,486,341</td><td>85</td><td>4</td><td>17,486</td></tr><tr><td>11</td><td>102</td><td class="l">Baton Rouge, LA</td><td>4.2</td><td>882,440</td><td>40</td><td>0</td><td>22,061</td></tr><tr><td>12</td><td>132</td><td class="l">Jackson, MS</td><td>2.6</td><td>616,024</td><td>21</td><td>0</td><td>29,334</td></tr><tr><td>13</td><td>134</td><td class="l">Lexington-Fayette, KY</td><td>2.5</td><td>526,223</td><td>29</td><td>2</td><td>18,146</td></tr><tr><td>14</td><td>148</td><td class="l">Laredo, TX</td><td>2.0</td><td>272,217</td><td>12</td><td>0</td><td>22,685</td></tr><tr><td>15</td><td>154</td><td class="l">Little Rock-North Little Rock-Conway, AR</td><td>1.7</td><td>764,872</td><td>39</td><td>3</td><td>19,612</td></tr><tr><td>16</td><td>163</td><td class="l">Lubbock, TX</td><td>1.4</td><td>364,199</td><td>23</td><td>0</td><td>15,835</td></tr><tr><td>17</td><td>178</td><td class="l">Brownsville-Harlingen, TX</td><td>1.2</td><td>428,927</td><td>25</td><td>0</td><td>17,157</td></tr><tr><td>18</td><td>184</td><td class="l">Lake Charles, LA</td><td>1.2</td><td>257,263</td><td>7</td><td>0</td><td>36,752</td></tr><tr><td>19</td><td>188</td><td class="l">Shreveport-Bossier City, LA</td><td>1.1</td><td>386,633</td><td>16</td><td>0</td><td>24,165</td></tr><tr><td>20</td><td>191</td><td class="l">Fayetteville-Springdale-Rogers, AR</td><td>1.1</td><td>601,399</td><td>41</td><td>0</td><td>14,668</td></tr><tr><td>21</td><td>233</td><td class="l">Waco, TX</td><td>0.6</td><td>306,816</td><td>17</td><td>0</td><td>18,048</td></tr><tr><td>22</td><td>238</td><td class="l">Fort Smith, AR-OK</td><td>0.6</td><td>228,957</td><td>10</td><td>1</td><td>22,896</td></tr><tr><td>23</td><td>248</td><td class="l">Corpus Christi, TX</td><td>0.5</td><td>449,712</td><td>26</td><td>0</td><td>17,297</td></tr><tr><td>24</td><td>249</td><td class="l">Tyler, TX</td><td>0.5</td><td>245,423</td><td>16</td><td>0</td><td>15,339</td></tr><tr><td>25</td><td>256</td><td class="l">Lafayette, LA</td><td>0.5</td><td>415,990</td><td>23</td><td>0</td><td>18,087</td></tr><tr><td>26</td><td>262</td><td class="l">San Angelo, TX</td><td>0.4</td><td>123,113</td><td>5</td><td>0</td><td>24,623</td></tr><tr><td>27</td><td>269</td><td class="l">Beaumont-Port Arthur, TX</td><td>0.3</td><td>399,547</td><td>25</td><td>0</td><td>15,982</td></tr><tr><td>28</td><td>271</td><td class="l">Sherman-Denison, TX</td><td>0.3</td><td>146,902</td><td>8</td><td>0</td><td>18,363</td></tr><tr><td>29</td><td>272</td><td class="l">Wichita Falls, TX</td><td>0.3</td><td>148,473</td><td>4</td><td>0</td><td>37,118</td></tr><tr><td>30</td><td>274</td><td class="l">Killeen-Temple, TX</td><td>0.3</td><td>507,724</td><td>28</td><td>0</td><td>18,133</td></tr><tr><td>31</td><td>278</td><td class="l">Slidell-Mandeville-Covington, LA</td><td>0.3</td><td>278,144</td><td>15</td><td>0</td><td>18,543</td></tr><tr><td>32</td><td>288</td><td class="l">Alexandria, LA</td><td>0.2</td><td>149,437</td><td>5</td><td>0</td><td>29,887</td></tr><tr><td>33</td><td>300</td><td class="l">Texarkana, TX-AR</td><td>0.1</td><td>146,592</td><td>7</td><td>0</td><td>20,942</td></tr><tr><td>34</td><td>303</td><td class="l">Shawnee, OK (micro)</td><td>0.1</td><td>73,902</td><td>2</td><td>0</td><td>36,951</td></tr><tr><td>35</td><td>309</td><td class="l">Amarillo, TX</td><td>0.1</td><td>273,632</td><td>12</td><td>0</td><td>22,803</td></tr><tr><td>36</td><td>311</td><td class="l">Richmond-Berea, KY (micro)</td><td>0.1</td><td>127,074</td><td>5</td><td>0</td><td>25,415</td></tr><tr><td>37</td><td>316</td><td class="l">Abilene, TX</td><td>0.0</td><td>181,251</td><td>8</td><td>0</td><td>22,656</td></tr><tr><td>38</td><td>316</td><td class="l">Ada, OK (micro)</td><td>0.0</td><td>38,458</td><td>1</td><td>0</td><td>38,458</td></tr><tr><td>39</td><td>316</td><td class="l">Alice, TX (micro)</td><td>0.0</td><td>45,252</td><td>2</td><td>0</td><td>22,626</td></tr><tr><td>40</td><td>316</td><td class="l">Altus, OK (micro)</td><td>0.0</td><td>24,415</td><td>1</td><td>0</td><td>24,415</td></tr><tr><td>41</td><td>316</td><td class="l">Andrews, TX (micro)</td><td>0.0</td><td>19,146</td><td>1</td><td>0</td><td>19,146</td></tr><tr><td>42</td><td>316</td><td class="l">Ardmore, OK (micro)</td><td>0.0</td><td>48,403</td><td>3</td><td>0</td><td>16,134</td></tr><tr><td>43</td><td>316</td><td class="l">Arkadelphia, AR (micro)</td><td>0.0</td><td>21,029</td><td>1</td><td>0</td><td>21,029</td></tr><tr><td>44</td><td>316</td><td class="l">Athens, TX (micro)</td><td>0.0</td><td>84,728</td><td>5</td><td>0</td><td>16,946</td></tr><tr><td>45</td><td>316</td><td class="l">Bartlesville, OK (micro)</td><td>0.0</td><td>53,199</td><td>3</td><td>0</td><td>17,733</td></tr><tr><td>46</td><td>316</td><td class="l">Batesville, AR (micro)</td><td>0.0</td><td>38,176</td><td>1</td><td>0</td><td>38,176</td></tr><tr><td>47</td><td>316</td><td class="l">Bay City, TX (micro)</td><td>0.0</td><td>36,050</td><td>1</td><td>0</td><td>36,050</td></tr><tr><td>48</td><td>316</td><td class="l">Beeville, TX (micro)</td><td>0.0</td><td>30,338</td><td>1</td><td>0</td><td>30,338</td></tr><tr><td>49</td><td>316</td><td class="l">Big Spring, TX (micro)</td><td>0.0</td><td>34,051</td><td>2</td><td>0</td><td>17,026</td></tr><tr><td>50</td><td>316</td><td class="l">Blytheville, AR (micro)</td><td>0.0</td><td>38,614</td><td>1</td><td>0</td><td>38,614</td></tr><tr><td>51</td><td>316</td><td class="l">Bogalusa, LA (micro)</td><td>0.0</td><td>44,542</td><td>1</td><td>0</td><td>44,542</td></tr><tr><td>52</td><td>316</td><td class="l">Bonham, TX (micro)</td><td>0.0</td><td>37,356</td><td>2</td><td>0</td><td>18,678</td></tr><tr><td>53</td><td>316</td><td class="l">Borger, TX (micro)</td><td>0.0</td><td>20,020</td><td>1</td><td>0</td><td>20,020</td></tr><tr><td>54</td><td>316</td><td class="l">Bowling Green, KY</td><td>0.0</td><td>190,211</td><td>14</td><td>0</td><td>13,586</td></tr><tr><td>55</td><td>316</td><td class="l">Brenham, TX (micro)</td><td>0.0</td><td>36,518</td><td>4</td><td>0</td><td>9,130</td></tr><tr><td>56</td><td>316</td><td class="l">Brookhaven, MS (micro)</td><td>0.0</td><td>34,919</td><td>1</td><td>0</td><td>34,919</td></tr><tr><td>57</td><td>316</td><td class="l">Brownwood, TX (micro)</td><td>0.0</td><td>38,322</td><td>3</td><td>0</td><td>12,774</td></tr><tr><td>58</td><td>316</td><td class="l">Camden, AR (micro)</td><td>0.0</td><td>26,421</td><td>1</td><td>0</td><td>26,421</td></tr><tr><td>59</td><td>316</td><td class="l">Campbellsville, KY (micro)</td><td>0.0</td><td>37,888</td><td>5</td><td>0</td><td>7,578</td></tr><tr><td>60</td><td>316</td><td class="l">Clarksdale, MS (micro)</td><td>0.0</td><td>20,510</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>61</td><td>316</td><td class="l">Cleveland, MS (micro)</td><td>0.0</td><td>29,267</td><td>1</td><td>0</td><td>29,267</td></tr><tr><td>62</td><td>316</td><td class="l">College Station-Bryan, TX</td><td>0.0</td><td>283,518</td><td>15</td><td>0</td><td>18,901</td></tr><tr><td>63</td><td>316</td><td class="l">Columbus, MS (micro)</td><td>0.0</td><td>67,637</td><td>2</td><td>0</td><td>33,818</td></tr><tr><td>64</td><td>316</td><td class="l">Corbin, KY (micro)</td><td>0.0</td><td>150,108</td><td>3</td><td>0</td><td>50,036</td></tr><tr><td>65</td><td>316</td><td class="l">Corinth, MS (micro)</td><td>0.0</td><td>33,871</td><td>3</td><td>0</td><td>11,290</td></tr><tr><td>66</td><td>316</td><td class="l">Corsicana, TX (micro)</td><td>0.0</td><td>55,492</td><td>3</td><td>1</td><td>18,497</td></tr><tr><td>67</td><td>316</td><td class="l">Danville, KY (micro)</td><td>0.0</td><td>55,404</td><td>3</td><td>1</td><td>18,468</td></tr><tr><td>68</td><td>316</td><td class="l">DeRidder, LA (micro)</td><td>0.0</td><td>36,851</td><td>2</td><td>0</td><td>18,426</td></tr><tr><td>69</td><td>316</td><td class="l">Del Rio, TX (micro)</td><td>0.0</td><td>47,108</td><td>1</td><td>0</td><td>47,108</td></tr><tr><td>70</td><td>316</td><td class="l">Dumas, TX (micro)</td><td>0.0</td><td>20,946</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>71</td><td>316</td><td class="l">Duncan, OK (micro)</td><td>0.0</td><td>42,961</td><td>1</td><td>0</td><td>42,961</td></tr><tr><td>72</td><td>316</td><td class="l">Durant, OK (micro)</td><td>0.0</td><td>48,645</td><td>3</td><td>0</td><td>16,215</td></tr><tr><td>73</td><td>316</td><td class="l">Eagle Pass, TX</td><td>0.0</td><td>58,752</td><td>3</td><td>0</td><td>19,584</td></tr><tr><td>74</td><td>316</td><td class="l">El Campo, TX (micro)</td><td>0.0</td><td>41,979</td><td>3</td><td>0</td><td>13,993</td></tr><tr><td>75</td><td>316</td><td class="l">El Dorado, AR (micro)</td><td>0.0</td><td>37,682</td><td>1</td><td>1</td><td>37,682</td></tr><tr><td>76</td><td>316</td><td class="l">Elizabethtown, KY</td><td>0.0</td><td>129,490</td><td>7</td><td>0</td><td>18,499</td></tr><tr><td>77</td><td>316</td><td class="l">Elk City, OK (micro)</td><td>0.0</td><td>21,753</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>78</td><td>316</td><td class="l">Enid, OK</td><td>0.0</td><td>62,110</td><td>4</td><td>0</td><td>15,528</td></tr><tr><td>79</td><td>316</td><td class="l">Forrest City, AR (micro)</td><td>0.0</td><td>22,245</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>80</td><td>316</td><td class="l">Frankfort, KY (micro)</td><td>0.0</td><td>76,669</td><td>5</td><td>0</td><td>15,334</td></tr><tr><td>81</td><td>316</td><td class="l">Franklin, KY (micro)</td><td>0.0</td><td>20,418</td><td>1</td><td>0</td><td>20,418</td></tr><tr><td>82</td><td>316</td><td class="l">Fredericksburg, TX (micro)</td><td>0.0</td><td>27,724</td><td>2</td><td>0</td><td>13,862</td></tr><tr><td>83</td><td>316</td><td class="l">Gainesville, TX (micro)</td><td>0.0</td><td>43,467</td><td>3</td><td>0</td><td>14,489</td></tr><tr><td>84</td><td>316</td><td class="l">Glasgow, KY (micro)</td><td>0.0</td><td>55,668</td><td>1</td><td>0</td><td>55,668</td></tr><tr><td>85</td><td>316</td><td class="l">Granbury, TX (micro)</td><td>0.0</td><td>67,593</td><td>6</td><td>1</td><td>11,266</td></tr><tr><td>86</td><td>316</td><td class="l">Greenville, MS (micro)</td><td>0.0</td><td>42,106</td><td>1</td><td>0</td><td>42,106</td></tr><tr><td>87</td><td>316</td><td class="l">Greenwood, MS (micro)</td><td>0.0</td><td>36,326</td><td>1</td><td>0</td><td>36,326</td></tr><tr><td>88</td><td>316</td><td class="l">Grenada, MS (micro)</td><td>0.0</td><td>30,540</td><td>1</td><td>0</td><td>30,540</td></tr><tr><td>89</td><td>316</td><td class="l">Gulfport-Biloxi, MS</td><td>0.0</td><td>427,405</td><td>20</td><td>0</td><td>21,370</td></tr><tr><td>90</td><td>316</td><td class="l">Guymon, OK (micro)</td><td>0.0</td><td>20,891</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>91</td><td>316</td><td class="l">Hammond, LA</td><td>0.0</td><td>139,485</td><td>10</td><td>0</td><td>13,948</td></tr><tr><td>92</td><td>316</td><td class="l">Harrison, AR (micro)</td><td>0.0</td><td>45,163</td><td>2</td><td>0</td><td>22,582</td></tr><tr><td>93</td><td>316</td><td class="l">Hattiesburg, MS</td><td>0.0</td><td>156,847</td><td>8</td><td>0</td><td>19,606</td></tr><tr><td>94</td><td>316</td><td class="l">Henderson, KY (micro)</td><td>0.0</td><td>56,557</td><td>2</td><td>0</td><td>28,278</td></tr><tr><td>95</td><td>316</td><td class="l">Hereford, TX (micro)</td><td>0.0</td><td>18,301</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>96</td><td>316</td><td class="l">Hot Springs, AR</td><td>0.0</td><td>100,977</td><td>6</td><td>0</td><td>16,830</td></tr><tr><td>97</td><td>316</td><td class="l">Houma-Bayou Cane-Thibodaux, LA</td><td>0.0</td><td>202,131</td><td>8</td><td>0</td><td>25,266</td></tr><tr><td>98</td><td>316</td><td class="l">Huntsville, TX (micro)</td><td>0.0</td><td>80,377</td><td>3</td><td>0</td><td>26,792</td></tr><tr><td>99</td><td>316</td><td class="l">Jacksonville, TX (micro)</td><td>0.0</td><td>51,148</td><td>2</td><td>0</td><td>25,574</td></tr><tr><td>100</td><td>316</td><td class="l">Jonesboro, AR</td><td>0.0</td><td>138,962</td><td>6</td><td>1</td><td>23,160</td></tr><tr><td>101</td><td>316</td><td class="l">Kerrville, TX (micro)</td><td>0.0</td><td>54,066</td><td>2</td><td>0</td><td>27,033</td></tr><tr><td>102</td><td>316</td><td class="l">Kingsville, TX (micro)</td><td>0.0</td><td>30,356</td><td>2</td><td>0</td><td>15,178</td></tr><tr><td>103</td><td>316</td><td class="l">Laurel, MS (micro)</td><td>0.0</td><td>82,745</td><td>3</td><td>0</td><td>27,582</td></tr><tr><td>104</td><td>316</td><td class="l">Lawton, OK</td><td>0.0</td><td>127,589</td><td>8</td><td>0</td><td>15,949</td></tr><tr><td>105</td><td>316</td><td class="l">Longview, TX</td><td>0.0</td><td>291,421</td><td>19</td><td>0</td><td>15,338</td></tr><tr><td>106</td><td>316</td><td class="l">Lufkin, TX (micro)</td><td>0.0</td><td>86,911</td><td>4</td><td>0</td><td>21,728</td></tr><tr><td>107</td><td>316</td><td class="l">Madisonville, KY (micro)</td><td>0.0</td><td>44,707</td><td>2</td><td>0</td><td>22,354</td></tr><tr><td>108</td><td>316</td><td class="l">Magnolia, AR (micro)</td><td>0.0</td><td>22,063</td><td>1</td><td>0</td><td>22,063</td></tr><tr><td>109</td><td>316</td><td class="l">Malvern, AR (micro)</td><td>0.0</td><td>33,039</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>110</td><td>316</td><td class="l">Mayfield, KY (micro)</td><td>0.0</td><td>36,333</td><td>1</td><td>0</td><td>36,333</td></tr><tr><td>111</td><td>316</td><td class="l">McAlester, OK (micro)</td><td>0.0</td><td>43,373</td><td>3</td><td>0</td><td>14,458</td></tr><tr><td>112</td><td>316</td><td class="l">McComb, MS (micro)</td><td>0.0</td><td>53,433</td><td>2</td><td>0</td><td>26,716</td></tr><tr><td>113</td><td>316</td><td class="l">Meridian, MS (micro)</td><td>0.0</td><td>85,284</td><td>5</td><td>0</td><td>17,057</td></tr><tr><td>114</td><td>316</td><td class="l">Miami, OK (micro)</td><td>0.0</td><td>29,962</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>115</td><td>316</td><td class="l">Middlesborough, KY (micro)</td><td>0.0</td><td>23,155</td><td>1</td><td>0</td><td>23,155</td></tr><tr><td>116</td><td>316</td><td class="l">Midland, TX</td><td>0.0</td><td>183,363</td><td>10</td><td>0</td><td>18,336</td></tr><tr><td>117</td><td>316</td><td class="l">Minden, LA (micro)</td><td>0.0</td><td>35,134</td><td>1</td><td>0</td><td>35,134</td></tr><tr><td>118</td><td>316</td><td class="l">Mineral Wells, TX (micro)</td><td>0.0</td><td>29,169</td><td>1</td><td>0</td><td>29,169</td></tr><tr><td>119</td><td>316</td><td class="l">Monroe, LA</td><td>0.0</td><td>224,570</td><td>10</td><td>0</td><td>22,457</td></tr><tr><td>120</td><td>316</td><td class="l">Morgan City, LA (micro)</td><td>0.0</td><td>47,073</td><td>2</td><td>0</td><td>23,536</td></tr><tr><td>121</td><td>316</td><td class="l">Mount Pleasant, TX (micro)</td><td>0.0</td><td>55,441</td><td>2</td><td>0</td><td>27,720</td></tr><tr><td>122</td><td>316</td><td class="l">Mount Sterling, KY (micro)</td><td>0.0</td><td>47,741</td><td>2</td><td>0</td><td>23,870</td></tr><tr><td>123</td><td>316</td><td class="l">Mountain Home, AR (micro)</td><td>0.0</td><td>42,414</td><td>1</td><td>0</td><td>42,414</td></tr><tr><td>124</td><td>316</td><td class="l">Murray, KY (micro)</td><td>0.0</td><td>37,517</td><td>1</td><td>0</td><td>37,517</td></tr><tr><td>125</td><td>316</td><td class="l">Muskogee, OK (micro)</td><td>0.0</td><td>65,352</td><td>5</td><td>0</td><td>13,070</td></tr><tr><td>126</td><td>316</td><td class="l">Nacogdoches, TX (micro)</td><td>0.0</td><td>64,961</td><td>3</td><td>0</td><td>21,654</td></tr><tr><td>127</td><td>316</td><td class="l">Natchez, MS-LA (micro)</td><td>0.0</td><td>53,412</td><td>3</td><td>0</td><td>17,804</td></tr><tr><td>128</td><td>316</td><td class="l">Natchitoches, LA (micro)</td><td>0.0</td><td>36,392</td><td>2</td><td>0</td><td>18,196</td></tr><tr><td>129</td><td>316</td><td class="l">New Iberia, LA (micro)</td><td>0.0</td><td>67,658</td><td>2</td><td>0</td><td>33,829</td></tr><tr><td>130</td><td>316</td><td class="l">Odessa, TX</td><td>0.0</td><td>170,806</td><td>11</td><td>0</td><td>15,528</td></tr><tr><td>131</td><td>316</td><td class="l">Opelousas, LA (micro)</td><td>0.0</td><td>81,850</td><td>2</td><td>0</td><td>40,925</td></tr><tr><td>132</td><td>316</td><td class="l">Owensboro, KY</td><td>0.0</td><td>113,465</td><td>7</td><td>0</td><td>16,209</td></tr><tr><td>133</td><td>316</td><td class="l">Oxford, MS (micro)</td><td>0.0</td><td>71,067</td><td>1</td><td>0</td><td>71,067</td></tr><tr><td>134</td><td>316</td><td class="l">Paducah, KY-IL</td><td>0.0</td><td>102,644</td><td>7</td><td>0</td><td>14,663</td></tr><tr><td>135</td><td>316</td><td class="l">Palestine, TX (micro)</td><td>0.0</td><td>58,358</td><td>2</td><td>0</td><td>29,179</td></tr><tr><td>136</td><td>316</td><td class="l">Pampa, TX (micro)</td><td>0.0</td><td>21,495</td><td>1</td><td>0</td><td>21,495</td></tr><tr><td>137</td><td>316</td><td class="l">Paragould, AR (micro)</td><td>0.0</td><td>47,071</td><td>1</td><td>0</td><td>47,071</td></tr><tr><td>138</td><td>316</td><td class="l">Paris, TX (micro)</td><td>0.0</td><td>61,847</td><td>2</td><td>0</td><td>30,924</td></tr><tr><td>139</td><td>316</td><td class="l">Picayune, MS (micro)</td><td>0.0</td><td>57,417</td><td>2</td><td>0</td><td>28,708</td></tr><tr><td>140</td><td>316</td><td class="l">Pikeville, KY (micro)</td><td>0.0</td><td>90,489</td><td>2</td><td>0</td><td>45,244</td></tr><tr><td>141</td><td>316</td><td class="l">Pine Bluff, AR (micro)</td><td>0.0</td><td>70,781</td><td>2</td><td>1</td><td>35,390</td></tr><tr><td>142</td><td>316</td><td class="l">Plainview, TX (micro)</td><td>0.0</td><td>36,720</td><td>1</td><td>0</td><td>36,720</td></tr><tr><td>143</td><td>316</td><td class="l">Ponca City, OK (micro)</td><td>0.0</td><td>43,144</td><td>3</td><td>0</td><td>14,381</td></tr><tr><td>144</td><td>316</td><td class="l">Port Lavaca, TX (micro)</td><td>0.0</td><td>19,677</td><td>1</td><td>0</td><td>19,677</td></tr><tr><td>145</td><td>316</td><td class="l">Raymondville, TX (micro)</td><td>0.0</td><td>20,007</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>146</td><td>316</td><td class="l">Rio Grande City-Roma, TX (micro)</td><td>0.0</td><td>67,088</td><td>1</td><td>1</td><td>67,088</td></tr><tr><td>147</td><td>316</td><td class="l">Russellville, AR (micro)</td><td>0.0</td><td>84,249</td><td>3</td><td>0</td><td>28,083</td></tr><tr><td>148</td><td>316</td><td class="l">Ruston, LA (micro)</td><td>0.0</td><td>48,478</td><td>1</td><td>0</td><td>48,478</td></tr><tr><td>149</td><td>316</td><td class="l">Searcy, AR (micro)</td><td>0.0</td><td>77,848</td><td>4</td><td>0</td><td>19,462</td></tr><tr><td>150</td><td>316</td><td class="l">Snyder, TX (micro)</td><td>0.0</td><td>16,698</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>151</td><td>316</td><td class="l">Somerset, KY (micro)</td><td>0.0</td><td>66,217</td><td>6</td><td>0</td><td>11,036</td></tr><tr><td>152</td><td>316</td><td class="l">Starkville, MS (micro)</td><td>0.0</td><td>62,176</td><td>2</td><td>0</td><td>31,088</td></tr><tr><td>153</td><td>316</td><td class="l">Stephenville, TX (micro)</td><td>0.0</td><td>43,929</td><td>4</td><td>0</td><td>10,982</td></tr><tr><td>154</td><td>316</td><td class="l">Stillwater, OK (micro)</td><td>0.0</td><td>83,048</td><td>5</td><td>0</td><td>16,610</td></tr><tr><td>155</td><td>316</td><td class="l">Sulphur Springs, TX (micro)</td><td>0.0</td><td>37,880</td><td>2</td><td>0</td><td>18,940</td></tr><tr><td>156</td><td>316</td><td class="l">Sweetwater, TX (micro)</td><td>0.0</td><td>14,424</td><td>1</td><td>0</td><td>14,424</td></tr><tr><td>157</td><td>316</td><td class="l">Tahlequah, OK (micro)</td><td>0.0</td><td>47,787</td><td>4</td><td>0</td><td>11,947</td></tr><tr><td>158</td><td>316</td><td class="l">Town of Pecos, TX (micro)</td><td>0.0</td><td>13,230</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>159</td><td>316</td><td class="l">Tupelo, MS (micro)</td><td>0.0</td><td>132,037</td><td>4</td><td>0</td><td>33,009</td></tr><tr><td>160</td><td>316</td><td class="l">Uvalde, TX (micro)</td><td>0.0</td><td>24,291</td><td>2</td><td>0</td><td>12,146</td></tr><tr><td>161</td><td>316</td><td class="l">Vernon, TX (micro)</td><td>0.0</td><td>12,483</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>162</td><td>316</td><td class="l">Vicksburg, MS (micro)</td><td>0.0</td><td>42,470</td><td>1</td><td>0</td><td>42,470</td></tr><tr><td>163</td><td>316</td><td class="l">Victoria, TX</td><td>0.0</td><td>98,901</td><td>7</td><td>0</td><td>14,129</td></tr><tr><td>164</td><td>316</td><td class="l">Weatherford, OK (micro)</td><td>0.0</td><td>38,705</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>165</td><td>316</td><td class="l">Woodward, OK (micro)</td><td>0.0</td><td>19,916</td><td>1</td><td>0</td><td>19,916</td></tr><tr><td>166</td><td>316</td><td class="l">Zapata, TX (micro)</td><td>0.0</td><td>13,799</td><td>0</td><td>0</td><td>none open</td></tr></tbody></table></div>
+<p class="note">Whitespace index (estimate): the weighted population in a metro's tracts that are short of tunnel car washes, divided by 20,000. Dense urban tracts are weighted down and income nudges demand. It ranks markets to study; it is not a count of buildable sites. Tunnels (operating only; tunnels in development are their own column and count as open in the index) and population are actual counts (tunnels verified October 2026, population Esri 2024 estimates). Rankings at 25,000 and 15,000 people per tunnel are in the map's market table.</p><div class="table-scroll"><table><thead><tr><th scope="col">Region rank</th><th scope="col">U.S. rank</th><th scope="col" class="l">Metro</th><th scope="col">Whitespace index (est.)</th><th scope="col">Population 2024</th><th scope="col">Tunnels</th><th scope="col">In development</th><th scope="col">People per tunnel</th></tr></thead><tbody><tr><td>1</td><td>8</td><td class="l"><a href="/metros/houston-pasadena-the-woodlands-tx/">Houston-Pasadena-The Woodlands, TX</a></td><td>108.1</td><td>7,619,359</td><td>348</td><td>11</td><td>21,895</td></tr><tr><td>2</td><td>11</td><td class="l"><a href="/metros/dallas-fort-worth-arlington-tx/">Dallas-Fort Worth-Arlington, TX</a></td><td>96.4</td><td>8,195,415</td><td>421</td><td>9</td><td>19,467</td></tr><tr><td>3</td><td>29</td><td class="l"><a href="/metros/austin-round-rock-san-marcos-tx/">Austin-Round Rock-San Marcos, TX</a></td><td>33.6</td><td>2,550,817</td><td>110</td><td>4</td><td>23,189</td></tr><tr><td>4</td><td>50</td><td class="l"><a href="/metros/san-antonio-new-braunfels-tx/">San Antonio-New Braunfels, TX</a></td><td>14.3</td><td>2,733,998</td><td>169</td><td>7</td><td>16,178</td></tr><tr><td>5</td><td>51</td><td class="l"><a href="/metros/new-orleans-metairie-la/">New Orleans-Metairie, LA</a></td><td>13.6</td><td>988,645</td><td>38</td><td>1</td><td>26,017</td></tr><tr><td>6</td><td>53</td><td class="l"><a href="/metros/louisville-jefferson-county-ky-in/">Louisville/Jefferson County, KY-IN</a></td><td>12.0</td><td>1,385,677</td><td>74</td><td>0</td><td>18,725</td></tr><tr><td>7</td><td>86</td><td class="l"><a href="/metros/mcallen-edinburg-mission-tx/">McAllen-Edinburg-Mission, TX</a></td><td>6.1</td><td>910,138</td><td>57</td><td>1</td><td>15,967</td></tr><tr><td>8</td><td>87</td><td class="l"><a href="/metros/el-paso-tx/">El Paso, TX</a></td><td>5.9</td><td>884,483</td><td>48</td><td>1</td><td>18,427</td></tr><tr><td>9</td><td>92</td><td class="l"><a href="/metros/tulsa-ok/">Tulsa, OK</a></td><td>5.3</td><td>1,049,778</td><td>61</td><td>2</td><td>17,209</td></tr><tr><td>10</td><td>95</td><td class="l"><a href="/metros/oklahoma-city-ok/">Oklahoma City, OK</a></td><td>5.2</td><td>1,486,341</td><td>85</td><td>4</td><td>17,486</td></tr><tr><td>11</td><td>102</td><td class="l"><a href="/metros/baton-rouge-la/">Baton Rouge, LA</a></td><td>4.2</td><td>882,440</td><td>40</td><td>0</td><td>22,061</td></tr><tr><td>12</td><td>132</td><td class="l"><a href="/metros/jackson-ms/">Jackson, MS</a></td><td>2.6</td><td>616,024</td><td>21</td><td>0</td><td>29,334</td></tr><tr><td>13</td><td>134</td><td class="l"><a href="/metros/lexington-fayette-ky/">Lexington-Fayette, KY</a></td><td>2.5</td><td>526,223</td><td>29</td><td>2</td><td>18,146</td></tr><tr><td>14</td><td>148</td><td class="l"><a href="/metros/laredo-tx/">Laredo, TX</a></td><td>2.0</td><td>272,217</td><td>12</td><td>0</td><td>22,685</td></tr><tr><td>15</td><td>154</td><td class="l"><a href="/metros/little-rock-north-little-rock-conway-ar/">Little Rock-North Little Rock-Conway, AR</a></td><td>1.7</td><td>764,872</td><td>39</td><td>3</td><td>19,612</td></tr><tr><td>16</td><td>163</td><td class="l"><a href="/metros/lubbock-tx/">Lubbock, TX</a></td><td>1.4</td><td>364,199</td><td>23</td><td>0</td><td>15,835</td></tr><tr><td>17</td><td>178</td><td class="l"><a href="/metros/brownsville-harlingen-tx/">Brownsville-Harlingen, TX</a></td><td>1.2</td><td>428,927</td><td>25</td><td>0</td><td>17,157</td></tr><tr><td>18</td><td>184</td><td class="l"><a href="/metros/lake-charles-la/">Lake Charles, LA</a></td><td>1.2</td><td>257,263</td><td>7</td><td>0</td><td>36,752</td></tr><tr><td>19</td><td>188</td><td class="l"><a href="/metros/shreveport-bossier-city-la/">Shreveport-Bossier City, LA</a></td><td>1.1</td><td>386,633</td><td>16</td><td>0</td><td>24,165</td></tr><tr><td>20</td><td>191</td><td class="l"><a href="/metros/fayetteville-springdale-rogers-ar/">Fayetteville-Springdale-Rogers, AR</a></td><td>1.1</td><td>601,399</td><td>41</td><td>0</td><td>14,668</td></tr><tr><td>21</td><td>233</td><td class="l"><a href="/metros/waco-tx/">Waco, TX</a></td><td>0.6</td><td>306,816</td><td>17</td><td>0</td><td>18,048</td></tr><tr><td>22</td><td>238</td><td class="l"><a href="/metros/fort-smith-ar-ok/">Fort Smith, AR-OK</a></td><td>0.6</td><td>228,957</td><td>10</td><td>1</td><td>22,896</td></tr><tr><td>23</td><td>248</td><td class="l"><a href="/metros/corpus-christi-tx/">Corpus Christi, TX</a></td><td>0.5</td><td>449,712</td><td>26</td><td>0</td><td>17,297</td></tr><tr><td>24</td><td>249</td><td class="l"><a href="/metros/tyler-tx/">Tyler, TX</a></td><td>0.5</td><td>245,423</td><td>16</td><td>0</td><td>15,339</td></tr><tr><td>25</td><td>256</td><td class="l"><a href="/metros/lafayette-la/">Lafayette, LA</a></td><td>0.5</td><td>415,990</td><td>23</td><td>0</td><td>18,087</td></tr><tr><td>26</td><td>262</td><td class="l"><a href="/metros/san-angelo-tx/">San Angelo, TX</a></td><td>0.4</td><td>123,113</td><td>5</td><td>0</td><td>24,623</td></tr><tr><td>27</td><td>269</td><td class="l"><a href="/metros/beaumont-port-arthur-tx/">Beaumont-Port Arthur, TX</a></td><td>0.3</td><td>399,547</td><td>25</td><td>0</td><td>15,982</td></tr><tr><td>28</td><td>271</td><td class="l"><a href="/metros/sherman-denison-tx/">Sherman-Denison, TX</a></td><td>0.3</td><td>146,902</td><td>8</td><td>0</td><td>18,363</td></tr><tr><td>29</td><td>272</td><td class="l"><a href="/metros/wichita-falls-tx/">Wichita Falls, TX</a></td><td>0.3</td><td>148,473</td><td>4</td><td>0</td><td>37,118</td></tr><tr><td>30</td><td>274</td><td class="l"><a href="/metros/killeen-temple-tx/">Killeen-Temple, TX</a></td><td>0.3</td><td>507,724</td><td>28</td><td>0</td><td>18,133</td></tr><tr><td>31</td><td>278</td><td class="l"><a href="/metros/slidell-mandeville-covington-la/">Slidell-Mandeville-Covington, LA</a></td><td>0.3</td><td>278,144</td><td>15</td><td>0</td><td>18,543</td></tr><tr><td>32</td><td>288</td><td class="l"><a href="/metros/alexandria-la/">Alexandria, LA</a></td><td>0.2</td><td>149,437</td><td>5</td><td>0</td><td>29,887</td></tr><tr><td>33</td><td>300</td><td class="l"><a href="/metros/texarkana-tx-ar/">Texarkana, TX-AR</a></td><td>0.1</td><td>146,592</td><td>7</td><td>0</td><td>20,942</td></tr><tr><td>34</td><td>303</td><td class="l"><a href="/metros/shawnee-ok-micro/">Shawnee, OK (micro)</a></td><td>0.1</td><td>73,902</td><td>2</td><td>0</td><td>36,951</td></tr><tr><td>35</td><td>309</td><td class="l"><a href="/metros/amarillo-tx/">Amarillo, TX</a></td><td>0.1</td><td>273,632</td><td>12</td><td>0</td><td>22,803</td></tr><tr><td>36</td><td>311</td><td class="l"><a href="/metros/richmond-berea-ky-micro/">Richmond-Berea, KY (micro)</a></td><td>0.1</td><td>127,074</td><td>5</td><td>0</td><td>25,415</td></tr><tr><td>37</td><td>316</td><td class="l"><a href="/metros/abilene-tx/">Abilene, TX</a></td><td>0.0</td><td>181,251</td><td>8</td><td>0</td><td>22,656</td></tr><tr><td>38</td><td>316</td><td class="l"><a href="/metros/ada-ok-micro/">Ada, OK (micro)</a></td><td>0.0</td><td>38,458</td><td>1</td><td>0</td><td>38,458</td></tr><tr><td>39</td><td>316</td><td class="l"><a href="/metros/alice-tx-micro/">Alice, TX (micro)</a></td><td>0.0</td><td>45,252</td><td>2</td><td>0</td><td>22,626</td></tr><tr><td>40</td><td>316</td><td class="l"><a href="/metros/altus-ok-micro/">Altus, OK (micro)</a></td><td>0.0</td><td>24,415</td><td>1</td><td>0</td><td>24,415</td></tr><tr><td>41</td><td>316</td><td class="l"><a href="/metros/andrews-tx-micro/">Andrews, TX (micro)</a></td><td>0.0</td><td>19,146</td><td>1</td><td>0</td><td>19,146</td></tr><tr><td>42</td><td>316</td><td class="l"><a href="/metros/ardmore-ok-micro/">Ardmore, OK (micro)</a></td><td>0.0</td><td>48,403</td><td>3</td><td>0</td><td>16,134</td></tr><tr><td>43</td><td>316</td><td class="l"><a href="/metros/arkadelphia-ar-micro/">Arkadelphia, AR (micro)</a></td><td>0.0</td><td>21,029</td><td>1</td><td>0</td><td>21,029</td></tr><tr><td>44</td><td>316</td><td class="l"><a href="/metros/athens-tx-micro/">Athens, TX (micro)</a></td><td>0.0</td><td>84,728</td><td>5</td><td>0</td><td>16,946</td></tr><tr><td>45</td><td>316</td><td class="l"><a href="/metros/bartlesville-ok-micro/">Bartlesville, OK (micro)</a></td><td>0.0</td><td>53,199</td><td>3</td><td>0</td><td>17,733</td></tr><tr><td>46</td><td>316</td><td class="l"><a href="/metros/batesville-ar-micro/">Batesville, AR (micro)</a></td><td>0.0</td><td>38,176</td><td>1</td><td>0</td><td>38,176</td></tr><tr><td>47</td><td>316</td><td class="l"><a href="/metros/bay-city-tx-micro/">Bay City, TX (micro)</a></td><td>0.0</td><td>36,050</td><td>1</td><td>0</td><td>36,050</td></tr><tr><td>48</td><td>316</td><td class="l"><a href="/metros/beeville-tx-micro/">Beeville, TX (micro)</a></td><td>0.0</td><td>30,338</td><td>1</td><td>0</td><td>30,338</td></tr><tr><td>49</td><td>316</td><td class="l"><a href="/metros/big-spring-tx-micro/">Big Spring, TX (micro)</a></td><td>0.0</td><td>34,051</td><td>2</td><td>0</td><td>17,026</td></tr><tr><td>50</td><td>316</td><td class="l"><a href="/metros/blytheville-ar-micro/">Blytheville, AR (micro)</a></td><td>0.0</td><td>38,614</td><td>1</td><td>0</td><td>38,614</td></tr><tr><td>51</td><td>316</td><td class="l"><a href="/metros/bogalusa-la-micro/">Bogalusa, LA (micro)</a></td><td>0.0</td><td>44,542</td><td>1</td><td>0</td><td>44,542</td></tr><tr><td>52</td><td>316</td><td class="l"><a href="/metros/bonham-tx-micro/">Bonham, TX (micro)</a></td><td>0.0</td><td>37,356</td><td>2</td><td>0</td><td>18,678</td></tr><tr><td>53</td><td>316</td><td class="l"><a href="/metros/borger-tx-micro/">Borger, TX (micro)</a></td><td>0.0</td><td>20,020</td><td>1</td><td>0</td><td>20,020</td></tr><tr><td>54</td><td>316</td><td class="l"><a href="/metros/bowling-green-ky/">Bowling Green, KY</a></td><td>0.0</td><td>190,211</td><td>14</td><td>0</td><td>13,586</td></tr><tr><td>55</td><td>316</td><td class="l"><a href="/metros/brenham-tx-micro/">Brenham, TX (micro)</a></td><td>0.0</td><td>36,518</td><td>4</td><td>0</td><td>9,130</td></tr><tr><td>56</td><td>316</td><td class="l"><a href="/metros/brookhaven-ms-micro/">Brookhaven, MS (micro)</a></td><td>0.0</td><td>34,919</td><td>1</td><td>0</td><td>34,919</td></tr><tr><td>57</td><td>316</td><td class="l"><a href="/metros/brownwood-tx-micro/">Brownwood, TX (micro)</a></td><td>0.0</td><td>38,322</td><td>3</td><td>0</td><td>12,774</td></tr><tr><td>58</td><td>316</td><td class="l"><a href="/metros/camden-ar-micro/">Camden, AR (micro)</a></td><td>0.0</td><td>26,421</td><td>1</td><td>0</td><td>26,421</td></tr><tr><td>59</td><td>316</td><td class="l"><a href="/metros/campbellsville-ky-micro/">Campbellsville, KY (micro)</a></td><td>0.0</td><td>37,888</td><td>5</td><td>0</td><td>7,578</td></tr><tr><td>60</td><td>316</td><td class="l"><a href="/metros/clarksdale-ms-micro/">Clarksdale, MS (micro)</a></td><td>0.0</td><td>20,510</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>61</td><td>316</td><td class="l"><a href="/metros/cleveland-ms-micro/">Cleveland, MS (micro)</a></td><td>0.0</td><td>29,267</td><td>1</td><td>0</td><td>29,267</td></tr><tr><td>62</td><td>316</td><td class="l"><a href="/metros/college-station-bryan-tx/">College Station-Bryan, TX</a></td><td>0.0</td><td>283,518</td><td>15</td><td>0</td><td>18,901</td></tr><tr><td>63</td><td>316</td><td class="l"><a href="/metros/columbus-ms-micro/">Columbus, MS (micro)</a></td><td>0.0</td><td>67,637</td><td>2</td><td>0</td><td>33,818</td></tr><tr><td>64</td><td>316</td><td class="l"><a href="/metros/corbin-ky-micro/">Corbin, KY (micro)</a></td><td>0.0</td><td>150,108</td><td>3</td><td>0</td><td>50,036</td></tr><tr><td>65</td><td>316</td><td class="l"><a href="/metros/corinth-ms-micro/">Corinth, MS (micro)</a></td><td>0.0</td><td>33,871</td><td>3</td><td>0</td><td>11,290</td></tr><tr><td>66</td><td>316</td><td class="l"><a href="/metros/corsicana-tx-micro/">Corsicana, TX (micro)</a></td><td>0.0</td><td>55,492</td><td>3</td><td>1</td><td>18,497</td></tr><tr><td>67</td><td>316</td><td class="l"><a href="/metros/danville-ky-micro/">Danville, KY (micro)</a></td><td>0.0</td><td>55,404</td><td>3</td><td>1</td><td>18,468</td></tr><tr><td>68</td><td>316</td><td class="l"><a href="/metros/deridder-la-micro/">DeRidder, LA (micro)</a></td><td>0.0</td><td>36,851</td><td>2</td><td>0</td><td>18,426</td></tr><tr><td>69</td><td>316</td><td class="l"><a href="/metros/del-rio-tx-micro/">Del Rio, TX (micro)</a></td><td>0.0</td><td>47,108</td><td>1</td><td>0</td><td>47,108</td></tr><tr><td>70</td><td>316</td><td class="l"><a href="/metros/dumas-tx-micro/">Dumas, TX (micro)</a></td><td>0.0</td><td>20,946</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>71</td><td>316</td><td class="l"><a href="/metros/duncan-ok-micro/">Duncan, OK (micro)</a></td><td>0.0</td><td>42,961</td><td>1</td><td>0</td><td>42,961</td></tr><tr><td>72</td><td>316</td><td class="l"><a href="/metros/durant-ok-micro/">Durant, OK (micro)</a></td><td>0.0</td><td>48,645</td><td>3</td><td>0</td><td>16,215</td></tr><tr><td>73</td><td>316</td><td class="l"><a href="/metros/eagle-pass-tx/">Eagle Pass, TX</a></td><td>0.0</td><td>58,752</td><td>3</td><td>0</td><td>19,584</td></tr><tr><td>74</td><td>316</td><td class="l"><a href="/metros/el-campo-tx-micro/">El Campo, TX (micro)</a></td><td>0.0</td><td>41,979</td><td>3</td><td>0</td><td>13,993</td></tr><tr><td>75</td><td>316</td><td class="l"><a href="/metros/el-dorado-ar-micro/">El Dorado, AR (micro)</a></td><td>0.0</td><td>37,682</td><td>1</td><td>1</td><td>37,682</td></tr><tr><td>76</td><td>316</td><td class="l"><a href="/metros/elizabethtown-ky/">Elizabethtown, KY</a></td><td>0.0</td><td>129,490</td><td>7</td><td>0</td><td>18,499</td></tr><tr><td>77</td><td>316</td><td class="l"><a href="/metros/elk-city-ok-micro/">Elk City, OK (micro)</a></td><td>0.0</td><td>21,753</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>78</td><td>316</td><td class="l"><a href="/metros/enid-ok/">Enid, OK</a></td><td>0.0</td><td>62,110</td><td>4</td><td>0</td><td>15,528</td></tr><tr><td>79</td><td>316</td><td class="l"><a href="/metros/forrest-city-ar-micro/">Forrest City, AR (micro)</a></td><td>0.0</td><td>22,245</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>80</td><td>316</td><td class="l"><a href="/metros/frankfort-ky-micro/">Frankfort, KY (micro)</a></td><td>0.0</td><td>76,669</td><td>5</td><td>0</td><td>15,334</td></tr><tr><td>81</td><td>316</td><td class="l"><a href="/metros/franklin-ky-micro/">Franklin, KY (micro)</a></td><td>0.0</td><td>20,418</td><td>1</td><td>0</td><td>20,418</td></tr><tr><td>82</td><td>316</td><td class="l"><a href="/metros/fredericksburg-tx-micro/">Fredericksburg, TX (micro)</a></td><td>0.0</td><td>27,724</td><td>2</td><td>0</td><td>13,862</td></tr><tr><td>83</td><td>316</td><td class="l"><a href="/metros/gainesville-tx-micro/">Gainesville, TX (micro)</a></td><td>0.0</td><td>43,467</td><td>3</td><td>0</td><td>14,489</td></tr><tr><td>84</td><td>316</td><td class="l"><a href="/metros/glasgow-ky-micro/">Glasgow, KY (micro)</a></td><td>0.0</td><td>55,668</td><td>1</td><td>0</td><td>55,668</td></tr><tr><td>85</td><td>316</td><td class="l"><a href="/metros/granbury-tx-micro/">Granbury, TX (micro)</a></td><td>0.0</td><td>67,593</td><td>6</td><td>1</td><td>11,266</td></tr><tr><td>86</td><td>316</td><td class="l"><a href="/metros/greenville-ms-micro/">Greenville, MS (micro)</a></td><td>0.0</td><td>42,106</td><td>1</td><td>0</td><td>42,106</td></tr><tr><td>87</td><td>316</td><td class="l"><a href="/metros/greenwood-ms-micro/">Greenwood, MS (micro)</a></td><td>0.0</td><td>36,326</td><td>1</td><td>0</td><td>36,326</td></tr><tr><td>88</td><td>316</td><td class="l"><a href="/metros/grenada-ms-micro/">Grenada, MS (micro)</a></td><td>0.0</td><td>30,540</td><td>1</td><td>0</td><td>30,540</td></tr><tr><td>89</td><td>316</td><td class="l"><a href="/metros/gulfport-biloxi-ms/">Gulfport-Biloxi, MS</a></td><td>0.0</td><td>427,405</td><td>20</td><td>0</td><td>21,370</td></tr><tr><td>90</td><td>316</td><td class="l"><a href="/metros/guymon-ok-micro/">Guymon, OK (micro)</a></td><td>0.0</td><td>20,891</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>91</td><td>316</td><td class="l"><a href="/metros/hammond-la/">Hammond, LA</a></td><td>0.0</td><td>139,485</td><td>10</td><td>0</td><td>13,948</td></tr><tr><td>92</td><td>316</td><td class="l"><a href="/metros/harrison-ar-micro/">Harrison, AR (micro)</a></td><td>0.0</td><td>45,163</td><td>2</td><td>0</td><td>22,582</td></tr><tr><td>93</td><td>316</td><td class="l"><a href="/metros/hattiesburg-ms/">Hattiesburg, MS</a></td><td>0.0</td><td>156,847</td><td>8</td><td>0</td><td>19,606</td></tr><tr><td>94</td><td>316</td><td class="l"><a href="/metros/henderson-ky-micro/">Henderson, KY (micro)</a></td><td>0.0</td><td>56,557</td><td>2</td><td>0</td><td>28,278</td></tr><tr><td>95</td><td>316</td><td class="l"><a href="/metros/hereford-tx-micro/">Hereford, TX (micro)</a></td><td>0.0</td><td>18,301</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>96</td><td>316</td><td class="l"><a href="/metros/hot-springs-ar/">Hot Springs, AR</a></td><td>0.0</td><td>100,977</td><td>6</td><td>0</td><td>16,830</td></tr><tr><td>97</td><td>316</td><td class="l"><a href="/metros/houma-bayou-cane-thibodaux-la/">Houma-Bayou Cane-Thibodaux, LA</a></td><td>0.0</td><td>202,131</td><td>8</td><td>0</td><td>25,266</td></tr><tr><td>98</td><td>316</td><td class="l"><a href="/metros/huntsville-tx-micro/">Huntsville, TX (micro)</a></td><td>0.0</td><td>80,377</td><td>3</td><td>0</td><td>26,792</td></tr><tr><td>99</td><td>316</td><td class="l"><a href="/metros/jacksonville-tx-micro/">Jacksonville, TX (micro)</a></td><td>0.0</td><td>51,148</td><td>2</td><td>0</td><td>25,574</td></tr><tr><td>100</td><td>316</td><td class="l"><a href="/metros/jonesboro-ar/">Jonesboro, AR</a></td><td>0.0</td><td>138,962</td><td>6</td><td>1</td><td>23,160</td></tr><tr><td>101</td><td>316</td><td class="l"><a href="/metros/kerrville-tx-micro/">Kerrville, TX (micro)</a></td><td>0.0</td><td>54,066</td><td>2</td><td>0</td><td>27,033</td></tr><tr><td>102</td><td>316</td><td class="l"><a href="/metros/kingsville-tx-micro/">Kingsville, TX (micro)</a></td><td>0.0</td><td>30,356</td><td>2</td><td>0</td><td>15,178</td></tr><tr><td>103</td><td>316</td><td class="l"><a href="/metros/laurel-ms-micro/">Laurel, MS (micro)</a></td><td>0.0</td><td>82,745</td><td>3</td><td>0</td><td>27,582</td></tr><tr><td>104</td><td>316</td><td class="l"><a href="/metros/lawton-ok/">Lawton, OK</a></td><td>0.0</td><td>127,589</td><td>8</td><td>0</td><td>15,949</td></tr><tr><td>105</td><td>316</td><td class="l"><a href="/metros/longview-tx/">Longview, TX</a></td><td>0.0</td><td>291,421</td><td>19</td><td>0</td><td>15,338</td></tr><tr><td>106</td><td>316</td><td class="l"><a href="/metros/lufkin-tx-micro/">Lufkin, TX (micro)</a></td><td>0.0</td><td>86,911</td><td>4</td><td>0</td><td>21,728</td></tr><tr><td>107</td><td>316</td><td class="l"><a href="/metros/madisonville-ky-micro/">Madisonville, KY (micro)</a></td><td>0.0</td><td>44,707</td><td>2</td><td>0</td><td>22,354</td></tr><tr><td>108</td><td>316</td><td class="l"><a href="/metros/magnolia-ar-micro/">Magnolia, AR (micro)</a></td><td>0.0</td><td>22,063</td><td>1</td><td>0</td><td>22,063</td></tr><tr><td>109</td><td>316</td><td class="l"><a href="/metros/malvern-ar-micro/">Malvern, AR (micro)</a></td><td>0.0</td><td>33,039</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>110</td><td>316</td><td class="l"><a href="/metros/mayfield-ky-micro/">Mayfield, KY (micro)</a></td><td>0.0</td><td>36,333</td><td>1</td><td>0</td><td>36,333</td></tr><tr><td>111</td><td>316</td><td class="l"><a href="/metros/mcalester-ok-micro/">McAlester, OK (micro)</a></td><td>0.0</td><td>43,373</td><td>3</td><td>0</td><td>14,458</td></tr><tr><td>112</td><td>316</td><td class="l"><a href="/metros/mccomb-ms-micro/">McComb, MS (micro)</a></td><td>0.0</td><td>53,433</td><td>2</td><td>0</td><td>26,716</td></tr><tr><td>113</td><td>316</td><td class="l"><a href="/metros/meridian-ms-micro/">Meridian, MS (micro)</a></td><td>0.0</td><td>85,284</td><td>5</td><td>0</td><td>17,057</td></tr><tr><td>114</td><td>316</td><td class="l"><a href="/metros/miami-ok-micro/">Miami, OK (micro)</a></td><td>0.0</td><td>29,962</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>115</td><td>316</td><td class="l"><a href="/metros/middlesborough-ky-micro/">Middlesborough, KY (micro)</a></td><td>0.0</td><td>23,155</td><td>1</td><td>0</td><td>23,155</td></tr><tr><td>116</td><td>316</td><td class="l"><a href="/metros/midland-tx/">Midland, TX</a></td><td>0.0</td><td>183,363</td><td>10</td><td>0</td><td>18,336</td></tr><tr><td>117</td><td>316</td><td class="l"><a href="/metros/minden-la-micro/">Minden, LA (micro)</a></td><td>0.0</td><td>35,134</td><td>1</td><td>0</td><td>35,134</td></tr><tr><td>118</td><td>316</td><td class="l"><a href="/metros/mineral-wells-tx-micro/">Mineral Wells, TX (micro)</a></td><td>0.0</td><td>29,169</td><td>1</td><td>0</td><td>29,169</td></tr><tr><td>119</td><td>316</td><td class="l"><a href="/metros/monroe-la/">Monroe, LA</a></td><td>0.0</td><td>224,570</td><td>10</td><td>0</td><td>22,457</td></tr><tr><td>120</td><td>316</td><td class="l"><a href="/metros/morgan-city-la-micro/">Morgan City, LA (micro)</a></td><td>0.0</td><td>47,073</td><td>2</td><td>0</td><td>23,536</td></tr><tr><td>121</td><td>316</td><td class="l"><a href="/metros/mount-pleasant-tx-micro/">Mount Pleasant, TX (micro)</a></td><td>0.0</td><td>55,441</td><td>2</td><td>0</td><td>27,720</td></tr><tr><td>122</td><td>316</td><td class="l"><a href="/metros/mount-sterling-ky-micro/">Mount Sterling, KY (micro)</a></td><td>0.0</td><td>47,741</td><td>2</td><td>0</td><td>23,870</td></tr><tr><td>123</td><td>316</td><td class="l"><a href="/metros/mountain-home-ar-micro/">Mountain Home, AR (micro)</a></td><td>0.0</td><td>42,414</td><td>1</td><td>0</td><td>42,414</td></tr><tr><td>124</td><td>316</td><td class="l"><a href="/metros/murray-ky-micro/">Murray, KY (micro)</a></td><td>0.0</td><td>37,517</td><td>1</td><td>0</td><td>37,517</td></tr><tr><td>125</td><td>316</td><td class="l"><a href="/metros/muskogee-ok-micro/">Muskogee, OK (micro)</a></td><td>0.0</td><td>65,352</td><td>5</td><td>0</td><td>13,070</td></tr><tr><td>126</td><td>316</td><td class="l"><a href="/metros/nacogdoches-tx-micro/">Nacogdoches, TX (micro)</a></td><td>0.0</td><td>64,961</td><td>3</td><td>0</td><td>21,654</td></tr><tr><td>127</td><td>316</td><td class="l"><a href="/metros/natchez-ms-la-micro/">Natchez, MS-LA (micro)</a></td><td>0.0</td><td>53,412</td><td>3</td><td>0</td><td>17,804</td></tr><tr><td>128</td><td>316</td><td class="l"><a href="/metros/natchitoches-la-micro/">Natchitoches, LA (micro)</a></td><td>0.0</td><td>36,392</td><td>2</td><td>0</td><td>18,196</td></tr><tr><td>129</td><td>316</td><td class="l"><a href="/metros/new-iberia-la-micro/">New Iberia, LA (micro)</a></td><td>0.0</td><td>67,658</td><td>2</td><td>0</td><td>33,829</td></tr><tr><td>130</td><td>316</td><td class="l"><a href="/metros/odessa-tx/">Odessa, TX</a></td><td>0.0</td><td>170,806</td><td>11</td><td>0</td><td>15,528</td></tr><tr><td>131</td><td>316</td><td class="l"><a href="/metros/opelousas-la-micro/">Opelousas, LA (micro)</a></td><td>0.0</td><td>81,850</td><td>2</td><td>0</td><td>40,925</td></tr><tr><td>132</td><td>316</td><td class="l"><a href="/metros/owensboro-ky/">Owensboro, KY</a></td><td>0.0</td><td>113,465</td><td>7</td><td>0</td><td>16,209</td></tr><tr><td>133</td><td>316</td><td class="l"><a href="/metros/oxford-ms-micro/">Oxford, MS (micro)</a></td><td>0.0</td><td>71,067</td><td>1</td><td>0</td><td>71,067</td></tr><tr><td>134</td><td>316</td><td class="l"><a href="/metros/paducah-ky-il/">Paducah, KY-IL</a></td><td>0.0</td><td>102,644</td><td>7</td><td>0</td><td>14,663</td></tr><tr><td>135</td><td>316</td><td class="l"><a href="/metros/palestine-tx-micro/">Palestine, TX (micro)</a></td><td>0.0</td><td>58,358</td><td>2</td><td>0</td><td>29,179</td></tr><tr><td>136</td><td>316</td><td class="l"><a href="/metros/pampa-tx-micro/">Pampa, TX (micro)</a></td><td>0.0</td><td>21,495</td><td>1</td><td>0</td><td>21,495</td></tr><tr><td>137</td><td>316</td><td class="l"><a href="/metros/paragould-ar-micro/">Paragould, AR (micro)</a></td><td>0.0</td><td>47,071</td><td>1</td><td>0</td><td>47,071</td></tr><tr><td>138</td><td>316</td><td class="l"><a href="/metros/paris-tx-micro/">Paris, TX (micro)</a></td><td>0.0</td><td>61,847</td><td>2</td><td>0</td><td>30,924</td></tr><tr><td>139</td><td>316</td><td class="l"><a href="/metros/picayune-ms-micro/">Picayune, MS (micro)</a></td><td>0.0</td><td>57,417</td><td>2</td><td>0</td><td>28,708</td></tr><tr><td>140</td><td>316</td><td class="l"><a href="/metros/pikeville-ky-micro/">Pikeville, KY (micro)</a></td><td>0.0</td><td>90,489</td><td>2</td><td>0</td><td>45,244</td></tr><tr><td>141</td><td>316</td><td class="l"><a href="/metros/pine-bluff-ar-micro/">Pine Bluff, AR (micro)</a></td><td>0.0</td><td>70,781</td><td>2</td><td>1</td><td>35,390</td></tr><tr><td>142</td><td>316</td><td class="l"><a href="/metros/plainview-tx-micro/">Plainview, TX (micro)</a></td><td>0.0</td><td>36,720</td><td>1</td><td>0</td><td>36,720</td></tr><tr><td>143</td><td>316</td><td class="l"><a href="/metros/ponca-city-ok-micro/">Ponca City, OK (micro)</a></td><td>0.0</td><td>43,144</td><td>3</td><td>0</td><td>14,381</td></tr><tr><td>144</td><td>316</td><td class="l"><a href="/metros/port-lavaca-tx-micro/">Port Lavaca, TX (micro)</a></td><td>0.0</td><td>19,677</td><td>1</td><td>0</td><td>19,677</td></tr><tr><td>145</td><td>316</td><td class="l"><a href="/metros/raymondville-tx-micro/">Raymondville, TX (micro)</a></td><td>0.0</td><td>20,007</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>146</td><td>316</td><td class="l"><a href="/metros/rio-grande-city-roma-tx-micro/">Rio Grande City-Roma, TX (micro)</a></td><td>0.0</td><td>67,088</td><td>1</td><td>1</td><td>67,088</td></tr><tr><td>147</td><td>316</td><td class="l"><a href="/metros/russellville-ar-micro/">Russellville, AR (micro)</a></td><td>0.0</td><td>84,249</td><td>3</td><td>0</td><td>28,083</td></tr><tr><td>148</td><td>316</td><td class="l"><a href="/metros/ruston-la-micro/">Ruston, LA (micro)</a></td><td>0.0</td><td>48,478</td><td>1</td><td>0</td><td>48,478</td></tr><tr><td>149</td><td>316</td><td class="l"><a href="/metros/searcy-ar-micro/">Searcy, AR (micro)</a></td><td>0.0</td><td>77,848</td><td>4</td><td>0</td><td>19,462</td></tr><tr><td>150</td><td>316</td><td class="l"><a href="/metros/snyder-tx-micro/">Snyder, TX (micro)</a></td><td>0.0</td><td>16,698</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>151</td><td>316</td><td class="l"><a href="/metros/somerset-ky-micro/">Somerset, KY (micro)</a></td><td>0.0</td><td>66,217</td><td>6</td><td>0</td><td>11,036</td></tr><tr><td>152</td><td>316</td><td class="l"><a href="/metros/starkville-ms-micro/">Starkville, MS (micro)</a></td><td>0.0</td><td>62,176</td><td>2</td><td>0</td><td>31,088</td></tr><tr><td>153</td><td>316</td><td class="l"><a href="/metros/stephenville-tx-micro/">Stephenville, TX (micro)</a></td><td>0.0</td><td>43,929</td><td>4</td><td>0</td><td>10,982</td></tr><tr><td>154</td><td>316</td><td class="l"><a href="/metros/stillwater-ok-micro/">Stillwater, OK (micro)</a></td><td>0.0</td><td>83,048</td><td>5</td><td>0</td><td>16,610</td></tr><tr><td>155</td><td>316</td><td class="l"><a href="/metros/sulphur-springs-tx-micro/">Sulphur Springs, TX (micro)</a></td><td>0.0</td><td>37,880</td><td>2</td><td>0</td><td>18,940</td></tr><tr><td>156</td><td>316</td><td class="l"><a href="/metros/sweetwater-tx-micro/">Sweetwater, TX (micro)</a></td><td>0.0</td><td>14,424</td><td>1</td><td>0</td><td>14,424</td></tr><tr><td>157</td><td>316</td><td class="l"><a href="/metros/tahlequah-ok-micro/">Tahlequah, OK (micro)</a></td><td>0.0</td><td>47,787</td><td>4</td><td>0</td><td>11,947</td></tr><tr><td>158</td><td>316</td><td class="l"><a href="/metros/town-of-pecos-tx-micro/">Town of Pecos, TX (micro)</a></td><td>0.0</td><td>13,230</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>159</td><td>316</td><td class="l"><a href="/metros/tupelo-ms-micro/">Tupelo, MS (micro)</a></td><td>0.0</td><td>132,037</td><td>4</td><td>0</td><td>33,009</td></tr><tr><td>160</td><td>316</td><td class="l"><a href="/metros/uvalde-tx-micro/">Uvalde, TX (micro)</a></td><td>0.0</td><td>24,291</td><td>2</td><td>0</td><td>12,146</td></tr><tr><td>161</td><td>316</td><td class="l"><a href="/metros/vernon-tx-micro/">Vernon, TX (micro)</a></td><td>0.0</td><td>12,483</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>162</td><td>316</td><td class="l"><a href="/metros/vicksburg-ms-micro/">Vicksburg, MS (micro)</a></td><td>0.0</td><td>42,470</td><td>1</td><td>0</td><td>42,470</td></tr><tr><td>163</td><td>316</td><td class="l"><a href="/metros/victoria-tx/">Victoria, TX</a></td><td>0.0</td><td>98,901</td><td>7</td><td>0</td><td>14,129</td></tr><tr><td>164</td><td>316</td><td class="l"><a href="/metros/weatherford-ok-micro/">Weatherford, OK (micro)</a></td><td>0.0</td><td>38,705</td><td>0</td><td>0</td><td>none open</td></tr><tr><td>165</td><td>316</td><td class="l"><a href="/metros/woodward-ok-micro/">Woodward, OK (micro)</a></td><td>0.0</td><td>19,916</td><td>1</td><td>0</td><td>19,916</td></tr><tr><td>166</td><td>316</td><td class="l"><a href="/metros/zapata-tx-micro/">Zapata, TX (micro)</a></td><td>0.0</td><td>13,799</td><td>0</td><td>0</td><td>none open</td></tr></tbody></table></div>
 </main>
-<footer><p>Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated November 2, 2026. Screening estimates for research only; not investment advice. Rankings and counts may be quoted with credit to Tunnel Whitespace (<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>); for commercial use, get in touch.</p><p>Anthony Warren, First Vice President, Car Washes, Southeast, Matthews&trade; &middot; <a href="tel:+18285518415">(828) 551-8415</a> &middot; <a href="mailto:anthony.warren@matthews.com">anthony.warren@matthews.com</a> &middot; License No. 149011 (SC)</p></footer>
+<footer><p>Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Updated November 25, 2026. Screening estimates for research only; not investment advice. Rankings and counts may be quoted with credit to Tunnel Whitespace (<a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">CC BY-NC 4.0</a>); for commercial use, get in touch.</p><p>Anthony Warren, First Vice President, Car Washes, Southeast, Matthews&trade; &middot; <a href="tel:+18285518415">(828) 551-8415</a> &middot; <a href="mailto:anthony.warren@matthews.com">anthony.warren@matthews.com</a> &middot; License No. 149011 (SC)</p></footer>
 </body>
 </html>

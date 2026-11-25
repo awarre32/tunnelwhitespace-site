@@ -2,7 +2,7 @@
 
 > Tunnel Whitespace is a free screening map of tunnel car wash supply against population for every census tract in the United States. It compares the people living within about a 10-minute drive of each tract with the 11,854 operating tunnel car washes (express, full-serve and flex) and 347 reported in development, and shows where population could support more tunnels.
 
-Source: https://tunnelwhitespace.com/ . Updated November 2, 2026. Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Screening estimates for research, not investment advice.
+Source: https://tunnelwhitespace.com/ . Updated November 25, 2026. Population: Esri 2024 estimates. Tunnel car wash locations verified October 2026. Screening estimates for research, not investment advice.
 
 ## Method
 
@@ -50,7 +50,11 @@ The map counts 11,854 operating tunnel car washes (express, full-serve and flex)
 
 ### Which states have the most tunnel car washes?
 
-By operating locations on the map: Texas (1,534), California (972), Florida (932), Georgia (501) and Illinois (470). Counts by state for every region are at tunnelwhitespace.com/markets/.
+By operating locations on the map: Texas (1,534), California (972), Florida (932), Georgia (501) and Illinois (470). Counts for every state, with each state's metros, are at tunnelwhitespace.com/states/.
+
+### Is the car wash market oversaturated?
+
+There is no single national answer; saturation is local. The U.S. has about 28,400 people per operating tunnel car wash. Of the 605 metro and micro areas with at least 50,000 people, 39 already have fewer than 15,000 people per operating tunnel, the level typical of mature Sunbelt states, and 22 have no tunnel open. Every metro has its own page at tunnelwhitespace.com/metros/ with its tunnel count, people per tunnel and rank.
 
 ### What counts as a tunnel car wash?
 
